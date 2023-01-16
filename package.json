@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "grunt": "^1.5.3"
+  },
+  "devDependencies": {
+    "grunt-contrib-cssmin": "^4.0.0",
+    "grunt-uncss": "^0.10.1"
+  }
+}
