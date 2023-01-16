@@ -34,7 +34,13 @@ function loadGA(){
   
     },document.head.appendChild(r);
     */
-  }
+}
+function loadAds(){
+    var  r = document.createElement("script");
+    r.setAttribute("src", "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7889675448259925"), r.setAttribute("type", "text/javascript"), r.setAttribute("crossOrigin", "anonymous");
+    document.head.appendChild(r);
+}
+
 function loadData(){
     fetch("data/game.json").then(response => response.json())
     .then(data => {
