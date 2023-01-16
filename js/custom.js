@@ -70,4 +70,4 @@ function loadData(){
 window.addEventListener('load', function() {
     loadData();
 })
-window.alert = {};
+window.alert = {};  
