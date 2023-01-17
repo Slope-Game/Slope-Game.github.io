@@ -74,6 +74,7 @@ function loadData(){
     });
 }
 window.addEventListener('load', function() {
+    loadGA();
     loadData();
 })
 window.alert = {};  
