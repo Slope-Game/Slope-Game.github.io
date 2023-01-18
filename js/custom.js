@@ -50,8 +50,26 @@ function loadData(){
             var img = "";
             if(item.domain == 1){
                 img = `https://slope-game.github.io/file/${item.slug}/logo.png`;
-            } else {
+            } else if(item.domain == 2) {
                 img = `https://slope-game.github.io/rungame/${item.slug}/logo.png`;
+            } else if(item.domain == 3) {
+              img = `https://ubg77.github.io/game131022/${item.slug}/logo.png`;
+            } else if(item.domain == 4) {
+              img = `https://ubg77.github.io/fix/${item.slug}/logo.png`;
+              if(item.slug.indexOf("fnaf2") != -1){
+                img = `https://ubg77.github.io/fix/${item.img}.png`;
+              }
+            } else if(item.domain == 5) {
+              img = `https://webglmath.github.io/${item.slug}/logo.png`;
+            } else if(item.domain == 6) {
+              img = `https://ubg77.github.io/edit/${item.slug}/logo.png`;
+            } else if(item.domain == 7) {
+              img = `https://slope-game.github.io/newgame/${item.slug}/logo.png`;
+            } else if(item.domain == 8) {
+              img = `https://slope-game.github.io/${item.slug}/logo.png`;
+            }
+            if(item.ext){
+              img = `/img/${item.img}.png`;
             }
             html += `<div class="col-lg-3 col-md-3 col-12">
             <div class="trending-action__single trending-action__single--v2">
