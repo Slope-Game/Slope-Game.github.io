@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html class="no-js" lang="zxx">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="Site keywords here">
+    <meta name="description" content="#">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Poppy Glamrock</title>
+    <link rel="icon" href="img/favicon.png">
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/font-awesome-all.min.css">
+    <link rel="stylesheet" href="css/charts.min.css">
+    <link rel="stylesheet" href="css/slickslider.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="style.css"> -->
+	<link rel="stylesheet" href="/cleancss/amp.css">
+	<style>
+		.icon-menu{
+			position: fixed;
+    top: 7px;
+    left: 20px;
+    z-index: 6000;
+    background: #fff;
+    justify-content: center;
+	padding: 9px 8px 9px 9px;
+    border-radius: 5px;
+    display: flex;
+    border: solid 2px #cf1f1f;
+		}
+		.close-icon{
+			display: none;
+		}
+		.close-icon img{
+			transform: rotate(180deg);
+		}
+		@media only screen and (min-width: 0px) and (max-width: 1278px){
+			.close-icon{
+				display: block;
+			}
+		}
+	</style>
+  </head>
+  <body>
+    <div class="body-bg" style="background-image:url('img/body-bg.jpg')">
+		<div class="icon-menu" onclick="showMenu(this)">
+			<img src="img/menu-toggle.svg" alt="#" >
+		</div>
+      <div class="nftmax-smenu">
+        <div class="admin-menu">
+          <div class="logo">
+            <a href="/">
+              <img class="nftmax-logo__main" src="/img/slope-logo.png" alt="Slope Game Logo">
+            </a>
+            <div class="nftmax__sicon close-icon" onclick="hideMenu()">
+              <img src="/img/menu-toggle.svg" alt="#">
+            </div>
+          </div>
+          <div class="admin-menu__one">
+            <h4 class="admin-menu__title nftmax-scolor">Games</h4>
+            <div class="menu-bar">
+              <ul class="menu-bar__one">
+                <li class="active">
+                  <a href="/rolling-ball-3d.html">
+                    <span class="menu-bar__text">
+                      <span class="menu-bar__name">Rolling Ball 3D</span>
+                    </span>
+                  </a>
+                  <a href="/rolling-sky.html">
+                    <span class="menu-bar__text">
+                      <span class="menu-bar__name">Rolling Sky</span>
+                    </span>
+                  </a>
+				          <a href="/roller-baller.html">
+                    <span class="menu-bar__text">
+                      <span class="menu-bar__name">Roller Baller</span>
+                    </span>
+                  </a>
+                  <a href="/slope3.html">
+                    <span class="menu-bar__text">
+                      <span class="menu-bar__name">Slope 3</span>
+                    </span>
+                  </a>
+                  <a href="/tunnel-rush.html">
+                    <span class="menu-bar__text">
+                      <span class="menu-bar__name">Tunnel Rush</span>
+                    </span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="admin-menu__two mg-top-50">
+            <h4 class="admin-menu__title nftmax-scolor">Settings</h4>
+            <div class="menu-bar">
+              <ul class="menu-bar__one">
+                <li>
+                  <a href="/apps.html">
+                    <span class="menu-bar__text">
+                      <span class="nftmax-menu-icon nftmax-svg-icon__v10">
+                        <svg class="nftmax-svg-icon" viewBox="0 0 15 20" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M10.8692 11.6667H4.13085C3.03569 11.668 1.98576 12.1036 1.21136 12.878C0.436961 13.6524 0.00132319 14.7023 0 15.7975V20H15.0001V15.7975C14.9987 14.7023 14.5631 13.6524 13.7887 12.878C13.0143 12.1036 11.9644 11.668 10.8692 11.6667Z"></path>
+                          <path d="M7.49953 10C10.261 10 12.4995 7.76145 12.4995 5.00002C12.4995 2.23858 10.261 0 7.49953 0C4.7381 0 2.49951 2.23858 2.49951 5.00002C2.49951 7.76145 4.7381 10 7.49953 10Z"></path>
+                        </svg>
+                      </span>
+                      <span class="menu-bar__name">Apps</span>
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="/settings.html">
+                    <span class="menu-bar__text">
+                      <span class="nftmax-menu-icon nftmax-svg-icon__v11">
+                        <svg class="nftmax-svg-icon" viewBox="0 0 14 16" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M0.259306 11.548C0.789972 12.469 1.96681 12.7854 2.88783 12.2548C2.88846 12.2544 2.88906 12.254 2.88969 12.2537L3.17517 12.0888C3.71408 12.5499 4.33352 12.9074 5.00231 13.1435V13.4727C5.00231 14.5356 5.86402 15.3973 6.92698 15.3973C7.98993 15.3973 8.85164 14.5356 8.85164 13.4727V13.1435C9.52052 12.9071 10.14 12.5491 10.6788 12.0875L10.9656 12.253C11.8868 12.7845 13.0645 12.4686 13.5959 11.5473C14.1274 10.6261 13.8115 9.44842 12.8902 8.91694L12.6054 8.75271C12.7336 8.05499 12.7336 7.33974 12.6054 6.64199L12.8902 6.47776C13.8114 5.94628 14.1274 4.76863 13.5959 3.84738C13.0645 2.92615 11.8868 2.61018 10.9656 3.14165L10.6801 3.30654C10.1406 2.84604 9.52076 2.48913 8.85164 2.25378V1.92467C8.85164 0.861709 7.98993 0 6.92698 0C5.86402 0 5.00231 0.861709 5.00231 1.92467V2.25378C4.33343 2.49025 3.71396 2.84823 3.17517 3.30979L2.8884 3.14364C1.96715 2.61213 0.789491 2.92811 0.258013 3.84933C-0.273465 4.77055 0.0424806 5.94824 0.963734 6.47972L1.24858 6.64394C1.12035 7.34166 1.12035 8.05692 1.24858 8.75467L0.963734 8.9189C0.0450368 9.45179 -0.269887 10.6272 0.259306 11.548ZM6.92698 5.13245C8.34425 5.13245 9.49319 6.28139 9.49319 7.69866C9.49319 9.11594 8.34425 10.2649 6.92698 10.2649C5.5097 10.2649 4.36077 9.11594 4.36077 7.69866C4.36077 6.28139 5.5097 5.13245 6.92698 5.13245Z"></path>
+                        </svg>
+                      </span>
+                      <span class="menu-bar__name">Cloak</span>
+                    </span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      
+      
+      <section class="nftmax-adashboard nftmax-show">
+        <div class="container">
+          <div class="row">
+            <div class="col-xxl-9 col-12 nftmax-main__column">
+              <div class="nftmax-body">
+                <div class="nftmax-dsinner">
+                  <div class="dashboard-banner nftmax-bg-cover mg-top-40" style="background-image:url('img/banner-bg.png')">
+                    <div class="row">
+                      <div class="col-12">
+                        <div class="dashboard-banner__main">
+                          <style>
+                            .blog-content h1,.blog-content h2, .blog-content span{
+                              color:#fff
+                            }
+                            .blog-content a{
+                              color: #000
+                            }
+                          </style>
+                          <div class="blog-content" style="color:#fff">
+
+
+                            <div class="tucupampam" style="z-index: 100;">
+                              <h1 style="margin-top: 10px;">Privacy Policy</h1>
+                              <p>Updated at 2022-04-22</p>
+                              <p style="display: inline;"> Slope-Game.</p>
+                              <p class="p4" style="display: inline;">
+                                <span class="s1">("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how your personal information is collected, used, and disclosed by</span>
+                              </p>
+                              <p style="display: inline;"> a.</p>
+                              <br>
+                              <div style="display: inline;">
+                                <p style="display: inline;">
+                                  <span class="s1">This Privacy Policy applies to our website,</span>
+                                </p>
+                                <p style="display: inline;">
+                                  <span class="s1"> slope-game.github.io</span>
+                                </p>
+                                <p style="display: inline;">
+                                  <span class="s1">, and its associated subdomains (collectively, our "Service").</span>
+                                </p>
+                              </div>
+                              <p style="display: inline;">
+                                <span class="s1">By accessing or using our Service, you signify that you have read, understood, and agree to our collection, storage, use, and disclosure of your personal information as described in this Privacy Policy and our Terms of Service.</span>
+                              </p>
+                              <p class="p6">
+                                <br>
+                              </p>
+                              <h2>Definitions and key terms</h2>
+                              <p class="p8">
+                                <span class="s1">For this Privacy Policy:</span>
+                              </p>
+                              <p class="p9">
+                                <br>
+                              </p>
+                              <ul class="ul1">
+                                <li class="li8">
+                                  <span class="s1">
+                                    <strong>Cookie:</strong> small amount of data generated by a website and saved by your web browser. It is used to identify your browser, provide analytics, remember information about you such as your language preference or login information. <br>
+                                  </span>
+                                </li>
+                                <!---->
+                                <li class="li8">
+                                  <span class="s1">
+                                    <strong>Company:</strong> when this policy mentions “Company,” “we,” “us,” or “our,” it refers to <a>Slope-Game</a> that is responsible for your information under this Privacy Policy. <br>
+                                  </span>
+                                </li>
+                                <li class="li8">
+                                  <span class="s1">
+                                    <strong>Country:</strong> where <a>Slope-Game</a> or the owners/founders of <a>Slope-Game</a> are based, in this case is <a>Us</a>. <br>
+                                  </span>
+                                </li>
+                                <li class="li8">
+                                  <span class="s1">
+                                    <strong>Customer:</strong> refers to the company, organization or person that signs up to use the <a>Slope-Game</a> Service to manage the relationships with your consumers or service users. <br>
+                                  </span>
+                                </li>
+                                <li class="li8">
+                                  <span class="s1">
+                                    <strong>Device:</strong> any internet connected device such as a phone, tablet, computer or any other device that can be used to visit <a>Slope-Game</a> and use the services. <br>
+                                  </span>
+                                </li>
+                                <li class="li8">
+                                  <span class="s1">
+                                    <strong>IP address:</strong> Every device connected to the Internet is assigned a number known as an Internet protocol (IP) address. These numbers are usually assigned in geographic blocks. An IP address can often be used to identify the location from which a device is connecting to the Internet. <br>
+                                  </span>
+                                </li>
+                                <li class="li8">
+                                  <span class="s1">
+                                    <strong>Personnel:</strong> refers to those individuals who are employed by <a>Slope-Game</a> or are under contract to perform a service on behalf of one of the parties. <br>
+                                  </span>
+                                </li>
+                                <li class="li8">
+                                  <span class="s1">
+                                    <strong>Personal Data:</strong> any information that directly, indirectly, or in connection with other information — including a personal identification number — allows for the identification or identifiability of a natural person. <br>
+                                  </span>
+                                </li>
+                                <li class="li8">
+                                  <span class="s1">
+                                    <strong>Service:</strong> refers to the service provided by <a>Slope-Game</a> as described in the relative terms (if available) and on this platform. <br>
+                                  </span>
+                                </li>
+                                <li class="li8">
+                                  <span class="s1">
+                                    <strong>Third-party service:</strong> refers to advertisers, contest sponsors, promotional and marketing partners, and others who provide our content or whose products or services we think may interest you. <br>
+                                  </span>
+                                </li>
+                                <li class="li8">
+                                  <span class="s1">
+                                    <strong>Website:</strong>
+                                    <a>Slope-Game</a>’s site, which can be accessed via this URL: <a>slope-game.github.io.</a>
+                                    <br>
+                                  </span>
+                                </li>
+                                <li class="li8">
+                                  <span class="s1">
+                                    <strong>You:</strong> a person or entity that is registered with <a>Slope-Game</a> to use the Services. <br>
+                                  </span>
+                                </li>
+                              </ul>
+                              <p class="p9">
+                                <br>
+                              </p>
+                              <div>
+                                <h2>Information automatically collected</h2>
+                                <p class="p10">
+                                  <span class="s1">There is some information like your Internet Protocol (IP) address and/or browser and device characteristics — is collected automatically when you visit our platform. This information may be used to connect your computer to the Internet. Other information collected automatically could be a login, e-mail address, password, computer and connection information such as browser plug-in types and versions and time zone setting, operating systems and platforms, purchase history, (we sometimes aggregate with similar information from other Users), the full Uniform Resource Locator (URL) clickstream to, through and from our Website that may include date and time; cookie number; parts of the site you viewed or searched for; and the phone number you used to call our Customer Services. We may also use browser data such as cookies, Flash cookies (also known as Flash Local Shared Objects) or similar data on certain parts of our Website for fraud prevention and other purposes. During your visits, we may use software tools such as JavaScript to measure and collect session information including page response times, download errors, length of visits to certain pages, page interaction information (such as scrolling, clicks, and mouse-overs), and methods used to browse away from the page. We may also collect technical information to help us identify your device for fraud prevention and diagnostic purposes. <br>
+                                    <br> We automatically collect certain information when you visit, use or navigate the platform. This information does not reveal your specific identity (like your name or contact information) but may include device and usage information, such as your IP address, browser and device characteristics, operating system, language preferences, referring URLs, device name, country, location, information about who and when you use our and other technical information. This information is primarily needed to maintain the security and operation of our , and for our internal analytics and reporting purposes. </span>
+                                </p>
+                              </div>
+                              <p class="p12">
+                                <br>
+                              </p>
+                              <!---->
+                              <!---->
+                              <p class="p3">
+                                <br>
+                              </p>
+                              <h2>How Do We Use The Information We Collect?</h2>
+                              <p class="p10">
+                                <span class="s1">Any of the information we collect from you may be used in one of the following ways:</span>
+                              </p>
+                              <ul class="ul1">
+                                <li class="li11">
+                                  <span class="s3">To personalize your experience (your information helps us to better respond to your individual needs)</span>
+                                </li>
+                                <li class="li11">
+                                  <span class="s3">To improve our service (we continually strive to improve our service offerings based on the information and feedback we receive from you)</span>
+                                </li>
+                                <li class="li11">
+                                  <span class="s3">To improve customer service (your information helps us to more effectively respond to your customer service requests and support needs)</span>
+                                </li>
+                                <li class="li11">
+                                  <span class="s3">To process transactions</span>
+                                </li>
+                                <li class="li11">
+                                  <span class="s3">To administer a contest, promotion, survey or other site feature</span>
+                                </li>
+                                <li class="li11">
+                                  <span class="s3">To send periodic emails</span>
+                                </li>
+                              </ul>
+                              <p class="p3">
+                                <br>
+                              </p>
+                              <h2>When do we use customer information from third parties?</h2>
+                              <p class="p10">
+                                <span class="s1">We receive some information from the third parties when you contact us. For example, when you submit your email address to us to show interest in becoming our customer, we receive information from a third party that provides automated fraud detection services to us. We also occasionally collect information that is made publicly available on social media websites. You can control how much of your information social media websites make public by visiting these websites and changing your privacy settings.</span>
+                              </p>
+                              <p class="p3">
+                                <br>
+                              </p>
+                              <h2>Do we share the information we collect with third parties?</h2>
+                              <p class="p10">
+                                <span class="s1">We may share the information that we collect, both personal and non-personal, with third parties such as advertisers, contest sponsors, promotional and marketing partners, and others who provide our content or whose products or services we think may interest you. We may also share it with our current and future affiliated companies and business partners, and if we are involved in a merger, asset sale or other business reorganization, we may also share or transfer your personal and non-personal information to our successors-in-interest.  <br>
+                                  <br> We may engage trusted third party service providers to perform functions and provide services to us, such as hosting and maintaining our servers and our service, database storage and management, e-mail management, storage marketing, credit card processing, customer service and fulfilling orders for products and services you may purchase through our platform. We will likely share your personal information, and possibly some non-personal information, with these third parties to enable them to perform these services for us and for you.  <br>
+                                  <br> We may share portions of our log file data, including IP addresses, for analytics purposes with third parties such as web analytics partners, application developers, and ad networks. If your IP address is shared, it may be used to estimate general location and other technographics such as connection speed, whether you have visited the service in a shared location, and type of device used to visit the service. They may aggregate information about our advertising and what you see on the service and then provide auditing, research and reporting for us and our advertisers.  <br>
+                                  <br> We may also disclose personal and non-personal information about you to government or law enforcement officials or private parties as we, in our sole discretion, believe necessary or appropriate in order to respond to claims, legal process (including subpoenas), to protect our rights and interests or those of a third party, the safety of the public or any person, to prevent or stop any illegal, unethical, or legally actionable activity, or to otherwise comply with applicable court orders, laws, rules and regulations. </span>
+                              </p>
+                              <p class="p3">
+                                <br>
+                              </p>
+                              <h2>Where and when is information collected from customers and end users?</h2>
+                              <p class="p10">
+                                <span class="s1">We will collect personal information that you submit to us. We may also receive personal information about you from third parties as described above.</span>
+                              </p>
+                              <p class="p3">
+                                <br>
+                              </p>
+                              <!---->
+                              <!---->
+                              <p class="p3">
+                                <br>
+                              </p>
+                              <h2>Could my information be transferred to other countries?</h2>
+                              <p class="p10">
+                                <span class="s1">We are incorporated in Us. Information collected via our website, through direct interactions with you, or from use of our help services may be transferred from time to time to our offices or personnel, or to third parties, located throughout the world, and may be viewed and hosted anywhere in the world, including countries that may not have laws of general applicability regulating the use and transfer of such data. To the fullest extent allowed by applicable law, by using any of the above, you voluntarily consent to the trans- border transfer and hosting of such information.</span>
+                              </p>
+                              <p class="p3">
+                                <br>
+                              </p>
+                              <h2>Is the information collected through our service secure?</h2>
+                              <p class="p10">
+                                <span class="s1">We take precautions to protect the security of your information. We have physical, electronic, and managerial procedures to help safeguard, prevent unauthorized access, maintain data security, and correctly use your information. However, neither people nor security systems are foolproof, including encryption systems. In addition, people can commit intentional crimes, make mistakes or fail to follow policies. Therefore, while we use reasonable efforts to protect your personal information, we cannot guarantee its absolute security. If applicable law imposes any non-disclaimable duty to protect your personal information, you agree that intentional misconduct will be the standards used to measure our compliance with that duty.</span>
+                              </p>
+                              <p class="p3">
+                                <br>
+                              </p>
+                              <h2>Can I update or correct my information?</h2>
+                              <p class="p10">
+                                <span class="s1">The rights you have to request updates or corrections to the information we collect depend on your relationship with us. Personnel may update or correct their information as detailed in our internal company employment policies. Customers have the right to request the restriction of certain uses and disclosures of personally identifiable information as follows. You can contact us in order to (1) update or correct your personally identifiable information, (2) change your preferences with respect to communications and other information you receive from us, or (3) delete the personally identifiable information maintained about you on our systems (subject to the following paragraph), by cancelling your account. Such updates, corrections, changes and deletions will have no effect on other information that we maintain, or information that we have provided to third parties in accordance with this Privacy Policy prior to such update, correction, change or deletion. To protect your privacy and security, we may take reasonable steps (such as requesting a unique password) to verify your identity before granting you profile access or making corrections. You are responsible for maintaining the secrecy of your unique password and account information at all times. You should be aware that it is not technologically possible to remove each and every record of the information you have provided to us from our system. The need to back up our systems to protect information from inadvertent loss means that a copy of your information may exist in a non-erasable form that will be difficult or impossible for us to locate. Promptly after receiving your request, all personal information stored in databases we actively use, and other readily searchable media will be updated, corrected, changed or deleted, as appropriate, as soon as and to the extent reasonably and technically practicable. If you are an end user and wish to update, delete, or receive any information we have about you, you may do so by contacting the organization of which you are a customer.</span>
+                              </p>
+                              <p class="p3">
+                                <br>
+                              </p>
+                              <!---->
+                              <!---->
+                              <!---->
+                              <h2>Sale of Business</h2>
+                              <p class="p10">
+                                <span class="s1">We reserve the right to transfer information to a third party in the event of a sale, merger or other transfer of all or substantially all of the assets of us or any of its Corporate Affiliates (as defined herein), or that portion of us or any of its Corporate Affiliates to which the Service relates, or in the event that we discontinue our business or file a petition or have filed against us a petition in bankruptcy, reorganization or similar proceeding, provided that the third party agrees to adhere to the terms of this Privacy Policy.</span>
+                              </p>
+                              <p class="p3">
+                                <br>
+                              </p>
+                              <h2>Affiliates</h2>
+                              <p class="p10">
+                                <span class="s1">We may disclose information (including personal information) about you to our Corporate Affiliates. For purposes of this Privacy Policy, "Corporate Affiliate" means any person or entity which directly or indirectly controls, is controlled by or is under common control with us, whether by ownership or otherwise. Any information relating to you that we provide to our Corporate Affiliates will be treated by those Corporate Affiliates in accordance with the terms of this Privacy Policy.</span>
+                              </p>
+                              <p class="p3">
+                                <br>
+                              </p>
+                              <h2>How Long Do We Keep Your Information?</h2>
+                              <p class="p10">
+                                <span class="s1">We keep your information only so long as we need it to provide service to you and fulfill the purposes described in this policy. This is also the case for anyone that we share your information with and who carries out services on our behalf. When we no longer need to use your information and there is no need for us to keep it to comply with our legal or regulatory obligations, we'll either remove it from our systems or depersonalize it so that we can't identify you.</span>
+                              </p>
+                              <p class="p3">
+                                <br>
+                              </p>
+                              <h2>How Do We Protect Your Information?</h2>
+                              <p class="p10">
+                                <span class="s1">We implement a variety of security measures to maintain the safety of your personal information when you place an order or enter, submit, or access your personal information. We offer the use of a secure server. All supplied sensitive/credit information is transmitted via Secure Socket Layer (SSL) technology and then encrypted into our Payment gateway providers database only to be accessible by those authorized with special access rights to such systems, and are required to keep the information confidential. After a transaction, your private information (credit cards, social security numbers, financials, etc.) is never kept on file. We cannot, however, ensure or warrant the absolute security of any information you transmit to us or guarantee that your information on the Service may not be accessed, disclosed, altered, or destroyed by a breach of any of our physical, technical, or managerial safeguards.</span>
+                              </p>
+                              <p class="p3">
+                                <br>
+                              </p>
+                              <h2>Governing Law</h2>
+                              <p class="p10">
+                                <span class="s1">The laws of Us, excluding its conflicts of law rules, shall govern this Agreement and your use of our service. Your use of our service may also be subject to other local, state, national, or international laws.</span>
+                              </p>
+                              <p class="p3">
+                                <br>
+                              </p>
+                              <h2>Your Consent</h2>
+                              <p class="p10">
+                                <span class="s1">By using our service, registering an account, or making a purchase, you consent to this Privacy Policy.</span>
+                              </p>
+                              <p class="p3">
+                                <br>
+                              </p>
+                              <h2>Links to Other Websites</h2>
+                              <p class="p10">
+                                <span class="s1">This Privacy Policy applies only to the Services. The Services may contain links to other websites not operated or controlled by . We are not responsible for the content, accuracy or opinions expressed in such websites, and such websites are not investigated, monitored or checked for accuracy or completeness by us. Please remember that when you use a link to go from the Services to another website, our Privacy Policy is no longer in effect. Your browsing and interaction on any other website, including those that have a link on our platform, is subject to that website’s own rules and policies. Such third parties may use their own cookies or other methods to collect information about you.</span>
+                              </p>
+                              <p class="p3">
+                                <br>
+                              </p>
+                              <h2>Cookies</h2>
+                              <p class="p10">
+                                <span class="s1">We use "Cookies" to identify the areas of our website that you have visited. A Cookie is a small piece of data stored on your computer or mobile device by your web browser. We use Cookies to personalize the Content that you see on our website. Most web browsers can be set to disable the use of Cookies. However, if you disable Cookies, you may not be able to access functionality on our website correctly or at all. We never place Personally Identifiable Information in Cookies.</span>
+                              </p>
+                              <p class="p3">
+                                <br>
+                              </p>
+                
+                
+                              <h2>Kids' Privacy</h2>
+                              <p class="p10">
+                                <span class="s1">We do not address anyone under the age of 13. We do not knowingly collect personally identifiable information from anyone under the age of 13. If You are a parent or guardian and You are aware that Your child has provided Us with Personal Data, please contact Us. If We become aware that We have collected Personal Data from anyone under the age of 13 without verification of parental consent, We take steps to remove that information from our servers.</span>
+                              </p>
+                              <p class="p3">
+                                <br>
+                              </p>
+                              <h2>Changes To Our Privacy Policy</h2>
+                              <p class="p10">
+                                <span class="s1">If we decide to change our privacy policy, we will post those changes on this page, and/or update the Privacy Policy modification date below.</span>
+                              </p>
+                              <p class="p3">
+                                <br>
+                              </p>
+                              <h2>Third-Party Services</h2>
+                              <p class="p10">
+                                <span class="s1">We may display, include or make available third-party content (including data, information, applications and other products services) or provide links to third-party websites or services ("Third- Party Services").</span>
+                              </p>
+                              <p class="p10">
+                                <span class="s1">You acknowledge and agree that we shall not be responsible for any Third-Party Services, including their accuracy, completeness, timeliness, validity, copyright compliance, legality, decency, quality or any other aspect thereof. We do not assume and shall not have any liability or responsibility to you or any other person or entity for any Third-Party Services.</span>
+                              </p>
+                              <p class="p10">
+                                <span class="s1">Third-Party Services and links thereto are provided solely as a convenience to you and you access and use them entirely at your own risk and subject to such third parties' terms and conditions.</span>
+                              </p>
+                              <p class="p3">
+                                <br>
+                              </p>
+                              <h2>Facebook Pixel</h2>
+                              <p class="p10">
+                                <span class="s1">Facebook pixel is an analytics tool that allows you to measure the effectiveness of your advertising by understanding the actions people take on your website. You can use the pixel to: Make sure your ads are shown to the right people. Facebook pixel may collect information from your device when you use the service. Facebook pixel collects information that is held in accordance with its Privacy Policy.</span>
+                              </p>
+                              <p class="p3">
+                                <br>
+                              </p>
+                              <!---->
+                              <!---->
+                              <!---->
+                              <!---->
+                              <!---->
+                              <!---->
+                              <!---->
+                              <!---->
+                              <!---->
+                              <!---->
+                              <!---->
+                              <!---->
+                              <!---->
+                              <!---->
+                              <!---->
+                            </div>
+                          </div>
+                        </div>
+						
+
+						
+                      </div>
+                    </div>
+                  </div>
+    
+                </div>
+              </div>
+			
+            </div>
+			<div class="col-xxl-3 col-12 nftmax-main__sidebar">
+				<div class="nftmax-sidebar mg-top-40">
+				  <div class="row">
+					<div class="col-xxl-12 col-xl-6 col-12 nftmax-sidebar__widget">
+					  <div class="nftmax-sidebar__single">
+						<div class="nftmax-sidebar__heading">
+						  <h4 class="nftmax-sidebar__title">Ads</h4>
+						
+						</div>
+						<div class="tab-content" id="nav-tabContent">
+						  
+						</div>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			  </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+  <script src="/js/custom.js"></script>
+
+  
+</body>
+</html>
