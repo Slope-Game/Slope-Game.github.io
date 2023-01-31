@@ -1,0 +1,68 @@
+[
+    {
+        "slug": "elasticman",
+        "title": "Elasticman",
+        "cat": "Skill",
+        "domain": 8
+      },
+      {
+        "slug": "subway-surfers-singapore",
+        "title": "Subway Surfers Singapore",
+        "cat": "Running",
+        "domain": 8
+      },
+      {
+        "slug": "subway-surfers-winter-holiday",
+        "title": "Subway Surfers Winter Holiday",
+        "cat": "Running",
+        "domain": 8
+      },
+      {
+        "slug": "subway-surfers-havana",
+        "title": "Subway Surfers Havana",
+        "cat": "Running",
+        "domain": 8
+      },
+      {
+        "slug": "subway-surfers-mumbai",
+        "title": "Subway Surfers Mumbai",
+        "cat": "Running",
+        "domain": 8
+      },
+      {
+        "slug": "subway-surfers",
+        "title": "Subway Surfers Tokyo",
+        "cat": "Running",
+        "domain": 8
+      },
+      {
+        "slug": "subway-surfers-bali",
+        "title": "Subway Surfers Bali",
+        "cat": "Running",
+        "domain": 8
+      },
+      {
+        "slug": "subway-surfers-new-orleans",
+        "title": "Subway Surfers New Orleans",
+        "cat": "Running",
+        "domain": 8
+      },
+      {
+        "slug": "subway-surfers-hongkong",
+        "title": "Subway Surfers HongKong",
+        "cat": "Running",
+        "domain": 8
+      },
+      {
+        "slug": "subway-surfers-venice",
+        "title": "Subway Surfers Venice",
+        "cat": "Running",
+        "domain": 8
+      },
+      {
+        "slug": "subway-surfers-nyc",
+        "title": "Subway Surfers New York City",
+        "cat": "Running",
+        "domain": 8
+      }
+]
