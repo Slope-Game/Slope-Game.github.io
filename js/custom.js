@@ -66,7 +66,7 @@ function loadData(){
             } else if(item.domain == 7) {
               img = `https://slope-game.github.io/newgame/${item.slug}/logo.png`;
             } else if(item.domain == 8) {
-              img = `https://slope-game.github.io/${item.slug}/logo.png`;
+              img = `https://ubg77.github.io/updatefaqs/${item.slug}/logo.png`;
             }
             if(item.ext){
               img = `/img/${item.img}.png`;

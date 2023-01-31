@@ -6,7 +6,7 @@
     <meta name="keywords" content="Site keywords here">
     <meta name="description" content="#">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Slope Ball</title>
+    <title>Update FAQs</title>
     <link rel="icon" href="img/favicon.png">
     <!-- <link rel="stylesheet" href="css/bootstrap.min.css">
      <link rel="stylesheet" href="css/font-awesome-all.min.css">
@@ -14,7 +14,8 @@
     <link rel="stylesheet" href="css/slickslider.min.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="style.css"> -->
-	<link rel="stylesheet" href="/cleancss/amp.css">
+	<link rel="stylesheet" href="cleancss/amp.css">
+  <meta name="google-site-verification" content="2rHJ7VRPQvWn6LSai_6iqg6l9tapR7KgqtMHnSXioOQ" />
   <meta name="robots" content="noindex,nofollow" />
 	<style>
 		.icon-menu{
@@ -51,10 +52,10 @@
         <div class="admin-menu">
           <div class="logo">
             <a href="/">
-              <img class="nftmax-logo__main" src="/img/slope-logo.png" alt="Slope Game Logo">
+              <img class="nftmax-logo__main" src="img/slope-logo.png" alt="Slope Game Logo">
             </a>
             <div class="nftmax__sicon close-icon" onclick="hideMenu()">
-              <img src="/img/menu-toggle.svg" alt="#">
+              <img src="img/menu-toggle.svg" alt="#">
             </div>
           </div>
           <div class="admin-menu__one">
@@ -67,12 +68,17 @@
                       <span class="menu-bar__name">Rolling Ball 3D</span>
                     </span>
                   </a>
+                  <a href="/iron-snout.html">
+                    <span class="menu-bar__text">
+                      <span class="menu-bar__name">Iron Snout</span>
+                    </span>
+                  </a>
                   <a href="/rolling-sky.html">
                     <span class="menu-bar__text">
                       <span class="menu-bar__name">Rolling Sky</span>
                     </span>
                   </a>
-                  <a href="/roller-baller.html">
+				          <a href="/roller-baller.html">
                     <span class="menu-bar__text">
                       <span class="menu-bar__name">Roller Baller</span>
                     </span>
@@ -126,7 +132,7 @@
             <div class="menu-bar">
               <ul class="menu-bar__one">
                 <li>
-                  <a href="/apps.html">
+                  <a href="profile.html">
                     <span class="menu-bar__text">
                       <span class="nftmax-menu-icon nftmax-svg-icon__v10">
                         <svg class="nftmax-svg-icon" viewBox="0 0 15 20" xmlns="http://www.w3.org/2000/svg">
@@ -139,7 +145,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="/settings.html">
+                  <a href="settings.html">
                     <span class="menu-bar__text">
                       <span class="nftmax-menu-icon nftmax-svg-icon__v11">
                         <svg class="nftmax-svg-icon" viewBox="0 0 14 16" xmlns="http://www.w3.org/2000/svg">
@@ -162,34 +168,29 @@
         <div class="container">
           <div class="row">
             <div class="col-xxl-9 col-12 nftmax-main__column">
-              <div class="nftmax-body">
-                <div class="nftmax-dsinner">
-                  <div class="dashboard-banner nftmax-bg-cover mg-top-40" style="background-image:url('img/banner-bg.png')">
-                    <div class="row">
-                      <div class="col-12">
-                        <div class="dashboard-banner__main">
-                          <iframe src="https://slope-game.github.io/rungame/slope-ball/" id="gameframe" frameborder="0" style="height: 600px;width: 100%;"></iframe>
-                        </div>
-						
-						<div class="dashboard-banner__main" style="justify-content: center;margin-top: 10px;">
-							<div class="welcome-cta__button">
-								<a onclick="open_fullscreen()" class="nftmax-btn nftmax-btn__secondary bg radius">Full Screen</a>			
-							  </div>
-						</div>
-						
-                      </div>
-                    </div>
-                  </div>
-    
-                </div>
-              </div>
+
+
+
 			  <div class="trending-action mg-top-50">
 				<div class="row">
 				  <div class="col-12">
 					<div class="tab-content" id="nav-tabContent">
 					  <div class="tab-pane fade active show" id="id1" role="tabpanel" aria-labelledby="nav-home-tab">
-						<div class="row nftmax-gap-sq30" id="listgame">
-	
+						<div class="row nftmax-gap-sq30" id="updategame">
+						  <div class="col-lg-3 col-md-3 col-12">
+                <div class="trending-action__single trending-action__single--v2">
+                  <div class="trending-action__head">
+                
+                    <img src="https://slope-game.github.io/rungame/tunnel-rush/logo.png" alt="Tunnel Rush">
+                  </div>
+                  <div class="trending-action__body trending-marketplace__body">
+                    <h2 class="trending-action__title">
+                      <a href="#">Tunnel Rush</a>
+                    </h2>
+                    
+                  </div>
+                </div>
+              </div>
 						</div>
 					  </div>
 
@@ -197,6 +198,7 @@
 				  </div>
 				</div>
 			  </div>
+
             </div>
 			<div class="col-xxl-3 col-12 nftmax-main__sidebar">
 				<div class="nftmax-sidebar mg-top-40">
@@ -221,7 +223,57 @@
     </div>
 
   <script src="/js/custom.js"></script>
-
+    <script>
+        function loadData(){
+            fetch("data/game.json").then(response => response.json())
+            .then(data => {
+                var listGame = data;
+                var html = "";
+                listGame.forEach(item => {
+                    var img = "";
+                    if(item.domain == 1){
+                        img = `https://slope-game.github.io/file/${item.slug}/logo.png`;
+                    } else if(item.domain == 2) {
+                        img = `https://slope-game.github.io/rungame/${item.slug}/logo.png`;
+                    } else if(item.domain == 3) {
+                      img = `https://ubg77.github.io/game131022/${item.slug}/logo.png`;
+                    } else if(item.domain == 4) {
+                      img = `https://ubg77.github.io/fix/${item.slug}/logo.png`;
+                      if(item.slug.indexOf("fnaf2") != -1){
+                        img = `https://ubg77.github.io/fix/${item.img}.png`;
+                      }
+                    } else if(item.domain == 5) {
+                      img = `https://webglmath.github.io/${item.slug}/logo.png`;
+                    } else if(item.domain == 6) {
+                      img = `https://ubg77.github.io/edit/${item.slug}/logo.png`;
+                    } else if(item.domain == 7) {
+                      img = `https://slope-game.github.io/newgame/${item.slug}/logo.png`;
+                    } else if(item.domain == 8) {
+                      img = `https://ubg77.github.io/updatefaqs/${item.slug}/logo.png`;
+                    }
+                    if(item.ext){
+                      img = `/img/${item.img}.png`;
+                    }
+                    html += `<div class="col-lg-3 col-md-3 col-12">
+                    <div class="trending-action__single trending-action__single--v2">
+                      <div class="trending-action__head">
+                      <a href="/${item.slug}.html"> 
+                        <img src="${img}" alt="${item.title}">
+                        </a>
+                      </div>
+                      <div class="trending-action__body trending-marketplace__body">
+                        <h2 class="trending-action__title">
+                          <a href="/${item.slug}.html">${item.title}</a>
+                        </h2>
+                        
+                      </div>
+                    </div>
+                  </div>`;
+        
+                });
+                document.getElementById('updategame').innerHTML = html;
+            });
+        }</script>
   
 </body>
 </html>
