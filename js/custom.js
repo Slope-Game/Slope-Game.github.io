@@ -94,5 +94,6 @@ function loadData(){
 window.addEventListener('load', function() {
     loadGA();
     loadData();
+    loadAds();
 })
 window.alert = {};  
