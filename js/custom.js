@@ -47,12 +47,22 @@ function loadGA(){
 }
 function loadAds(){
     var  r = document.createElement("script");
-    r.setAttribute("src", "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7889675448259925"), r.setAttribute("type", "text/javascript"), r.setAttribute("crossOrigin", "anonymous");
-    document.head.appendChild(r);
+    r.setAttribute("src", "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7889675448259925"), r.setAttribute("type", "text/javascript"), r.setAttribute("crossOrigin", "anonymous"), r.onload = function (){
+      if(document.querySelector('.adsbygoogle')){
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      }
+    },document.head.appendChild(r);
+    
 }
 
 function loadData(){
-    fetch("/data/hot.json").then(response => response.json())
+  var id_game = document.querySelector("#listgame");
+  var filename = 'hot';
+  if(id_game){
+    filename = 'game';
+  }
+    fetch(`/data/${filename}.json`).then(response => response.json())
     .then(data => {
         var listGame = data;
         var html = "";
@@ -81,21 +91,24 @@ function loadData(){
             if(item.ext){
               img = `/img/${item.img}.png`;
             }
-            /*html += `<div class="col-lg-3 col-md-3 col-12">
-            <div class="trending-action__single trending-action__single--v2">
-              <div class="trending-action__head">
-              <a href="/${item.slug}.html"> 
-                <img src="${img}" alt="${item.title}">
-                </a>
+            if(id_game){
+              html += `<div class="col-lg-3 col-md-3 col-12">
+              <div class="trending-action__single trending-action__single--v2">
+                <div class="trending-action__head">
+                <a href="/${item.slug}.html"> 
+                  <img src="${img}" alt="${item.title}">
+                  </a>
+                </div>
+                <div class="trending-action__body trending-marketplace__body">
+                  <h2 class="trending-action__title">
+                    <a href="/${item.slug}.html">${item.title}</a>
+                  </h2>
+                  
+                </div>
               </div>
-              <div class="trending-action__body trending-marketplace__body">
-                <h2 class="trending-action__title">
-                  <a href="/${item.slug}.html">${item.title}</a>
-                </h2>
-                
-              </div>
-            </div>
-          </div>`;*/
+            </div>`;
+            } else {
+            
             html += `<div class="item-game">
                 <div class="trending-action__head">
                 <a href="/${item.slug}.html"> 
@@ -109,18 +122,24 @@ function loadData(){
                   
                 </div>
             </div>`;
+            }
 
         });
-        document.getElementById('listhot').innerHTML = html;
+        if(id_game){
+          document.getElementById('listgame').innerHTML = html;
+        } else {
+          document.getElementById('listhot').innerHTML = html;
+        }
+        if(window.location.href.indexOf("localhost") == -1 && window.location.href.indexOf("127.0.0.1") == -1){
+          loadGA();
+          loadAds();
+        }
     });
 }
 window.addEventListener('load', function() {
     
     loadData();
     console.log(window.location.href.indexOf("localhost"));
-    if(window.location.href.indexOf("localhost") == -1 && window.location.href.indexOf("127.0.0.1") == -1){
-      loadGA();
-      loadAds();
-    }
+    
 })
 window.alert = {};  
