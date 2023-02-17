@@ -10,6 +10,16 @@ function hideMenu(){
     var icon_menu = document.querySelector(".icon-menu");
     icon_menu.style.display ="block";
 }
+function fullscreen(){
+  var main_game = document.querySelector('#game-main');
+  if(main_game.classList.contains("fullscreen")){
+    main_game.classList.remove("fullscreen");
+    document.querySelector('.btn-full svg use').setAttribute("href","#enterFullscreenIcon");
+  } else {
+    main_game.classList.add("fullscreen");
+    document.querySelector('.btn-full svg use').setAttribute("href","#closeFullscreenIcon");
+  }
+}
 function open_fullscreen() {
     let game = document.getElementById("gameframe");
     if (game.requestFullscreen) {
@@ -42,7 +52,7 @@ function loadAds(){
 }
 
 function loadData(){
-    fetch("data/game.json").then(response => response.json())
+    fetch("/data/hot.json").then(response => response.json())
     .then(data => {
         var listGame = data;
         var html = "";
@@ -71,7 +81,7 @@ function loadData(){
             if(item.ext){
               img = `/img/${item.img}.png`;
             }
-            html += `<div class="col-lg-3 col-md-3 col-12">
+            /*html += `<div class="col-lg-3 col-md-3 col-12">
             <div class="trending-action__single trending-action__single--v2">
               <div class="trending-action__head">
               <a href="/${item.slug}.html"> 
@@ -85,15 +95,32 @@ function loadData(){
                 
               </div>
             </div>
-          </div>`;
+          </div>`;*/
+            html += `<div class="item-game">
+                <div class="trending-action__head">
+                <a href="/${item.slug}.html"> 
+                  <img src="${img}" alt="${item.title}">
+                  </a>
+                </div>
+                <div class="trending-action__body trending-marketplace__body">
+                  <h2 class="trending-action__title">
+                    <a href="/${item.slug}.html">${item.title}</a>
+                  </h2>
+                  
+                </div>
+            </div>`;
 
         });
-        document.getElementById('listgame').innerHTML = html;
+        document.getElementById('listhot').innerHTML = html;
     });
 }
 window.addEventListener('load', function() {
-    loadGA();
+    
     loadData();
-    loadAds();
+    console.log(window.location.href.indexOf("localhost"));
+    if(window.location.href.indexOf("localhost") == -1 && window.location.href.indexOf("127.0.0.1") == -1){
+      loadGA();
+      loadAds();
+    }
 })
 window.alert = {};  
