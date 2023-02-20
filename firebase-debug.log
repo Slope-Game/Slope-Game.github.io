@@ -1,0 +1,96 @@
+[debug] [2023-02-20T02:16:10.001Z] ----------------------------------------------------------------------
+[debug] [2023-02-20T02:16:10.004Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\thanh\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2023-02-20T02:16:10.005Z] CLI Version:   11.16.1
+[debug] [2023-02-20T02:16:10.005Z] Platform:      win32
+[debug] [2023-02-20T02:16:10.005Z] Node Version:  v18.12.1
+[debug] [2023-02-20T02:16:10.006Z] Time:          Mon Feb 20 2023 09:16:10 GMT+0700 (Indochina Time)
+[debug] [2023-02-20T02:16:10.006Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-02-20T02:16:10.011Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-02-20T02:16:10.146Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-02-20T02:16:10.146Z] > authorizing via signed-in user (thanhtoanlc9@gmail.com)
+[info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
+[warn] !  hub: emulator hub unable to start on port 4400, starting on 4401 instead. {"metadata":{"emulator":{"name":"hub"},"message":"emulator hub unable to start on port 4400, starting on 4401 instead."}}
+[warn] !  logging: Logging Emulator unable to start on port 4500, starting on 4501 instead. {"metadata":{"emulator":{"name":"logging"},"message":"Logging Emulator unable to start on port 4500, starting on 4501 instead."}}
+[debug] [2023-02-20T02:16:10.161Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[warn] !  hosting: Hosting Emulator unable to start on port 5000, starting on 5002 instead. {"metadata":{"emulator":{"name":"hosting"},"message":"Hosting Emulator unable to start on port 5000, starting on 5002 instead."}}
+[debug] [2023-02-20T02:16:10.161Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-02-20T02:16:10.161Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4401},{"address":"::1","family":"IPv6","port":4401}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4501}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5002}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[warn] !  emulators: It seems that you are running multiple instances of the emulator suite for project totallyscience. This may result in unexpected behavior. 
+[debug] [2023-02-20T02:16:10.167Z] [hub] writing locator at C:\Users\thanh\AppData\Local\Temp\hub-totallyscience.json
+[debug] [2023-02-20T02:16:10.185Z] > refreshing access token with scopes: []
+[debug] [2023-02-20T02:16:10.186Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-02-20T02:16:10.187Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-02-20T02:16:10.378Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-02-20T02:16:10.378Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-02-20T02:16:10.388Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/totallyscience/sites 
+[debug] [2023-02-20T02:16:10.645Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2023-02-20T02:16:10.645Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2023-02-20T02:16:11.458Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/totallyscience/sites 200
+[debug] [2023-02-20T02:16:11.458Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/totallyscience/sites {"sites":[{"name":"projects/totallyscience/sites/colortunnel","defaultUrl":"https://colortunnel.web.app","type":"USER_SITE"},{"name":"projects/totallyscience/sites/tinglybubbleshooter","defaultUrl":"https://tinglybubbleshooter.web.app","type":"USER_SITE"},{"name":"projects/totallyscience/sites/totallyscience","defaultUrl":"https://totallyscience.web.app","type":"DEFAULT_SITE"},{"name":"projects/totallyscience/sites/ubg777","defaultUrl":"https://ubg777.web.app","type":"USER_SITE"}]}
+[debug] [2023-02-20T02:16:11.458Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/totallyscience/webApps/-/config [none]
+[debug] [2023-02-20T02:16:12.219Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/totallyscience/webApps/-/config 200
+[debug] [2023-02-20T02:16:12.219Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/totallyscience/webApps/-/config {"projectId":"totallyscience","storageBucket":"totallyscience.appspot.com","apiKey":"AIzaSyCIxVENwmbDPTkrmUSKjSPGDk2MzODAzSI","authDomain":"totallyscience.firebaseapp.com","messagingSenderId":"652491418084"}
+[debug] [2023-02-20T02:16:12.231Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/totallyscience [none]
+[debug] [2023-02-20T02:16:12.566Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/totallyscience 200
+[debug] [2023-02-20T02:16:12.566Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/totallyscience {"projectId":"totallyscience","projectNumber":"652491418084","displayName":"totallyscience","name":"projects/totallyscience","resources":{"hostingSite":"totallyscience"},"state":"ACTIVE","etag":"1_ccfcdaab-09c3-4140-8a0f-907988b7241c"}
+[info] i  hosting[totallyscience]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting[totallyscience]: Local server: http://127.0.0.1:5002 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5002\u001b[22m\u001b[24m"}}
+[info] i  hosting[ubg100]: Serving hosting files from: ubg100 {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mubg100\u001b[22m"}}
+[info] +  hosting[ubg100]: Local server: http://127.0.0.1:5026 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5026\u001b[22m\u001b[24m"}}
+[info] i  hosting[ubg777]: Serving hosting files from: ubg77 {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mubg77\u001b[22m"}}
+[info] +  hosting[ubg777]: Local server: http://127.0.0.1:5027 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5027\u001b[22m\u001b[24m"}}
+[info] i  hosting[colortunnel]: Serving hosting files from: colortunnel {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mcolortunnel\u001b[22m"}}
+[info] +  hosting[colortunnel]: Local server: http://127.0.0.1:5028 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5028\u001b[22m\u001b[24m"}}
+[info] i  hosting[tinglybubbleshooter]: Serving hosting files from: tinglybubbleshooter {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mtinglybubbleshooter\u001b[22m"}}
+[info] +  hosting[tinglybubbleshooter]: Local server: http://127.0.0.1:5029 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5029\u001b[22m\u001b[24m"}}
+[info] i  hosting[motoroadrash3d]: Serving hosting files from: motoroadrash3d {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mmotoroadrash3d\u001b[22m"}}
+[info] +  hosting[motoroadrash3d]: Local server: http://127.0.0.1:5030 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5030\u001b[22m\u001b[24m"}}
+[info] i  hosting[eggycar]: Serving hosting files from: eggycar {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1meggycar\u001b[22m"}}
+[info] +  hosting[eggycar]: Local server: http://127.0.0.1:5031 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5031\u001b[22m\u001b[24m"}}
+[info] i  hosting[jellytruck]: Serving hosting files from: jellytruck {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mjellytruck\u001b[22m"}}
+[info] +  hosting[jellytruck]: Local server: http://127.0.0.1:5032 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5032\u001b[22m\u001b[24m"}}
+[info] i  hosting[totallysciencegames]: Serving hosting files from: totallysciencegames {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mtotallysciencegames\u001b[22m"}}
+[info] +  hosting[totallysciencegames]: Local server: http://127.0.0.1:5033 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5033\u001b[22m\u001b[24m"}}
+[info] i  hosting[qag99]: Serving hosting files from: qag99 {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mqag99\u001b[22m"}}
+[info] +  hosting[qag99]: Local server: http://127.0.0.1:5034 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5034\u001b[22m\u001b[24m"}}
+[info] i  hosting[tinyfishing]: Serving hosting files from: tinyfishing {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mtinyfishing\u001b[22m"}}
+[info] +  hosting[tinyfishing]: Local server: http://127.0.0.1:5035 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5035\u001b[22m\u001b[24m"}}
+[info] i  hosting[tunnelrush]: Serving hosting files from: tunnelrush {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mtunnelrush\u001b[22m"}}
+[info] +  hosting[tunnelrush]: Local server: http://127.0.0.1:5036 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5036\u001b[22m\u001b[24m"}}
+[info] i  hosting[play2048]: Serving hosting files from: play2048 {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mplay2048\u001b[22m"}}
+[info] +  hosting[play2048]: Local server: http://127.0.0.1:5037 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5037\u001b[22m\u001b[24m"}}
+[info] i  hosting[2048cupcakes]: Serving hosting files from: 2048cupcakes {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1m2048cupcakes\u001b[22m"}}
+[info] +  hosting[2048cupcakes]: Local server: http://127.0.0.1:5038 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5038\u001b[22m\u001b[24m"}}
+[info] i  hosting[minesweeper]: Serving hosting files from: minesweeper {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mminesweeper\u001b[22m"}}
+[info] +  hosting[minesweeper]: Local server: http://127.0.0.1:5039 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5039\u001b[22m\u001b[24m"}}
+[info] i  hosting[burnoutdrift]: Serving hosting files from: burnoutdrift {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mburnoutdrift\u001b[22m"}}
+[info] +  hosting[burnoutdrift]: Local server: http://127.0.0.1:5041 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5041\u001b[22m\u001b[24m"}}
+[info] i  hosting[factoryballs]: Serving hosting files from: factoryballs {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mfactoryballs\u001b[22m"}}
+[info] +  hosting[factoryballs]: Local server: http://127.0.0.1:5042 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5042\u001b[22m\u001b[24m"}}
+[info] i  hosting[highwayracer]: Serving hosting files from: highwayracer {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mhighwayracer\u001b[22m"}}
+[info] +  hosting[highwayracer]: Local server: http://127.0.0.1:5043 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5043\u001b[22m\u001b[24m"}}
+[info] i  hosting[gswitchgames]: Serving hosting files from: gswitchgames {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mgswitchgames\u001b[22m"}}
+[info] +  hosting[gswitchgames]: Local server: http://127.0.0.1:5044 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5044\u001b[22m\u001b[24m"}}
+[info] i  hosting[slope-game]: Serving hosting files from: slope-game {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mslope-game\u001b[22m"}}
+[info] +  hosting[slope-game]: Local server: http://127.0.0.1:5045 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5045\u001b[22m\u001b[24m"}}
+[info] i  hosting[testgame]: Serving hosting files from: testgame {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mtestgame\u001b[22m"}}
+[info] +  hosting[testgame]: Local server: http://127.0.0.1:5046 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5046\u001b[22m\u001b[24m"}}
+[info] i  hosting[antarttycoon]: Serving hosting files from: antarttycoon {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mantarttycoon\u001b[22m"}}
+[info] +  hosting[antarttycoon]: Local server: http://127.0.0.1:5047 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5047\u001b[22m\u001b[24m"}}
+[warn] !  emulators: The Emulator UI is not starting, either because none of the emulated products have an interaction layer in Emulator UI or it cannot determine the Project ID. Pass the --project flag to specify a project. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI is not starting, either because none of the emulated products have an interaction layer in Emulator UI or it cannot determine the Project ID. Pass the --project flag to specify a project."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+└─────────────────────────────────────────────────────────────┘
+
+┌──────────┬────────────────┐
+│ Emulator │ Host:Port      │
+├──────────┼────────────────┤
+│ Hosting  │ 127.0.0.1:5002 │
+└──────────┴────────────────┘
+  Emulator Hub running at 127.0.0.1:4401
+  Other reserved ports: 4501, 5026, 5027, 5028, 5029, 5030, 5031, 5032, 5033, 5034, 5035, 5036, 5037, 5038, 5039, 5041, 5042, 5043, 5044, 5045, 5046, 5047
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 

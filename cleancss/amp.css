@@ -175,3 +175,20 @@ background-color: rgb(189 189 189/0.3);
         grid-template-rows: repeat(7, 94px);
     }
  }
+ @media (max-width: 768px){
+     .main-site{
+        display: initial !important;
+        padding-left: 0px;
+     }
+     .main-site #gameframe{
+        min-height: 500px;
+     }
+     .ads_728x90{
+        display: none;
+     }
+     #listhot{
+        display: grid;
+        grid-template-columns: repeat(4, 94px);
+        grid-gap: 5px;
+     }
+}
