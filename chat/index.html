@@ -322,7 +322,7 @@ var emojiPicker = new FgEmojiPicker({
     const room = localStorage.getItem("room") || "all";
     console.log(room);
     socket.emit("checkuser", userdata);
-    window.socket.emit("ConversationByRoomId", {userId: window.userdata._id, roomId: room, limit:100, page:0});
+    window.socket.emit("ConversationByRoomId", {userId: userdata._id, roomId: room, limit:100, page:0});
     socket.on("system", function(data) {
         console.log(data);
         // window.room = "slope";
