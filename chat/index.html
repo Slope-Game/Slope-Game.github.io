@@ -336,9 +336,10 @@ var emojiPicker = new FgEmojiPicker({
         var i = 0;
         var lastId = "";
         document.querySelector('#channel-conversation').innerHTML = "";
+        const userdata = JSON.parse(localStorage.getItem("tbg95_data"));
         data.forEach(item => {
             var type = "left";
-            if(item.postedByUser == window.userdata._id){
+            if(item.postedByUser == userdata._id){
                 type = "right";
             }
             var el = document.createElement("li");
@@ -377,7 +378,8 @@ var emojiPicker = new FgEmojiPicker({
     socket.on('messageRoom', function (data) {
         console.log(data);
         var type = "left";
-        if(data.data.postedByUser == window.userdata._id){
+        const userdata = JSON.parse(localStorage.getItem("tbg95_data"));
+        if(data.data.postedByUser == userdata._id){
             type = "right"
         }
         var el = document.createElement("li");
@@ -416,7 +418,8 @@ var emojiPicker = new FgEmojiPicker({
         event.preventDefault();
         const msg = document.querySelector('#chat-input').value;
         var room = localStorage.getItem("room") || "all";
-        window.socket.emit("new message",{userId : window.userdata._id, roomId: room, msg: msg, avatar: window.userdata.avatar});
+        const userdata = JSON.parse(localStorage.getItem("tbg95_data"));
+        window.socket.emit("new message",{userId : userdata._id, roomId: room, msg: msg, avatar: userdata.avatar});
     }
     var chat_form = document.querySelector('#chatinput-form');
     chat_form.addEventListener('submit', logSubmit);
@@ -429,8 +432,9 @@ var emojiPicker = new FgEmojiPicker({
         console.log(1);
         var room = event.dataset.room;
         localStorage.setItem("room", room);
-        window.socket.emit("subscribe",{userId: window.userdata._id, room: room});
-        window.socket.emit("ConversationByRoomId", {userId: window.userdata._id, roomId: room, limit:100, page:0});
+        const userdata = JSON.parse(localStorage.getItem("tbg95_data"));
+        window.socket.emit("subscribe",{userId: userdata._id, room: room});
+        window.socket.emit("ConversationByRoomId", {userId: userdata._id, roomId: room, limit:100, page:0});
         
     }
     function addFavourite(event){
