@@ -1,0 +1,456 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8" />
+    <title>custom | Vhato - Responsive Bootstrap 5 Chat App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="Vhato - Responsive Chat App Template in HTML. A fully featured HTML chat messenger template in Bootstrap 5" name="description" />
+    <meta name="keywords" content="Vhato chat template, chat, web chat template, chat status, chat template, communication, discussion, group chat, message, messenger template, status"/>
+    <meta content="Themesbrand" name="author" />
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico" id="tabIcon">
+
+    <!-- glightbox css -->
+    <link rel="stylesheet" href="assets/libs/glightbox/css/glightbox.min.css">
+
+    <!-- One of the following themes -->
+    <link rel="stylesheet" href="assets/libs/@simonwep/pickr/themes/nano.min.css" /> <!-- 'classic' theme -->
+
+    <!-- swiper css -->
+    <link rel="stylesheet" href="assets/libs/swiper/swiper-bundle.min.css">
+
+    <!-- Bootstrap Css -->
+    <link href="assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
+    <!-- Icons Css -->
+    <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <!-- App Css-->
+    <link href="assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+
+<div class="layout-wrapper d-lg-flex">
+
+    <!-- Start left sidebar-menu -->
+    
+    <!-- end left sidebar-menu -->
+
+    <!-- start chat-leftsidebar -->
+    <div class="chat-leftsidebar">
+
+        <div class="tab-content">
+      
+
+            <!-- Start chats tab-pane -->
+            <div class="tab-pane show active" id="pills-chat" role="tabpanel" aria-labelledby="pills-chat-tab">
+                <!-- Start chats content -->
+                <div>
+                    <div class="px-4 pt-4">
+                        <div class="d-flex align-items-start">
+                            <div class="flex-grow-1">
+                                <h4 class="mb-4">Messages</h4>
+                            </div>
+                        </div>
+                        <form>
+                            <div class="input-group search-panel mb-3">
+                                <input type="text" class="form-control bg-light border-0" id="searchChatUser" onkeyup="searchUser()"
+                                    placeholder="Search here..." aria-label="Example text with button addon"
+                                    aria-describedby="searchbtn-addon" autocomplete="off">
+                                <button class="btn btn-light p-0" type="button" id="searchbtn-addon"><i
+                                        class='bx bx-search align-middle'></i></button>
+                            </div>
+                        </form>
+                    </div> <!-- .p-4 -->
+
+                    <div class="chat-room-list" data-simplebar>
+                        <!-- Start chat-message-list -->
+                        <h5 class="mb-3 px-4 mt-4 fs-11 text-muted text-uppercase">Favourites</h5>
+
+                        <div class="chat-message-list">
+                            <ul class="list-unstyled chat-list chat-user-list" id="favourite-users">
+                            </ul>
+                        </div>
+                        <div class="chat-message-list">
+
+                            <ul class="list-unstyled chat-list chat-user-list" id="usersList">
+                            </ul>
+                        </div>
+
+                        <div class="d-flex align-items-center px-4 mt-5 mb-2">
+                            <div class="flex-grow-1">
+                                <h4 class="mb-0 fs-11 text-muted text-uppercase">Channels</h4>
+                            </div>
+          
+                        </div>
+
+                        <div class="chat-message-list">
+
+                            <ul class="list-unstyled chat-list chat-user-list mb-3" id="channelList">
+                                <li id="contact-id-13" data-name="channel" class="active">
+                                    <a href="javascript: void(0);" class="unread-msg-user" data-room="all" onclick="joinRoom(this)">
+                                        <div class="d-flex align-items-center">
+                                        <div class="flex-shrink-0 me-2">
+                                            <div class="chat-user-img online align-self-center">
+                                            <img src="assets/images/users/group-img.jpg" class="rounded-circle avatar-xs" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="flex-grow-1 overflow-hidden">
+                                            <h6 class="text-truncate mb-0">Global</h6>
+                                            <!-- <p class="text-truncate text-muted fs-13 mb-0">23 Members</p> -->
+                                        </div>
+                                        <div onclick="addFavourite(this)" data-room="all">
+                                            <i style="font-size: 24px;" class="ri-bookmark-3-line"></i>
+                                        </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <!-- <li id="contact-id-12" data-name="channel">
+                    
+                                    <a href="javascript: void(0);" class="unread-msg-user" data-room="slope" onclick="joinRoom(this)">
+                                      <div class="d-flex align-items-center">
+                                        <div class="flex-shrink-0 me-2">
+                                          <div class="chat-user-img online align-self-center">
+                                            <img src="assets/images/users/group-img.jpg" class="rounded-circle avatar-xs" alt="">
+                                          </div>
+                                        </div>
+                                        <div class="flex-grow-1 overflow-hidden">
+                                          <h6 class="text-truncate mb-0">Slope</h6>
+                        
+                                        </div>
+                                        <div onclick="addFavourite(this)" data-room="slope">
+                                          <i style="font-size: 24px;" class="ri-bookmark-3-line"></i>
+                                        </div>
+                                      </div>
+                                    </a>
+                                </li> -->
+                            </ul>
+                        </div>
+                        <!-- End chat-message-list -->
+                    </div>
+
+                </div>
+                <!-- Start chats content -->
+            </div>
+            <!-- End chats tab-pane -->
+        </div>
+        <!-- end tab content -->
+    </div>
+    <!-- end chat-leftsidebar -->
+
+    <!-- Start User chat -->
+    <div class="user-chat w-100 overflow-hidden">
+
+        <div class="chat-content d-lg-flex">
+            <!-- start chat conversation section -->
+            <div class="w-100 overflow-hidden position-relative">
+                <!-- conversation user -->
+                
+
+
+
+                <!-- conversation group -->
+                <div id="channel-chat" class="position-relative">
+                    <div class="py-3 user-chat-topbar">
+                        <div class="row align-items-center">
+                            <div class="col-sm-8 col-8">
+                                <div class="d-flex align-items-center">
+                                    <div class="flex-grow-1 overflow-hidden">
+                                        <div class="d-flex align-items-center">
+                                            <div class="flex-shrink-0 chat-user-img online user-own-img align-self-center me-3">
+                                                <img src="assets/images/users/user-dummy-img.jpg" class="rounded-circle avatar-sm"
+                                                    alt="">
+                                            </div>
+                                            <div class="flex-grow-1 overflow-hidden">
+                                                <h6 class="text-truncate mb-0 fs-18"><a href="#"
+                                                        class="user-profile-show text-reset">TBG95 Chats</a></h6>
+                                                <!-- <p class="text-truncate text-muted mb-0"><small>24 Members</small></p> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+          
+                        </div>
+                    </div>
+                    <!-- end chat user head -->
+
+                    <!-- start chat conversation -->
+
+                    <div class="chat-conversation p-3 p-lg-4" id="chat-conversation" data-simplebar>
+                        <ul class="list-unstyled chat-conversation-list" id="channel-conversation">
+         
+            
+                        </ul>
+                    </div>
+                    <div class="alert alert-warning alert-dismissible copyclipboard-alert px-4 fade" id="copyClipBoardChannel"
+                        role="alert">
+                        message copied
+                    </div>
+                    <!-- end chat conversation end -->
+                </div>
+
+                <!-- start chat input section -->
+                <div class="position-relative">
+                    <div class="chat-input-section p-4 border-top">
+
+                        <form id="chatinput-form" enctype="multipart/form-data">
+                            <div class="row g-0 align-items-center">
+                                <!-- <div class="file_Upload"></div> -->
+                                <div class="col-auto">
+                                    <div class="chat-input-links me-md-2">
+
+                                        <div class="links-list-item" data-bs-toggle="tooltip" data-bs-trigger="hover"
+                                            data-bs-placement="top" title="Emoji">
+                                            <button type="button"
+                                                class="btn btn-link text-decoration-none btn-lg waves-effect emoji-btn"
+                                                id="emoji-btn">
+                                                <i class="bx bx-smile align-middle"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="position-relative">
+                                        <div class="chat-input-feedback">
+                                            Please Enter a Message
+                                        </div>
+                                        <input autocomplete="off" type="text"
+                                            class="form-control form-control-lg bg-light border-0 chat-input" autofocus
+                                            id="chat-input" placeholder="Type your message...">
+                                    </div>
+                                </div>
+                                <div class="col-auto">
+                                    <div class="chat-input-links ms-2 gap-md-1">
+                                        <div class="links-list-item">
+                                            <button type="submit"
+                                                class="btn btn-primary btn-lg chat-send waves-effect waves-light"
+                                                data-bs-toggle="collapse" data-bs-target=".chat-input-collapse1.show">
+                                                <i class="bx bxs-send align-middle" id="submit-btn"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- end chat input section -->
+            </div>
+            <!-- end chat conversation section -->
+
+            <!-- start User profile detail sidebar -->
+            
+            <!-- end User profile detail sidebar -->
+        </div>
+        <!-- end user chat content -->
+    </div>
+    <!-- End User chat -->
+</div>
+<!-- end  layout wrapper -->
+
+
+
+
+<!-- JAVASCRIPT -->
+<script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/libs/simplebar/simplebar.min.js"></script>
+<script src="assets/libs/node-waves/waves.min.js"></script>
+
+<!-- Modern colorpicker bundle -->
+<script src="assets/libs/@simonwep/pickr/pickr.min.js"></script>
+
+<!-- glightbox js -->
+<script src="assets/libs/glightbox/js/glightbox.min.js"></script>
+
+<!-- Swiper JS -->
+<script src="assets/libs/swiper/swiper-bundle.min.js"></script>
+
+<!-- fg-emoji-picker JS -->
+<script src="assets/libs/fg-emoji-picker/fgEmojiPicker.js"></script>
+
+<!-- page init -->
+<!-- <script src="assets/js/pages/index.init.js"></script> -->
+<script src="assets/js/socket.io.min.js"></script>
+<script src="assets/js/app.js"></script>
+<script>
+    // list ava
+    const listAva = ["001-austrian.svg","001-businessman.svg","001-man.svg","001-rockabilly.svg","002-Dutch.svg","002-businesswoman.svg","002-gamer.svg","002-man.svg","003-businessman.svg","003-european.svg","003-man.svg","003-rockabilly.svg","004-beatnik.svg","004-businessman.svg","004-east european.svg","004-man.svg","005-african.svg","005-beatnik.svg","005-businessman.svg","005-man.svg","006-arab.svg","006-businessman.svg","006-surfer.svg","006-woman.svg","007-Irish.svg","007-businesswoman.svg","007-surfer.svg","007-woman.svg","008-businesswoman.svg","008-punk.svg","008-scottish.svg","008-woman.svg","009-british.svg","009-businesswoman.svg","009-punk.svg","009-woman.svg","010-Hippie.svg","010-businesswoman.svg","010-spanish.svg","010-woman.svg","011-Hippie.svg","011-bolivia.svg","011-businessman.svg","011-man.svg","012-businessman.svg","012-gamer.svg","012-german.svg","012-man.svg","013-businessman.svg","013-man.svg","013-mongolian.svg","013-preppy.svg","014-businesswoman.svg","014-georgian.svg","014-man.svg","014-preppy.svg","015-businessman.svg","015-man.svg","015-maori.svg","015-mod.svg","016-businessman.svg","016-hawaiian.svg","016-mod.svg","016-woman.svg","017-businesswoman.svg","017-rastafari.svg","017-russian.svg","017-woman.svg","018-businessman.svg","018-rastafari.svg","018-russian.svg","018-woman.svg","019-australian.svg","019-businessman.svg","019-employee.svg","019-woman.svg","020-businessman.svg","020-employee.svg","020-turkish.svg","020-woman.svg","021-bedouin.svg","021-businesswoman.svg","021-disco.svg","021-man.svg","022-businesswoman.svg","022-cuban.svg","022-disco.svg","022-man.svg","023-businessman.svg","023-hip hop.svg","023-korean.svg","023-man.svg","024-businesswoman.svg","024-korean.svg","024-man.svg","024-skater.svg","025-businessman.svg","025-israelite.svg","025-man.svg","025-skater.svg","026-businesswoman.svg","026-goth.svg","026-israelite.svg","026-woman.svg","027-businessman.svg","027-goth.svg","027-peruvian.svg","027-woman.svg","028-businesswoman.svg","028-chinese.svg","028-hipster.svg","028-woman.svg","029-businessman.svg","029-eskimo.svg","029-hipster.svg","029-woman.svg","030-businessman.svg","030-chinese.svg","030-heavy metal.svg","030-woman.svg","031-businesswoman.svg","031-heavy metal.svg","031-indian.svg","031-man.svg","032-businessman.svg","032-grunge.svg","032-man.svg","032-vietnamese.svg","033-businessman.svg","033-grunge.svg","033-man.svg","033-uzbek.svg","034-businessman.svg","034-gypsy.svg","034-hip hop.svg","034-man.svg","035-businessman.svg","035-gypsy.svg","035-man.svg","035-otaku.svg","036-Tibetan.svg","036-businesswoman.svg","036-otaku.svg","036-woman.svg","037-businessman.svg","037-japanese.svg","037-steampunk.svg","037-woman.svg","038-businesswoman.svg","038-jamaican.svg","038-steampunk.svg","038-woman.svg","039-businesswoman.svg","039-native american.svg","039-rocker.svg","039-woman.svg","040-businesswoman.svg","040-cowboy.svg","040-rocker.svg","040-woman.svg","041-biker.svg","041-businessman.svg","041-man.svg","041-mexican.svg","042-biker.svg","042-businesswoman.svg","042-indian.svg","042-man.svg","043-brazilian.svg","043-businesswoman.svg","043-man.svg","043-posh.svg","044-arabian.svg","044-businessman.svg","044-man.svg","044-posh.svg","045-african.svg","045-bandit.svg","045-businesswoman.svg","045-man.svg","046-businessman.svg","046-egyptian.svg","046-swagger.svg","046-woman.svg","047-bushmen.svg","047-businesswoman.svg","047-geek.svg","047-woman.svg","048-arabian.svg","048-businessman.svg","048-geek.svg","048-woman.svg","049-businessman.svg","049-emo.svg","049-icelandic.svg","049-woman.svg","050-businesswoman.svg","050-emo.svg","050-macedonian.svg","050-woman.svg","astronaut.svg","athlete.svg","builder.svg","carpenter.svg","cashier.svg","chef.svg","chemist.svg","clown.svg","concierge.svg","courier.svg","detective.svg","diver.svg","dj.svg","doctor.svg","dyer.svg","electrician.svg","farmer.svg","firefighter.svg","fisherman.svg","gardener.svg","hairdresser.svg","lumberjack.svg","magician.svg","maid.svg","manager.svg","mechanic.svg","miner.svg","nurse.svg","painter.svg","pensioner.svg","photographer.svg","pilot.svg","plumber.svg","policeman.svg","politician.svg","postman.svg","priest.svg","professor.svg","programmer.svg","sailor.svg","secretary.svg","showman.svg","singer.svg","soldier.svg","stewardess.svg","support.svg","taxi-driver.svg","teacher.svg","waiter.svg","writer.svg"];
+// chat emojiPicker input
+var emojiPicker = new FgEmojiPicker({
+    trigger: [".emoji-btn"],
+    removeOnSelection: false,
+    closeButton: true,
+    position: ["top", "right"],
+    preFetch: true,
+    dir: "assets/js/dir/json",
+    insertInto: document.querySelector(".chat-input"),
+  });
+
+  // emojiPicker position
+  var emojiBtn = document.getElementById("emoji-btn");
+  emojiBtn.addEventListener("click", function () {
+    setTimeout(function () {
+      var fgEmojiPicker = document.getElementsByClassName("fg-emoji-picker")[0];
+      if (fgEmojiPicker) {
+        var leftEmoji = window.getComputedStyle(fgEmojiPicker)
+          ? window.getComputedStyle(fgEmojiPicker).getPropertyValue("left")
+          : "";
+        if (leftEmoji) {
+          leftEmoji = leftEmoji.replace("px", "");
+          leftEmoji = leftEmoji - 40 + "px";
+          fgEmojiPicker.style.left = leftEmoji;
+        }
+      }
+    }, 0);
+  });
+ 
+ 
+</script>
+<script>
+    // console.log(listAva)
+    const socket = io("https://class.2beat.io");
+    window.socket = socket;
+    // socket.emit("subscribe", "all");
+    // socket.emit('message', {room: 'room1', message: 'Hello, room1!'});
+    let userdata = JSON.parse(localStorage.getItem("tbg95_data")) || {};
+    let favourite = JSON.parse(localStorage.getItem("tbg95_room")) || {} ;
+    console.log(userdata);
+    window.userdata = userdata;
+    window.room = "all";
+    socket.emit("checkuser", userdata);
+    window.socket.emit("ConversationByRoomId", {userId: window.userdata._id, roomId: room, limit:100, page:0});
+    socket.on("system", function(data) {
+        console.log(data);
+        // window.room = "slope";
+    })
+    socket.on("user", (data) => {
+        console.log(data);
+        localStorage.setItem("tbg95_data", JSON.stringify(data.data));
+    });
+    socket.on("ConversationByRoomData", function(data){
+        console.log(data);
+        var i = 0;
+        var lastId = "";
+        document.querySelector('#channel-conversation').innerHTML = "";
+        data.forEach(item => {
+            var type = "left";
+            if(item.postedByUser == window.userdata._id){
+                type = "right";
+            }
+            var el = document.createElement("li");
+            el.className = `chat-list ${type}`;
+            el.id = item._id;
+            const avatar = listAva[parseInt(item.avatar)];
+            var html = `
+                                    <div class="conversation-list">
+                                    <div class="chat-avatar">
+                                        <img src="/assets/images/avatar/${avatar}" alt="">
+                                    </div>
+                                    <div class="user-chat-content">
+                                        <div class="ctext-wrap">
+                                        <div class="ctext-wrap-content" id="${item._id}">
+                                            <p class="mb-0 ctext-content">${item.message}</p>
+                                        </div>
+                                        </div>
+                                        <div class="conversation-name"><small class="text-muted time">Player ${item.postedByUser}</small></div>
+                                    </div>
+                                    </div>
+                            `;
+            el.innerHTML = html;
+            document.querySelector('#chat-input').value = "";
+            document.querySelector('#channel-conversation').append(el);
+            i++;
+            if(i == Object.keys(data).length){
+                lastId = item._id;
+            }
+        });
+        if(i == Object.keys(data).length){
+            document.getElementById(lastId).scrollIntoView({
+            behavior: 'smooth'
+            });
+        }
+    })
+    socket.on('messageRoom', function (data) {
+        console.log(data);
+        var type = "left";
+        if(data.data.postedByUser == window.userdata._id){
+            type = "right"
+        }
+        var el = document.createElement("li");
+        el.className = `chat-list ${type}`;
+        el.id = data.data._id;
+        const avatar = listAva[parseInt(data.data.avatar)];
+        var html = `
+                                <div class="conversation-list">
+                                  <div class="chat-avatar">
+                                    <img src="/assets/images/avatar/${avatar}" alt="">
+                                  </div>
+                                  <div class="user-chat-content">
+                                    <div class="ctext-wrap">
+                                      <div class="ctext-wrap-content" id="${data.data._id}">
+                                        <p class="mb-0 ctext-content">${data.data.message}</p>
+                                      </div>
+                                    </div>
+                                    <div class="conversation-name"><small class="text-muted time">Player ${data.data.postedByUser}</small></div>
+                                  </div>
+                                </div>
+                          `;
+        el.innerHTML = html;
+
+        document.querySelector('#chat-input').value = "";
+        document.querySelector('#channel-conversation').append(el);
+        if(document.querySelector('#channel-conversation').getElementsByTagName('li').length > 100){
+            document.querySelector('#channel-conversation').removeChild(document.querySelector('#channel-conversation').getElementsByTagName('li')[0]);
+        }
+
+        document.getElementById(data.data._id).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+    // socket.emit("hello", "world");
+    function logSubmit(event){
+        event.preventDefault();
+        const msg = document.querySelector('#chat-input').value;
+        var room = localStorage.getItem("room");
+        window.socket.emit("new message",{userId : window.userdata._id, roomId: room, msg: msg, avatar: window.userdata.avatar});
+    }
+    var chat_form = document.querySelector('#chatinput-form');
+    chat_form.addEventListener('submit', logSubmit);
+    function joinRoom(event){
+        document.querySelectorAll('#channelList li').forEach((item) => {
+            item.classList.remove("active");
+        });
+        
+        event.parentElement.classList.add("active");
+        console.log(1);
+        var room = event.dataset.room;
+        localStorage.setItem("room", room);
+        window.socket.emit("subscribe",{userId: window.userdata._id, room: room});
+        window.socket.emit("ConversationByRoomId", {userId: window.userdata._id, roomId: room, limit:100, page:0});
+        
+    }
+    function addFavourite(event){
+        if(event.querySelector('i').style.color == "red"){
+            event.querySelector('i').style.color = "#3e2e2e";
+        } else {
+            event.querySelector('i').style.color = "red";
+            storeFavourite(event.dataset.room);
+        }
+    }
+    function storeFavourite(room){
+        var list = JSON.parse(localStorage.getItem("tbg95_room")) || [] ;
+        var check = list.find(element => element == room);
+        if(!check){
+            list.push(room);
+        }
+        console.log(room);
+        localStorage.setItem("tbg95_room",JSON.stringify(list));
+    }
+
+</script>
+</body>
+
+</html>

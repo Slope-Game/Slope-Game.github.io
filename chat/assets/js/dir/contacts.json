@@ -1,0 +1,115 @@
+[   
+    {
+        "id": 1,
+        "name": "Nicholas Staten",
+        "status": "online",
+        "profile": "assets/images/users/avatar-1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Dushane Daniel",
+        "status": "online",
+        "profile": "assets/images/users/avatar-2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Kathryn Swarey",
+        "status": "online",
+        "profile": "assets/images/users/avatar-3.jpg"
+    },
+    {   "id": 4,
+        "nickname": "RL",
+        "name": "Robert Ledonne",
+        "status": "Offline", 
+        "profile": "" 
+    }, 
+    {
+        "id": 5,
+        "name": "Alaya Cordova",
+        "status": "Offline",
+        "profile": "assets/images/users/avatar-6.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Victoria Lane",
+        "status": "online",
+        "profile": "assets/images/users/avatar-7.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Adinda Kirana",
+        "status": "online",
+        "profile": "assets/images/users/avatar-8.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Etta McDaniel",
+        "status": "online",
+        "profile": "assets/images/users/avatar-9.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Nicholas Staten",
+        "status": "online",
+        "profile": "assets/images/users/avatar-10.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Ronald Downey",
+        "status": "online",
+        "profile": "assets/images/users/avatar-11.jpg",
+        "messagecount" : 18
+    },       
+    {
+        "id": 11,
+        "name": "Brenda Bell",
+        "status": "online",
+        "profile": "assets/images/users/avatar-12.jpg"
+    },
+    {
+        "id": 12,
+        "name": "David Green",
+        "status": "online",
+        "profile": "assets/images/users/avatar-5.jpg"
+    }, 
+    {
+        "id": 13,
+        "nickname": "MM",
+        "name": "Mary Miller",
+        "status": "online",
+        "profile": ""
+    },
+    {
+        "id": 14,
+        "nickname": "MK",
+        "name": "Michael Kelly",
+        "status": "online",
+        "profile": ""
+    },
+    {
+        "id": 15,
+        "name": "Zak Jones",
+        "status": "online",
+        "profile": "assets/images/users/avatar-4.jpg"
+    },  
+    {
+        "id": 16,
+        "name": "Jennifer Rogers",
+        "status": "online",
+        "profile": "assets/images/users/avatar-10.jpg"
+    },
+    {
+        "id": 17,
+        "nickname": "HW",
+        "name": "Henry Watkins",
+        "status": "online",
+        "profile": ""
+    },
+    {
+        "id": 18,
+        "name": "Sheldon Whitlow",
+        "status": "online",
+        "profile": "assets/images/users/avatar-2.jpg"
+    }      
+  ]
+  

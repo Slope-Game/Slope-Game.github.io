@@ -1,0 +1,97 @@
+[
+  {
+    "users": [
+      {
+        "id": 5,
+        "name": "Nicholas Staten",
+        "status": "online",
+        "lastmessage": "Pleased to meet you again!",
+        "profile": "assets/images/users/avatar-3.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Kathryn Swarey",
+        "status": "online",
+        "lastmessage": "Sure buddy😎",
+        "profile": "assets/images/users/avatar-12.jpg",
+        "messagecount" : 8
+      },
+      {
+        "id": 7,
+        "name": "Robert Ledonne",
+        "status": "online",
+        "lastmessage": "Thank you for your answer!",
+        "profile": "assets/images/users/avatar-5.jpg"
+      }
+      ,
+      {
+        "id": 8,
+        "name": "Alaya Cordova",
+        "status": "online",
+        "lastmessage": "Hii there, How are you?",
+        "profile": "assets/images/users/avatar-11.jpg"
+      },
+      {
+        "id": 9,
+        "nickname": "AK",
+        "name": "Adinda Kirana",
+        "status": "Will be there at the coffee house",
+        "lastmessage": "How are you and your family ",
+        "profile": ""
+      },
+      {
+        "id": 10,
+        "name": "John Foss",
+        "status": "online",
+        "lastmessage": "Good Morning!🌞",
+        "profile": "assets/images/users/avatar-8.jpg",
+        "messagecount" : 5
+      },
+      {
+        "id": 11,
+        "name": "Gloria Underhill",
+        "status": "online",
+        "lastmessage": "Okay, Sure",
+        "profile": "assets/images/users/avatar-10.jpg"
+      }
+    ],
+    "favorites": [
+      {
+        "id": 1,
+        "name": "Victoria Lane",
+        "status": "online",
+        "lastmessage": "Hey, I'm going to meet a friend of",
+        "profile": "assets/images/users/avatar-2.jpg",
+        "messagecount" : 18
+      },
+      {
+        "id": 2,
+        "name": "Etta McDaniel",
+        "status": "online",
+        "lastmessage": "Yeah everything is fine. Our next meeting tomorrow ",
+        "profile": "assets/images/users/avatar-7.jpg"
+      },
+      { "id": 3,
+        "nickname": "JP",
+        "name": "James Pinard",
+        "status": "Offline", 
+        "lastmessage": "Wow that's great!",
+        "profile": ""
+      },
+      {
+        "id": 4,
+        "name": "Ronald Downey",
+        "status": "offline",
+        "lastmessage": "Why I try the to get demo data following the instruction from API Integration",
+        "profile": "assets/images/users/avatar-4.jpg"
+      }
+    ],
+    "channels": [
+      { "id": 12, "nickname": "LD","name": "Landing Design", "members": 20, "profile": "assets/images/users/group-img.jpg", "messagecount": 12, "lastmessage": "23 Members" },
+      { "id": 13, "nickname": "SM", "name": "Sales & Marketing", "members": 10, "profile": "", "lastmessage": "10 Members" },
+      { "id": 14, "nickname": "BS", "name": "Brand Suggestion", "members": 28, "profile": "", "messagecount": 85, "lastmessage": "28 Members" },
+      { "id": 15, "nickname": "R", "name": "Reporting", "members": 12, "profile": "", "lastmessage": "10 Members" }
+    ]
+  }
+]
+
