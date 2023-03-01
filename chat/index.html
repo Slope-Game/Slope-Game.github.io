@@ -319,7 +319,8 @@ var emojiPicker = new FgEmojiPicker({
     let favourite = JSON.parse(localStorage.getItem("tbg95_room")) || {} ;
     console.log(userdata);
     window.userdata = userdata;
-    window.room = "all";
+    const room = localStorage.getItem("room") || "all";
+    console.log(room);
     socket.emit("checkuser", userdata);
     window.socket.emit("ConversationByRoomId", {userId: window.userdata._id, roomId: room, limit:100, page:0});
     socket.on("system", function(data) {
@@ -347,7 +348,7 @@ var emojiPicker = new FgEmojiPicker({
             var html = `
                                     <div class="conversation-list">
                                     <div class="chat-avatar">
-                                        <img src="/assets/images/avatar/${avatar}" alt="">
+                                        <img src="assets/images/avatar/${avatar}" alt="">
                                     </div>
                                     <div class="user-chat-content">
                                         <div class="ctext-wrap">
@@ -367,7 +368,7 @@ var emojiPicker = new FgEmojiPicker({
                 lastId = item._id;
             }
         });
-        if(i == Object.keys(data).length){
+        if(Object.keys(data).length > 0 && i == Object.keys(data).length){
             document.getElementById(lastId).scrollIntoView({
             behavior: 'smooth'
             });
@@ -386,7 +387,7 @@ var emojiPicker = new FgEmojiPicker({
         var html = `
                                 <div class="conversation-list">
                                   <div class="chat-avatar">
-                                    <img src="/assets/images/avatar/${avatar}" alt="">
+                                    <img src="assets/images/avatar/${avatar}" alt="">
                                   </div>
                                   <div class="user-chat-content">
                                     <div class="ctext-wrap">
@@ -414,7 +415,7 @@ var emojiPicker = new FgEmojiPicker({
     function logSubmit(event){
         event.preventDefault();
         const msg = document.querySelector('#chat-input').value;
-        var room = localStorage.getItem("room");
+        var room = localStorage.getItem("room") || "all";
         window.socket.emit("new message",{userId : window.userdata._id, roomId: room, msg: msg, avatar: window.userdata.avatar});
     }
     var chat_form = document.querySelector('#chatinput-form');
