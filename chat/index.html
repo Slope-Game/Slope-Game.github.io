@@ -66,17 +66,35 @@
 
                     <div class="chat-room-list" data-simplebar>
                         <!-- Start chat-message-list -->
-                        <h5 class="mb-3 px-4 mt-4 fs-11 text-muted text-uppercase">Favourites</h5>
+                        <!-- <h5 class="mb-3 px-4 mt-4 fs-11 text-muted text-uppercase">Server</h5>
 
                         <div class="chat-message-list">
                             <ul class="list-unstyled chat-list chat-user-list" id="favourite-users">
+                                <li id="contact-id-13" data-name="channel" class="active">
+                                    <a href="javascript: void(0);" class="unread-msg-user" data-server="class.tbg95.com" onclick="connectServer(this)">
+
+                                        Server 1 (.com)
+                                    </a>
+                                    </li>
+                                    <li id="contact-id-13" data-name="channel">
+                                    <a href="javascript: void(0);" class="unread-msg-user" data-room="class.2beat.io" onclick="connectServer(this)">
+
+                                        Server 2 (.io)
+                                    </a>
+                                    </li>
+                                    <li id="contact-id-13" data-name="channel" >
+                                    <a href="javascript: void(0);" class="unread-msg-user" data-room="class.slopecalculator.org" onclick="connectServer(this)">
+
+                                        Server 2 (.org)
+                                    </a>
+                                    </li>
                             </ul>
                         </div>
                         <div class="chat-message-list">
 
                             <ul class="list-unstyled chat-list chat-user-list" id="usersList">
                             </ul>
-                        </div>
+                        </div> -->
 
                         <div class="d-flex align-items-center px-4 mt-5 mb-2">
                             <div class="flex-grow-1">
@@ -105,6 +123,26 @@
                                         </div>
                                         </div>
                                     </a>
+                                    
+                                </li>
+                                <li id="contact-id-13" data-name="channel" >
+                                    <a href="javascript: void(0);" class="unread-msg-user" data-room="report" onclick="joinRoom(this)">
+                                        <div class="d-flex align-items-center">
+                                        <div class="flex-shrink-0 me-2">
+                                            <div class="chat-user-img online align-self-center">
+                                            <img src="assets/images/users/group-img.jpg" class="rounded-circle avatar-xs" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="flex-grow-1 overflow-hidden">
+                                            <h6 class="text-truncate mb-0">Report</h6>
+                                            <!-- <p class="text-truncate text-muted fs-13 mb-0">23 Members</p> -->
+                                        </div>
+                                        <div onclick="addFavourite(this)" data-room="report">
+                                            <i style="font-size: 24px;" class="ri-bookmark-3-line"></i>
+                                        </div>
+                                        </div>
+                                    </a>
+                                    
                                 </li>
                                 <!-- <li id="contact-id-12" data-name="channel">
                     
@@ -310,7 +348,7 @@ var emojiPicker = new FgEmojiPicker({
 </script>
 <script>
     // console.log(listAva)
-    const socket = io("https://class.2beat.io");
+    const socket = io("https://class.tbg95.com");
     window.socket = socket;
     // socket.emit("subscribe", "all");
     // socket.emit('message', {room: 'room1', message: 'Hello, room1!'});
@@ -452,6 +490,9 @@ var emojiPicker = new FgEmojiPicker({
         }
         console.log(room);
         localStorage.setItem("tbg95_room",JSON.stringify(list));
+    }
+    function connectServer(event){
+
     }
 
 </script>
