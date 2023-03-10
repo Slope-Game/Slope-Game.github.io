@@ -13,7 +13,7 @@
     display: grid;
     grid-template-columns: repeat(10, 94px);
     grid-template-rows: repeat(12, 94px);
-    padding-top: 40px;
+    padding-top: 20px;
     padding-right: 12px;
     grid-gap: 12px;
     padding-bottom: 40px;
