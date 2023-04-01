@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="style.css"> -->
 	<link rel="stylesheet" href="/cleancss/amp.css">
+  <link rel="stylesheet" href="cleancss/preload.css">
   <meta name="google-site-verification" content="2rHJ7VRPQvWn6LSai_6iqg6l9tapR7KgqtMHnSXioOQ" />
   <meta name="robots" content="noindex,nofollow" />
 	<style>
@@ -171,8 +172,9 @@
       </svg>
       <section class="main-site">
         <div class="game-arena" id="game-main">
-            <div class="game-frame">
-                <iframe src="https://ubg77.github.io/game131022/wrassling/" id="gameframe" frameborder="0" style="height: 100%;width: 100%;"></iframe>
+            <div class="game-frame" data-url="https://ubg77.github.io/game131022/wrassling/">
+                <!-- <iframe src="https://ubg77.github.io/game131022/wrassling/" id="gameframe" frameborder="0" style="height: 100%;width: 100%;"></iframe> -->
+                <div class="talpa-splash-container" style="background: var(--color2);"><div class="talpa-splash-top"><div><div style="--thumb:url(/img/wrassling.png)"></div><button id="talpa-splash-button" class="SP-splash-button" onclick="loadMainGame()" style="display: block;">play now!</button><div class="talpa-loader" style="display: none;">Loading...</div></div></div><div class="talpa-splash-bottom"></div></div>
               </div>
             <div class="game-info">
                 <div class="card-info">

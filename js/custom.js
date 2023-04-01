@@ -143,3 +143,6 @@ window.addEventListener('load', function() {
     
 })
 window.alert = {};  
+function loadMainGame(){
+  document.querySelector('.game-frame').innerHTML = `<iframe src="${document.querySelector('.game-frame').dataset.url}" id="gameframe" frameborder="0" style="height: 100%;width: 100%;"></iframe>`;
+}
