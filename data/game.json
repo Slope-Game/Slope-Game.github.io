@@ -1,11 +1,147 @@
 [
   {
-    "slug": "tunnel-rush",
+    "slug": "bitlife-life-simulator",
+    "title": "BitLife",
+    "cat": "Skill, Hot",
+    "domain": 9,
+    "img": "https://slope-game.github.io/new3623/bitlife-life-simulator/logo.png"
+  },
+  {
+    "slug": "tomb",
+    "title": "Tomb of The Mask",
+    "cat": "Skill, Hot",
+    "domain": 11,
+    "img": "https://slope-game.github.io/new5923/tomb/logo.png"
+  },
+  {
+    "slug": "jacksmith",
+    "title": "jacksmith",
+    "cat": "Skill, Hot",
+    "domain": 11,
+    "img": "https://slope-game.github.io/new5923/jacksmith.png"
+  },
+  {
+    "slug": "game2",
     "title": "Tunnel Rush",
     "cat": "Skill, Hot",
     "domain": 2,
-    "img": "tunnel-rush"
+    "img": "tunnelrush",
+    "ext":1
   },
+  {
+    "slug": "ape-sling",
+    "title": "Ape Sling",
+    "domain": 10,
+    "img": "https://slope-game.github.io/new3723/ape-sling/logo.png"
+},
+{
+    "slug": "awesome-tanks-2",
+    "title": "Awesome Tanks 2",
+    "domain": 9,
+    "img": "https://slope-game.github.io/new3623/awesome-tanks-2/logo.png"
+},
+{
+    "slug": "awesome-tanks",
+    "title": "Awesome Tanks",
+    "domain": 9,
+    "img": "https://slope-game.github.io/new3623/awesome-tanks/logo.png"
+},
+{
+    "slug": "bloxorz",
+    "title": "Bloxorz",
+    "domain": 9,
+    "img": "https://slope-game.github.io/new3623/bloxorz/logo.png"
+},
+{
+    "slug": "bottle-flip-2",
+    "title": "Bottle Flip 2",
+    "domain": 9,
+    "img": "https://slope-game.github.io/new3623/bottle-flip-2/logo.png"
+},
+{
+    "slug": "cooking-tile",
+    "title": "Cooking Tile",
+    "domain": 9,
+    "img": "https://slope-game.github.io/new3623/cooking-tile/logo.png"
+},
+{
+    "slug": "curve-ball-3d",
+    "title": "Curve Ball 3D",
+    "domain": 9,
+    "img": "https://slope-game.github.io/new3623/curve-ball-3d/logo.png"
+},
+{
+    "slug": "grindcraft",
+    "title": "Grindcraft",
+    "domain": 9,
+    "img": "https://slope-game.github.io/new3623/grindcraft/logo.png"
+},
+{
+    "slug": "hell-tile",
+    "title": "Hell Tile",
+    "domain": 9,
+    "img": "https://slope-game.github.io/new3623/hell-tile/logo.png"
+},
+{
+    "slug": "idle-breakout",
+    "title": "Idle Breakout",
+    "domain": 9,
+    "img": "https://slope-game.github.io/new3623/idle-breakout/logo.png"
+},
+{
+    "slug": "johnny-upgrade",
+    "title": "Johnny Upgrade",
+    "domain": 9,
+    "img": "https://slope-game.github.io/new3623/johnny-upgrade/logo.png"
+},
+{
+    "slug": "sheep-n-sheep",
+    "title": "Sheep n Sheep",
+    "domain": 9,
+    "img": "https://slope-game.github.io/new3623/sheep-n-sheep/logo.png"
+},
+{
+    "slug": "urban-stack",
+    "title": "Urban Stack",
+    "domain": 9,
+    "img": "https://slope-game.github.io/new3623/urban-stack/logo.png"
+},
+{
+    "slug": "basket-random",
+    "title": "Basket Random",
+    "domain": 10,
+    "img": "https://slope-game.github.io/new3723/basket-random/logo.png"
+},
+{
+    "slug": "bomb-it-7",
+    "title": "Bomb It 7",
+    "domain": 10,
+    "img": "https://slope-game.github.io/new3723/bomb-it-7/logo.png"
+},
+{
+    "slug": "fill-the-battery",
+    "title": "Fill The Battery",
+    "domain": 10,
+    "img": "https://slope-game.github.io/new3723/fill-the-battery/logo.png"
+},
+{
+    "slug": "head-soccer-2023",
+    "title": "Head Soccer 2023",
+    "domain": 10,
+    "img": "https://slope-game.github.io/new3723/head-soccer-2023/logo.png"
+},
+{
+    "slug": "money-movers-3",
+    "title": "Money Movers 3",
+    "domain": 10,
+    "img": "https://slope-game.github.io/new3723/money-movers-3/logo.png"
+},
+{
+    "slug": "soccer-random",
+    "title": "Soccer Random",
+    "domain": 10,
+    "img": "https://slope-game.github.io/new3723/soccer-random/logo.png"
+},
   {
     "slug": "angry-gran-run",
     "title": "Angry gran run",
@@ -55,10 +191,12 @@
     "domain": 7
   },
   {
-    "slug": "monkey-mart",
+    "slug": "game2",
     "title": "Monkey Mart",
     "cat": "Skill",
-    "domain": 7
+    "domain": 7,
+    "ext":1,
+    "img":"mk"
   },
   {
     "slug": "motox3m-3",

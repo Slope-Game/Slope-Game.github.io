@@ -62,7 +62,7 @@ function loadData(){
   if(id_game){
     filename = 'game';
   }
-    fetch(`/data/${filename}.json`).then(response => response.json())
+    fetch(`/data/${filename}.json?v=2`).then(response => response.json())
     .then(data => {
         var listGame = data;
         var html = "";
@@ -87,6 +87,13 @@ function loadData(){
               img = `https://slope-game.github.io/newgame/${item.slug}/logo.png`;
             } else if(item.domain == 8) {
               img = `https://ubg77.github.io/updatefaqs/${item.slug}/logo.png`;
+            }else if(item.domain == 9) {
+              img = item.img;
+            }
+            else if(item.domain == 10) {
+              img = item.img;
+            } else if(item.domain == 11) {
+              img = item.img;
             }
             if(item.ext){
               img = `/img/${item.img}.png`;
@@ -145,4 +152,7 @@ window.addEventListener('load', function() {
 window.alert = {};  
 function loadMainGame(){
   document.querySelector('.game-frame').innerHTML = `<iframe src="${document.querySelector('.game-frame').dataset.url}" id="gameframe" frameborder="0" style="height: 100%;width: 100%;"></iframe>`;
+}
+function playGame(){
+  document.querySelector(".game-frame").innerHTML = `<iframe src="${document.querySelector('#talpa-splash-button').dataset.url}" id="gameframe" frameborder="0" style="height: 100%;width: 100%;"></iframe>`;
 }
