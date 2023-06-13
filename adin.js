@@ -1,5 +1,5 @@
 var  r = document.createElement("script");
-	r.setAttribute("src", "https://api.adinplay.com/libs/aiptag/pub/TTS/slope-game.github.io/tag.min.js"), r.setAttribute("type", "text/javascript"), r.setAttribute("crossOrigin", "anonymous"),  r.onload = function (){
+	r.setAttribute("src", "//api.adinplay.com/libs/aiptag/pub/TTS/slope-game.github.io/tag.min.js"), r.setAttribute("type", "text/javascript"), r.setAttribute("crossOrigin", "anonymous", "async"),  r.onload = function (){
         //<div id="overlay"></div>
         let stylediv = document.createElement('style');
         stylediv.innerHTML = `#overlay {
