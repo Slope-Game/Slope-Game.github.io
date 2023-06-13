@@ -10,7 +10,7 @@ var  r = document.createElement("script");
             left: 0;
             right: 0;
             bottom: 0;
-            background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+            background-color: rgb(12, 72, 108);
             z-index: 1000; /* Specify a stack order in case you're using a different order for other elements */
             cursor: pointer; /* Add a pointer on hover */
           }
@@ -45,8 +45,8 @@ var  r = document.createElement("script");
         overlay.id = "overlay";
         overlay.innerHTML = `<button class="btnPlay" onclick="showPreroll()">Play</button>`;
         document.querySelector("body").appendChild(overlay);
-        let scriptAds = document.createAttribute("script");
-        scriptAds.innerHTML = `window.aiptag = window.aiptag || {cmd: []};
+        let headTag = document.getElementsByTagName('head')[0]; 
+        let scriptAds = `window.aiptag = window.aiptag || {cmd: []};
         aiptag.cmd.display = aiptag.cmd.display || [];
         aiptag.cmd.player = aiptag.cmd.player || [];
         //CMP tool settings
@@ -91,7 +91,8 @@ var  r = document.createElement("script");
             });
 
         });`;
-        document.querySelector("body").appendChild(scriptAds);
+        // document.querySelector("body").appendChild(scriptAds);
+        headTag.innerHTML += (scriptAds);
         
 },document.head.appendChild(r);
 function showPreroll(){
