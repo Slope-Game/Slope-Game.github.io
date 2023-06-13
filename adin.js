@@ -108,7 +108,7 @@ var  r = document.createElement("script");
         overlay.id = "overlay";
         overlay.innerHTML = `<button class="btnPlay">Play</button>`;
         document.querySelector("body").appendChild(overlay);
-        let gameBtn = document.querySelector('#btnPlay');
+        let gameBtn = document.querySelector('.btnPlay');
         gameBtn.addEventListener("click", function(event){
             event.preventDefault();
             document.querySelector('#overlay').style.display = "none";
