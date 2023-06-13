@@ -45,7 +45,8 @@ var  r = document.createElement("script");
         overlay.id = "overlay";
         overlay.innerHTML = `<button class="btnPlay" onclick="showPreroll()">Play</button>`;
         document.querySelector("body").appendChild(overlay);
-        window.aiptag = window.aiptag || {cmd: []};
+        let scriptAds = document.createAttribute("script");
+        scriptAds.innerHTML = `window.aiptag = window.aiptag || {cmd: []};
         aiptag.cmd.display = aiptag.cmd.display || [];
         aiptag.cmd.player = aiptag.cmd.player || [];
         //CMP tool settings
@@ -89,9 +90,7 @@ var  r = document.createElement("script");
                 }
             });
 
-        });
-        
-       
+        });`;
         
 },document.head.appendChild(r);
 function showPreroll(){
