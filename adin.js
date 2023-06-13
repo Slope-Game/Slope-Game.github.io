@@ -41,10 +41,7 @@ var  r = document.createElement("script");
         // adsdiv.id = "overlay";
         adsdiv.id = "preroll";
         document.querySelector("body").appendChild(adsdiv);
-        let overlay = document.createElement('div');
-        overlay.id = "overlay";
-        overlay.innerHTML = `<button class="btnPlay" onclick="showPreroll()">Play</button>`;
-        document.querySelector("body").appendChild(overlay);
+        
         let headTag = document.getElementsByTagName('head')[0]; 
         let scriptAds = `<script>window.aiptag = window.aiptag || {cmd: []};
         aiptag.cmd.display = aiptag.cmd.display || [];
@@ -106,5 +103,10 @@ var  r = document.createElement("script");
         </script>`;
         // document.querySelector("body").appendChild(scriptAds);
         headTag.innerHTML += (scriptAds);
+
+        let overlay = document.createElement('div');
+        overlay.id = "overlay";
+        overlay.innerHTML = `<button class="btnPlay" onclick="showPreroll()">Play</button>`;
+        document.querySelector("body").appendChild(overlay);
         
 },document.head.appendChild(r);
