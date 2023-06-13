@@ -46,7 +46,7 @@ var  r = document.createElement("script");
         overlay.innerHTML = `<button class="btnPlay" onclick="showPreroll()">Play</button>`;
         document.querySelector("body").appendChild(overlay);
         let headTag = document.getElementsByTagName('head')[0]; 
-        let scriptAds = `window.aiptag = window.aiptag || {cmd: []};
+        let scriptAds = `<script>window.aiptag = window.aiptag || {cmd: []};
         aiptag.cmd.display = aiptag.cmd.display || [];
         aiptag.cmd.player = aiptag.cmd.player || [];
         //CMP tool settings
@@ -90,20 +90,21 @@ var  r = document.createElement("script");
                 }
             });
 
-        });`;
+        });
+        function showPreroll(){
+            document.querySelector('#overlay').style.display = "none";
+            if (typeof aiptag.adplayer !== 'undefined') {
+        
+                aiptag.cmd.player.push(function() { aiptag.adplayer.startPreRoll(); });
+        
+            } else {
+                //Adlib didnt load this could be due to an adblocker, timeout etc.
+                //Please add your script here that starts the content, this usually is the same script as added in AIP_COMPLETE.
+                alert("Ad Could not be loaded, load your content here");
+            }
+        }
+        </script>`;
         // document.querySelector("body").appendChild(scriptAds);
         headTag.innerHTML += (scriptAds);
         
 },document.head.appendChild(r);
-function showPreroll(){
-    document.querySelector('#overlay').style.display = "none";
-    if (typeof aiptag.adplayer !== 'undefined') {
-
-        aiptag.cmd.player.push(function() { aiptag.adplayer.startPreRoll(); });
-
-    } else {
-        //Adlib didnt load this could be due to an adblocker, timeout etc.
-        //Please add your script here that starts the content, this usually is the same script as added in AIP_COMPLETE.
-        alert("Ad Could not be loaded, load your content here");
-    }
-}
