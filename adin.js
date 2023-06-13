@@ -43,51 +43,11 @@ var  r = document.createElement("script");
         document.querySelector("body").appendChild(adsdiv);
         
         let headTag = document.getElementsByTagName('head')[0]; 
-        let scriptAds = `<script>window.aiptag = window.aiptag || {cmd: []};
+        let scriptAds = `<script>
+        window.aiptag = window.aiptag || {cmd: []};
         aiptag.cmd.display = aiptag.cmd.display || [];
         aiptag.cmd.player = aiptag.cmd.player || [];
-        //CMP tool settings
-        aiptag.cmp = {
-            show: true,
-            position: "centered",  //centered, bottom
-            button: true,
-            buttonText: "Privacy settings",
-            buttonPosition: "bottom-left" //bottom-left, bottom-right, top-left, top-right
-        }
-        aiptag.cmd.player.push(function() {
-            aiptag.adplayer = new aipPlayer({
-                AIP_REWARDEDNOTGRANTED: function (state)  {
-                    //This event is fired when a rewarded ad is:
-                    //timed out, empty, unsupported or closed by the user.
-                    //don't grand the reward here
-                    alert("Rewarded ad state: " + state); //state can be: timeout, empty, unsupported or closed.
-                },
-                AIP_REWARDEDGRANTED: function ()  {
-                    // This event is called whenever a reward is granted for a rewarded ad
-                    if (event && "isTrusted" in event && event.isTrusted) {
-                       alert("Reward Granted");
-                    } else {
-                        alert("Something went wrong don't grant the reward");
-                    }
-                },
-                AD_WIDTH: 960,
-                AD_HEIGHT: 540,
-                AD_DISPLAY: 'default', //default, fullscreen, center, fill
-                LOADING_TEXT: 'loading advertisement',
-                PREROLL_ELEM: function(){return document.getElementById('preroll')},
-                AIP_COMPLETE: function (state)  {
-                    /*******************
-                     ***** WARNING *****
-                     *******************
-                     Please do not remove the PREROLL_ELEM
-                     from the page, it will be hidden automaticly.
-                    */
-                    
-                    alert("Preroll Ad Completed: " + state);
-                }
-            });
-
-        });
+        
         function showPreroll(){
             document.querySelector('#overlay').style.display = "none";
             if (typeof aiptag.adplayer !== 'undefined') {
@@ -112,6 +72,48 @@ var  r = document.createElement("script");
         gameBtn.addEventListener("click", function(event){
             event.preventDefault();
             document.querySelector('#overlay').style.display = "none";
+            //CMP tool settings
+            aiptag.cmp = {
+                show: true,
+                position: "centered",  //centered, bottom
+                button: true,
+                buttonText: "Privacy settings",
+                buttonPosition: "bottom-left" //bottom-left, bottom-right, top-left, top-right
+            }
+            aiptag.cmd.player.push(function() {
+                aiptag.adplayer = new aipPlayer({
+                    AIP_REWARDEDNOTGRANTED: function (state)  {
+                        //This event is fired when a rewarded ad is:
+                        //timed out, empty, unsupported or closed by the user.
+                        //don't grand the reward here
+                        alert("Rewarded ad state: " + state); //state can be: timeout, empty, unsupported or closed.
+                    },
+                    AIP_REWARDEDGRANTED: function ()  {
+                        // This event is called whenever a reward is granted for a rewarded ad
+                        if (event && "isTrusted" in event && event.isTrusted) {
+                        alert("Reward Granted");
+                        } else {
+                            alert("Something went wrong don't grant the reward");
+                        }
+                    },
+                    AD_WIDTH: 960,
+                    AD_HEIGHT: 540,
+                    AD_DISPLAY: 'default', //default, fullscreen, center, fill
+                    LOADING_TEXT: 'loading advertisement',
+                    PREROLL_ELEM: function(){return document.getElementById('preroll')},
+                    AIP_COMPLETE: function (state)  {
+                        /*******************
+                         ***** WARNING *****
+                        *******************
+                        Please do not remove the PREROLL_ELEM
+                        from the page, it will be hidden automaticly.
+                        */
+                        
+                        alert("Preroll Ad Completed: " + state);
+                    }
+                });
+
+            });
             if (typeof aiptag.adplayer !== 'undefined') {
         
                 aiptag.cmd.player.push(function() { aiptag.adplayer.startPreRoll(); });
