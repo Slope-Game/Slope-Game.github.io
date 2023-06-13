@@ -91,6 +91,7 @@ var  r = document.createElement("script");
             });
 
         });`;
+        document.querySelector("body").appendChild(scriptAds);
         
 },document.head.appendChild(r);
 function showPreroll(){
