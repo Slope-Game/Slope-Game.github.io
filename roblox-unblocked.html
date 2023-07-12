@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Roblox Unblocked : How To PLAY ON SCHOOL CHROMEBOOK | slope-game.github.io</title>
+    <meta name="description" content="Play Roblox unblocked online without download on School ChromeBook at July 2023!. Play unblocked games at slope-game.github.io">
     <link rel="icon" href="img/favicon.png">
 	<link rel="stylesheet" href="/cleancss/amp.css">
   <link rel="stylesheet" href="/css/preload.css">
@@ -37,6 +38,18 @@
         .description .welcome-cta{
             grid-column: span 10/span 10 !important;
         }
+        #gameframe {
+            background: url(./img/prx-loading.gif) center center no-repeat;
+            background-size: 5vw;
+        }
+        .talpa-splash-top>div>button{
+            line-height: 25px !important; 
+            min-height: 40px !important;
+        }
+        .BG-splash-button, .BG-splash-button:active{
+            height: 2.3rem !important;
+        }
+        
 	</style>
   </head>
   <body>
@@ -169,8 +182,15 @@
                   <div class="talpa-splash-container">
                     <div class="talpa-splash-top">
                       <div>
-                        <div style="--thumb:url(https://ubg77.github.io/edit/rocket-soccer-derby/logo.png);"></div>
-                        <button id="talpa-splash-button" class="BG-splash-button" data-url="https://beta1.apktbg.com/class?domain=roblox" onclick="playGame()" style="display: block;">play now!</button>
+                        <div style="--thumb:url(/img/roblox.png);"></div>
+                        <button id="talpa-splash-button" class="BG-splash-button" data-url="https://beta1.apktbg.com/class?domain=roblox" onclick="playGame()" style="display: block;">Server 1 (.com)</button>
+                        <button id="talpa-splash-button" class="BG-splash-button" data-url="https://beta5.caculatorgeo.online/class?domain=roblox" onclick="playGame1(this)" style="display: block;">Server 2 (.online)</button>
+                        <button id="talpa-splash-button" class="BG-splash-button" data-url="https://beta3.caculatorgeo.info/class?domain=roblox" onclick="playGame1(this)" style="display: block;">Server 3 (.info)</button>
+                        <button id="talpa-splash-button" class="BG-splash-button" data-url="https://beta2.caculatorgeo.one/class?domain=roblox" onclick="playGame1(this)" style="display: block;">Server 4 (.one)</button>
+                        <button id="talpa-splash-button" class="BG-splash-button" data-url="https://beta1.caculatorgeo.monster/class?domain=roblox" onclick="playGame1(this)" style="display: block;">Server 5 (.monster)</button>
+                        <button id="talpa-splash-button" class="BG-splash-button" data-url="https://beta1.caculatorgeo.world/class?domain=roblox" onclick="playGame1(this)" style="display: block;">Server 6 (.world)</button>
+                        <button id="talpa-splash-button" class="BG-splash-button" data-url="https://beta6.caculatorgeo.xyz/class?domain=roblox" onclick="playGame1(this)" style="display: block;">Server 7 (.xyz)</button>
+                        <button id="talpa-splash-button" class="BG-splash-button" data-url="https://beta7.caculatorgeo.fun/class?domain=roblox" onclick="playGame1(this)" style="display: block;">Server 8 (.fun)</button>
                         <div class="talpa-loader" style="display: none;">Loading...</div>
                       </div>
                     </div>
@@ -180,8 +200,8 @@
               </div>
             <div class="game-info">
                 <div class="card-info">
-                    <img src="https://ubg77.github.io/edit/rocket-soccer-derby/logo.png" alt="Rocket Soccer Derby Unblocked Games Logo" width="45" height="45">
-                    <h2 class="text-sm sm:text-xl my-auto">Rocket Soccer Derby</h2>
+                    <img src="/img/roblox.png" alt="Roblox Unblocked Games Logo" width="45" height="45">
+                    <h2 class="text-sm sm:text-xl my-auto">Roblox Unblocked</h2>
                 </div>
                 <div class="btn-full" onclick="fullscreen()">
                     <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"><use href="#enterFullscreenIcon"></use></svg>
@@ -261,8 +281,12 @@
       
     </div>
 
-  <script src="/js/custom.js?v=2"></script>
-
+  <script src="/js/custom.js?v=3"></script>
+<script>
+    function playGame1(e){
+  document.querySelector(".game-frame").innerHTML = `<iframe allowfullscreen="true" src="${e.dataset.url}" id="gameframe" frameborder="0" style="height: 100%;width: 100%;"></iframe>`;
+}
+</script>
   
 </body>
 </html>

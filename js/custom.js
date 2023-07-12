@@ -146,6 +146,13 @@ function loadData(){
 window.addEventListener('load', function() {
     
     loadData();
+    var menu = this.document.createElement("a");
+    menu.href = "/roblox-unblocked.html";
+    menu.innerHTML = `<span class="menu-bar__text">
+    <span class="menu-bar__name">Roblox</span>
+  </span>`;
+    // console.log(document.querySelector(".menu-bar__one .active"));
+    document.querySelector(".menu-bar__one .active").prepend(menu);
     console.log(window.location.href.indexOf("localhost"));
     
 })
@@ -154,5 +161,5 @@ function loadMainGame(){
   document.querySelector('.game-frame').innerHTML = `<iframe src="${document.querySelector('.game-frame').dataset.url}" id="gameframe" frameborder="0" style="height: 100%;width: 100%;"></iframe>`;
 }
 function playGame(){
-  document.querySelector(".game-frame").innerHTML = `<iframe src="${document.querySelector('#talpa-splash-button').dataset.url}" id="gameframe" frameborder="0" style="height: 100%;width: 100%;"></iframe>`;
+  document.querySelector(".game-frame").innerHTML = `<iframe allowfullscreen="true" src="${document.querySelector('#talpa-splash-button').dataset.url}" id="gameframe" frameborder="0" style="height: 100%;width: 100%;"></iframe>`;
 }
