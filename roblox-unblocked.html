@@ -35,9 +35,7 @@
 				display: block;
 			}
 		}
-        .description .welcome-cta{
-            grid-column: span 10/span 10 !important;
-        }
+        
         #gameframe {
             background: url(./img/prx-loading.gif) center center no-repeat;
             background-size: 5vw;
@@ -50,6 +48,35 @@
             height: 2.3rem !important;
         }
         
+        @media only screen and (min-width: 1300px) and (max-width: 1376px){
+        .main-site{
+          grid-template-columns: repeat(14, 84px);
+          grid-template-rows: repeat(12, 84px);
+          padding-left: 12px;
+          padding-top: 8px;
+        }
+        .game-arena{
+          grid-column: span 14/span 14;
+          grid-row: span 8/span 8;
+        }
+        .close-icon{
+          display: block;
+        }
+        .nftmax-smenu{
+          transform: translateX(-100%);
+        }
+        .description .welcome-cta{
+            grid-column: span 14/span 14 !important;
+        }
+        .item-game {
+          width: 84px;
+          height: 84px;
+        }
+        .item-game img{
+          width: 84px;
+          height: 84px;
+        }
+        }
 	</style>
   </head>
   <body>
@@ -209,7 +236,7 @@
             </div>
         </div>
         
-        <div class="ads">
+        <div class="ads" style="display: none;">
             <div class="ads_300x600">
                 <div id="ads-container" class="bg-gray-400 ">
                     <div style="min-width: 300px; min-height: 610px; height: 610px; display: block;">
@@ -281,7 +308,7 @@
       
     </div>
 
-  <script src="/js/custom.js?v=3"></script>
+  <script src="/js/custom-rb.js?v=3"></script>
 <script>
     function playGame1(e){
   document.querySelector(".game-frame").innerHTML = `<iframe allowfullscreen="true" src="${e.dataset.url}" id="gameframe" frameborder="0" style="height: 100%;width: 100%;"></iframe>`;
