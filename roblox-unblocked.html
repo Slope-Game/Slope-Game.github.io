@@ -54,10 +54,12 @@
           grid-template-rows: repeat(12, 84px);
           padding-left: 12px;
           padding-top: 8px;
+          grid-gap:11px;
         }
         .game-arena{
-          grid-column: span 14/span 14;
+          grid-column: span 13/span 13;
           grid-row: span 8/span 8;
+          
         }
         .close-icon{
           display: block;
@@ -230,14 +232,38 @@
                     <img src="/img/roblox.png" alt="Roblox Unblocked Games Logo" width="45" height="45">
                     <h2 class="text-sm sm:text-xl my-auto">Roblox Unblocked</h2>
                 </div>
-                <div class="btn-full" onclick="fullscreen()">
+                <div class="btn-full" data-url="https://beta1.apktbg.com/class?domain=roblox" onclick="openServer(this)">
+                  SV 1
+                </div>
+                <div class="btn-full"  data-url="https://beta2.caculatorgeo.online/class?domain=roblox" onclick="openServer(this)">
+                  SV 2
+                </div>
+                <div class="btn-full" data-url="https://beta2.caculatorgeo.info/class?domain=roblox" onclick="openServer(this)">
+                  SV 3
+                </div>
+                <div class="btn-full" data-url="https://beta3.caculatorgeo.one/class?domain=roblox" onclick="openServer(this)">
+                  SV 4
+                </div>
+                <div class="btn-full" data-url="https://beta4.caculatorgeo.monster/class?domain=roblox" onclick="openServer(this)">
+                  SV 5
+                </div>
+                <div class="btn-full" data-url="https://beta5.caculatorgeo.world/class?domain=roblox" onclick="openServer(this)">
+                  SV 6
+                </div>
+                <div class="btn-full" data-url="https://beta6.caculatorgeo.xyz/class?domain=roblox" onclick="openServer(this)">
+                  SV 7
+                </div>
+                <div class="btn-full"  data-url="https://beta7.caculatorgeo.fun/class?domain=roblox" onclick="openServer(this)">
+                  SV 8
+                </div>
+                <div class="btn-full" onclick="fullscreen()" style="display: none;">
                     <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"><use href="#enterFullscreenIcon"></use></svg>
                 </div>
             </div>
         </div>
-        
+      
         <div class="ads" style="display: none;">
-            <div class="ads_300x600">
+            <div class="ads_300x600" style="display: none;">
                 <div id="ads-container" class="bg-gray-400 ">
                     <div style="min-width: 300px; min-height: 610px; height: 610px; display: block;">
                       <!-- slope-game-300x600 -->
@@ -248,6 +274,7 @@
             </div>
             <div class="ads_728x90">
                 <div id="ads-container" style="min-width: 728px; min-height: 90px; height: 90px;" class="bg-gray-400">
+
                     <div style="min-width: 728px; min-height: 90px; height: 90px; display: block;">
                       <!-- slope-game-728x90 -->
                       <!-- <ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-7889675448259925" data-ad-slot="3779802604"></ins> -->
@@ -311,6 +338,10 @@
   <script src="/js/custom-rb.js?v=3"></script>
 <script>
     function playGame1(e){
+  document.querySelector(".game-frame").innerHTML = `<iframe allowfullscreen="true" src="${e.dataset.url}" id="gameframe" frameborder="0" style="height: 100%;width: 100%;"></iframe>`;
+}
+function openServer(e){
+  console.log(e.dataset.url);
   document.querySelector(".game-frame").innerHTML = `<iframe allowfullscreen="true" src="${e.dataset.url}" id="gameframe" frameborder="0" style="height: 100%;width: 100%;"></iframe>`;
 }
 </script>
