@@ -41,6 +41,50 @@
 				display: block;
 			}
 		}
+    .popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: visible;
+  opacity: 1;
+}
+
 	</style>
   </head>
   <body>
@@ -338,8 +382,22 @@
       
     </div>
 
-  <script src="/js/custom.js?v=2"></script>
+  <script src="/js/custom.js?v=5"></script>
 
-  
+  <div id="popup1" class="overlay">
+    <div class="popup">
+      <h2>Hello All</h2>
+      <a class="close" href="#" onclick="document.querySelector('.overlay').style.opacity = 0">&times;</a>
+      <div class="content">
+        We have fixed Roblox play on chromebook. <a href="/roblox-unblocked.html">Click Here</a> to play. 
+        <br> Clear All Cache and Refresh Brower.
+      </div>
+    </div>
+  </div>
+  <script>
+window.addEventListener('load', function() {
+  setTimeout(function(){document.querySelector('.overlay').style.opacity = 0},2000);
+})
+  </script>
 </body>
 </html>
