@@ -146,13 +146,19 @@ function loadData(){
 window.addEventListener('load', function() {
     
     loadData();
-    var menu = this.document.createElement("a");
-    menu.href = "/roblox-unblocked.html";
-    menu.innerHTML = `<span class="menu-bar__text">
-    <span class="menu-bar__name">Roblox</span>
-  </span>`;
+    // var newMenu = [{"url" : "/roblox-unblocked.html","title": "Roblox"},{"url":"/car-games.html","title": "Car Games"}, {"url": "/shooting-games.html","title":"Shooting Games","url":"/action-games.html","title":"Action Games"},{"url":"/shooting-games.html", "title":"Shooting Games"}];
+    // for (let index = 0; index < newMenu.length; index++) {
+    //   const element = newMenu[index];
+    //   var menu = this.document.createElement("a");
+    //   menu.href = element.url;
+    //   menu.innerHTML = `<span class="menu-bar__text">
+    //     <span class="menu-bar__name">${element.title}</span>
+    //   </span>`;
+    //   document.querySelector(".menu-bar__one .active").prepend(menu);
+    // }
+    
     // console.log(document.querySelector(".menu-bar__one .active"));
-    document.querySelector(".menu-bar__one .active").prepend(menu);
+    
     console.log(window.location.href.indexOf("localhost"));
     
 })

@@ -152,7 +152,7 @@ window.addEventListener('load', function() {
     <span class="menu-bar__name">Roblox</span>
   </span>`;
     // console.log(document.querySelector(".menu-bar__one .active"));
-    document.querySelector(".menu-bar__one .active").prepend(menu);
+    // document.querySelector(".menu-bar__one .active").prepend(menu);
     console.log(window.location.href.indexOf("localhost"));
     
 })

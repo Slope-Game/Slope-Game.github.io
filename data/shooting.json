@@ -1,0 +1,315 @@
+[
+    {
+      "slug": "awesome-tanks-2",
+      "title": "Awesome Tanks 2",
+      "domain": 9,
+      "img": "https://slope-game.github.io/new3623/awesome-tanks-2/logo.png"
+    },
+    {
+      "slug": "awesome-tanks",
+      "title": "Awesome Tanks",
+      "domain": 9,
+      "img": "https://slope-game.github.io/new3623/awesome-tanks/logo.png"
+    },
+    {
+      "slug": "1v1-lol",
+      "title": "1v1.LOL",
+      "cat": "Shooting",
+      "domain": 5,
+      "img": "1v1-lol"
+    },
+    {
+      "slug": "burnin-rubber-5-xs",
+      "title": "Burnin Rubber 5 XS",
+      "cat": "Car",
+      "domain": 5,
+      "img": "burnin-rubber-5-xs"
+    },
+    {
+      "slug": "getaway-shootout",
+      "title": "Getaway Shootout",
+      "cat": "Shooting",
+      "domain": 5
+    },
+    {
+      "slug": "mad-gunz",
+      "title": "Mad Gunz",
+      "cat": "Shooting",
+      "domain": 5
+    },
+    {
+      "slug": "raft-wars",
+      "title": "Raft Wars 1",
+      "cat": "Shooting",
+      "domain": 5
+    },
+    {
+      "slug": "raft-wars-2",
+      "title": "Raft Wars 2",
+      "cat": "Shooting",
+      "domain": 5,
+      "img": "raft-wars-2",
+      "ext": 1
+    },
+    {
+      "slug": "rooftop-snipers",
+      "title": "Rooftop Snipers",
+      "cat": "Shooting",
+      "domain": 5
+    },
+    {
+      "slug": "mr-bullet",
+      "title": "Mr Bullet",
+      "cat": "Shooting",
+      "domain": 5,
+      "img": "mr-bullet"
+    },
+    {
+      "slug": "airport-3d",
+      "title": "AirPort 3d",
+      "cat": "Shooting",
+      "domain": 20,
+      "img": "shootimg/airport-3d.jpg",
+      "game": "https://classroomjq.github.io/class276223/airport-clash-3d/"
+    },
+    {
+      "slug": "farm-3d",
+      "title": "Farm 3d",
+      "cat": "Shooting",
+      "domain": 20,
+      "img": "shootimg/farm-3d.jpg",
+      "game": "https://classroomjq.github.io/class276223/farmclash3d/"
+    },
+    {
+      "slug": "moon-3d",
+      "title": "Moon 3d",
+      "cat": "Shooting",
+      "domain": 20,
+      "img": "shootimg/moon-3d.jpg",
+      "game": "https://classroomjq.github.io/class276223/moonclash3d/"
+    },
+    {
+      "slug": "ninja-3d",
+      "title": "Ninja 3d",
+      "cat": "Shooting",
+      "domain": 20,
+      "img": "shootimg/ninja-3d.jpg",
+      "game": "https://classroomjq.github.io/class276223/ninja-clash-heroes/"
+    },
+    {
+      "slug": "rocket-3d",
+      "title": "Rocket 3d",
+      "cat": "Shooting",
+      "domain": 20,
+      "img": "shootimg/rocket-3d.jpg",
+      "game": "https://classroomjq.github.io/class276223/rocketclash3d/"
+    },
+    {
+      "slug": "sniper-3d",
+      "title": "Sniper 3d",
+      "cat": "Shooting",
+      "domain": 20,
+      "img": "shootimg/sniper-3d.jpg",
+      "game": "https://classroomjq.github.io/class276223/sniperclash3d/"
+    },
+    {
+      "slug": "subway-3d",
+      "title": "Subway 3d",
+      "cat": "Shooting",
+      "domain": 20,
+      "img": "shootimg/subway-3d.jpg",
+      "game": "https://classroomjq.github.io/class276223/subway-clash-3d/"
+    },
+    {
+      "slug": "vegas-3d",
+      "title": "Vegas 3d",
+      "cat": "Shooting",
+      "domain": 20,
+      "img": "shootimg/vegas-3d.jpg",
+      "game": "https://classroomjq.github.io/class276223/vegasclash3d/"
+    },
+    {
+      "slug": "winter-3d",
+      "title": "Winter 3d",
+      "cat": "Shooting",
+      "domain": 20,
+      "img": "shootimg/winter-3d.png",
+      "game": "https://classroomjq.github.io/class276223/winter-clash-3d/"
+    },
+    {
+      "slug": "zombie-3d",
+      "title": "Zombie 3d",
+      "cat": "Shooting",
+      "domain": 20,
+      "img": "shootimg/zombie-3d.jpg",
+      "game": "https://classroomjq.github.io/class276223/zombieclash3d/"
+    },
+    {
+      "slug": "armedforces",
+      "title": "AMF",
+      "cat": "Shooting",
+      "domain": 20,
+      "img": "shootimg/armedforces.jpg",
+      "game": "https://classroomjq.github.io/class276223/armedforces/"
+    },
+    {
+      "slug": "battle-forces",
+      "title": "BF",
+      "cat": "Shooting",
+      "domain": 20,
+      "img": "shootimg/battle-forces.png",
+      "game": "https://classroomjq.github.io/class276223/battle-forces/"
+    },
+    {
+      "slug": "hammer-reload-2",
+      "title": "Hammer",
+      "cat": "Shooting",
+      "domain": 20,
+      "img": "shootimg/hammer-reload-2.jpg",
+      "game": "https://classroomjq.github.io/class276223/hammer-2-reloaded/"
+    },
+    {
+      "slug": "blockpost",
+      "title": "BP",
+      "cat": "Shooting",
+      "domain": 20,
+      "img": "shootimg/blockpost.png",
+      "game": "https://bitlifeonline.github.io/class19523/blockpost/"
+    },
+    {
+      "slug": "funny-shooter",
+      "title": "Funny Shooter",
+      "cat": "Shooting",
+      "domain": 20,
+      "img": "shootimg/funny-shooter.jpeg",
+      "game": "https://bitlifeonline.github.io/class2623/funny-shooter/"
+    },
+    {
+      "slug": "fnaf-shooter",
+      "title": "FNAF Shooter",
+      "cat": "Shooting",
+      "domain": 20,
+      "img": "shootimg/fnaf-shooter.jpeg",
+      "game": "https://bitlifeonline.github.io/class2623/fnaf-shooter/"
+    },
+    {
+      "slug": "funny-battle",
+      "title": "Funny Battle",
+      "cat": "Shooting",
+      "domain": 20,
+      "img": "shootimg/funny-battle.jpeg",
+      "game": "https://bitlifeonline.github.io/class2623/funny-battle/"
+    },
+    {
+      "slug": "funny-battle-2",
+      "title": "Funny Battle 2",
+      "cat": "Shooting",
+      "domain": 20,
+      "img": "shootimg/funny-battle-2.jpeg",
+      "game": "https://bitlifeonline.github.io/class2623/funny-battle-2/"
+    },
+    {
+      "slug": "funny-shooter-2",
+      "title": "Funny Shooter 2",
+      "cat": "Shooting",
+      "domain": 20,
+      "img": "shootimg/funny-shooter-2.jpeg",
+      "game": "https://bitlifeonline.github.io/class2623/funny-shooter-2/"
+    },
+    {
+      "slug": "hero-2",
+      "title": "Hero 2",
+      "cat": "Shooting",
+      "domain": 20,
+      "img": "shootimg/hero-2.jpeg",
+      "game": "https://bitlifeonline.github.io/class2623/hero-2-super-kick/"
+    },
+    {
+      "slug": "hero-3-flying-robot",
+      "title": "Hero 3",
+      "cat": "Shooting",
+      "domain": 20,
+      "img": "shootimg/hero-3.jpeg",
+      "game": "https://bitlifeonline.github.io/class2623/hero-3-flying-robot/"
+    },
+    {
+      "slug": "hero-5-katana-slice",
+      "title": "Hero 5",
+      "cat": "Shooting",
+      "domain": 20,
+      "img": "shootimg/hero-5.jpeg",
+      "game": "https://bitlifeonline.github.io/class2623/hero-5-katana-slice/"
+    },
+    {
+      "slug": "hero-telekinesis",
+      "title": "Hero Teleki",
+      "cat": "Shooting",
+      "domain": 20,
+      "img": "shootimg/hero-teleki.jpeg",
+      "game": "https://bitlifeonline.github.io/class2623/hero-telekinesis/"
+    },
+    {
+      "slug": "parkour-climb-and-jump",
+      "title": "Parkour",
+      "cat": "Shooting",
+      "domain": 20,
+      "img": "shootimg/parkour-climb-jumb.jpeg",
+      "game": "https://bitlifeonline.github.io/class2623/parkour-climb-and-jump/"
+    },
+    {
+      "slug": "sniper-shot-bullet-time",
+      "title": "Sniper Shooter",
+      "cat": "Shooting",
+      "domain": 20,
+      "img": "shootimg/spiner-shooter.jpeg",
+      "game": "https://bitlifeonline.github.io/class2623/sniper-shot-bullet-time/"
+    },
+    {
+      "slug": "squid-battle-simulator",
+      "title": "Squid Battle",
+      "cat": "Shooting",
+      "domain": 20,
+      "img": "shootimg/squid-battle.jpeg",
+      "game": "https://bitlifeonline.github.io/class2623/squid-battle-simulator/"
+    },
+    {
+      "slug": "squid-shooter",
+      "title": "Squid Shooter",
+      "cat": "Shooting",
+      "domain": 20,
+      "img": "shootimg/squid-shooter.jpeg",
+      "game": "https://bitlifeonline.github.io/class2623/squid-shooter/"
+    },
+    {
+      "slug": "time-shooter",
+      "title": "Time Shooter",
+      "cat": "Shooting",
+      "domain": 20,
+      "img": "shootimg/time-shooter.jpeg",
+      "game": "https://bitlifeonline.github.io/class2623/time-shooter/"
+    },
+    {
+      "slug": "time-shooter-2",
+      "title": "Time Shooter 2",
+      "cat": "Shooting",
+      "domain": 20,
+      "img": "shootimg/time-shooter-2.jpeg",
+      "game": "https://bitlifeonline.github.io/class2623/time-shooter-2/"
+    },
+    {
+      "slug": "time-shooter-3",
+      "title": "Time Shooter 3",
+      "cat": "Shooting",
+      "domain": 20,
+      "img": "shootimg/time-shooter-3.jpeg",
+      "game": "https://bitlifeonline.github.io/class2623/time-shooter-3-swat/"
+    },
+    {
+      "slug": "zombies-shooter-part-2",
+      "title": "Zombie Shooter 2",
+      "cat": "Shooting",
+      "domain": 20,
+      "img": "shootimg/zombie-shooter-2.jpeg",
+      "game": "https://bitlifeonline.github.io/class2623/zombies-shooter-part-2/"
+    }
+  ]

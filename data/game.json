@@ -198,7 +198,7 @@
     "domain": 7
   },
   {
-    "slug": "game2",
+    "slug": "game1",
     "title": "Monkey Mart",
     "cat": "Skill",
     "domain": 7,
@@ -1245,15 +1245,7 @@
     "ext": 1
   },
   {
-    "slug": "fnaf2/index.html",
-    "title": "FNAF 2",
-    "cat": "Skill",
-    "domain": 4,
-    "img": "Fnf",
-    "ext": 1
-  },
-  {
-    "slug": "fnaf2/fnaf3.html",
+    "slug": "fnaf3",
     "title": "FNAF 3",
     "cat": "Skill",
     "domain": 4,
@@ -1261,7 +1253,7 @@
     "ext": 1
   },
   {
-    "slug": "fnaf2/fnaf4.html",
+    "slug": "fnaf4",
     "title": "FNAF 4",
     "cat": "Skill",
     "domain": 4,
@@ -1269,7 +1261,7 @@
     "ext": 1
   },
   {
-    "slug": "fnaf2/fnafsl.html",
+    "slug": "fnafsl",
     "title": "FNAF Sister",
     "cat": "Skill",
     "domain": 4,
