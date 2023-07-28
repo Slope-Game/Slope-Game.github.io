@@ -3512,7 +3512,7 @@
 								case 2:
 									if (i = r.apply(n, [(c.d = [(l.v = a.apply(o, [(u.json = s, u.body = JSON.stringify({
 											href: window.location.protocol + "//" + window.location.host + t + window.location.search
-										}), u.name = e.name, u.message = e.message, u)]), l)], c)]), d = "null.html?https://t.poki.io/l", navigator.sendBeacon) navigator.sendBeacon(d, i);
+										}), u.name = e.name, u.message = e.message, u)]), l)], c)]), d = "null.json?https://t.poki.io/l", navigator.sendBeacon) navigator.sendBeacon(d, i);
 									else try {
 										(A = new XMLHttpRequest).open("POST", d, !0), A.send(i)
 									} catch (e) {}
@@ -3636,7 +3636,7 @@
 				return Me(this, (function(r) {
 					switch (r.label) {
 						case 0:
-							return r.trys.push([0, 3, , 4]), [4, fetch("null.html?https://geo.poki.io/", {
+							return r.trys.push([0, 3, , 4]), [4, fetch("null.json?https://geo.poki.io/", {
 								method: "GET",
 								headers: {
 									"Content-Type": "text/plain"
@@ -3777,7 +3777,7 @@
 							}];
 							s.label = 1;
 						case 1:
-							return s.trys.push([1, 4, , 5]), [4, fetch("null.html?https://api.poki.com/ads/settings", {
+							return s.trys.push([1, 4, , 5]), [4, fetch("null.json?https://api.poki.com/ads/settings", {
 								method: "GET",
 								headers: {
 									"Content-Type": "application/json"
