@@ -190,10 +190,12 @@
           "img": "https://slope-game.github.io/new3723/bomb-it-7/logo.png"
       },
       {
-          "slug": "fill-the-battery",
-          "title": "Fill The Battery",
-          "domain": 10,
-          "img": "https://slope-game.github.io/new3723/fill-the-battery/logo.png"
+        "slug": "a-small-world-cup",
+        "cat": "skill-games-unblocked",
+        "domain": 99,
+        "urlgame": "https://rebemanae.github.io/a-small-world-cup/",
+        "title": "A Small World Cup",
+        "img": "https://rebemanae.github.io/a-small-world-cup/logo.png"
       },
       {
           "slug": "head-soccer-2023",
@@ -500,11 +502,12 @@
         "domain": 4
       },
       {
-        "slug": "gun-fest",
-        "title": "Gun Fest",
-        "cat": "Skill, Hot",
-        "domain": 1,
-        "img": "gun-fest"
+        "slug": "fireboy-and-watergirl-5",
+        "cat": "2-player-games-unblocked",
+        "domain": 99,
+        "urlgame": "https://slope-game.github.io/fireboy-water-5/",
+        "title": "Fireboy & Watergirl 5 Elements",
+        "img": "https://slope-game.github.io/fireboy-water-5/logo.png"
       },
       {
         "slug": "penalty-shooters-2",

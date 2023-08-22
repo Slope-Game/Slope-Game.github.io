@@ -1,4 +1,133 @@
 [
+    
+    {
+      "slug": "superhot-prototype",
+      "cat": "shooting-games-unblocked",
+      "domain": 99,
+      "urlgame": "https://classroomjq.github.io/superhot-prototype/",
+      "title": "Superhot Prototype",
+      "img": "https://classroomjq.github.io/superhot-prototype/logo.png"
+    },
+    {
+      "slug": "shootz",
+      "cat": "shooting-games-unblocked",
+      "domain": 99,
+      "urlgame": "https://ubg77.github.io/shootz/",
+      "title": "Shootz",
+      "img": "https://ubg77.github.io/shootz/logo.png"
+    },
+    {
+      "slug": "sniper-code-2",
+      "cat": "shooting-games-unblocked",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/sniper-code-2/",
+      "title": "Sniper Code 2",
+      "img": "https://slope-game.github.io/sniper-code-2/logo.png"
+    },
+    {
+      "slug": "huggy-wuggy-shooter",
+      "cat": "shooting-games-unblocked",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/huggy-wuggy-shooter/",
+      "title": "Huggy Wuggy Shooter",
+      "img": "https://slope-game.github.io/huggy-wuggy-shooter/logo.png"
+    },
+    {
+      "slug": "saloon-robbery",
+      "cat": "shooting-games-unblocked",
+      "domain": 99,
+      "urlgame": "https://rebemanae.github.io/saloon-robbery/",
+      "title": "Saloon Robbery",
+      "img": "https://rebemanae.github.io/saloon-robbery/logo.png"
+    },
+    {
+      "slug": "military-shooter-training",
+      "cat": "shooting-games-unblocked",
+      "domain": 99,
+      "urlgame": "https://classroomjq.github.io/military-shooter-training/",
+      "title": "Military Shooter Training",
+      "img": "https://classroomjq.github.io/military-shooter-training/logo.png"
+    },
+    {
+      "slug": "fps-assault-shooter",
+      "cat": "shooting-games-unblocked",
+      "domain": 99,
+      "urlgame": "https://classroomjq.github.io/fps-assault-shooter/",
+      "title": "FPS Assault Shooter",
+      "img": "https://classroomjq.github.io/fps-assault-shooter/logo.png"
+    },
+    {
+      "slug": "mr-bullet-3d",
+      "cat": "shooting-games-unblocked",
+      "domain": 99,
+      "urlgame": "https://rebemanae.github.io/mr-bullet-3d/",
+      "title": "Mr Bullet 3D",
+      "img": "https://rebemanae.github.io/mr-bullet-3d/logo.png"
+    },
+    {
+      "slug": "mr-bullet-2-online",
+      "cat": "shooting-games-unblocked",
+      "domain": 99,
+      "urlgame": "https://rebemanae.github.io/mr-bullet-2-online/",
+      "title": "Mr Bullet 2 Online",
+      "img": "https://rebemanae.github.io/mr-bullet-2-online/logo.png"
+    },
+    {
+      "slug": "battle-royale-noob-vs-pro",
+      "cat": "shooting-games-unblocked",
+      "domain": 99,
+      "urlgame": "https://rebemanae.github.io/battle-royale-noob-vs-pro/",
+      "title": "Battle Royale Noob vs Pro vs Hacker vs God",
+      "img": "https://rebemanae.github.io/battle-royale-noob-vs-pro/logo.png"
+    },
+    {
+      "slug": "miami-crime-simulator-3d",
+      "cat": "shooting-games-unblocked",
+      "domain": 99,
+      "urlgame": "https://trafficjam3d.github.io/miami-crime-simulator-3d/",
+      "title": "Miami Crime Simulator 3D",
+      "img": "https://trafficjam3d.github.io/miami-crime-simulator-3d/logo.png"
+    },
+    {
+      "slug": "pixel-shooter",
+      "cat": "shooting-games-unblocked",
+      "domain": 99,
+      "urlgame": "https://ubg77.github.io/pixel-shooter/",
+      "title": "Pixel Shooter",
+      "img": "https://ubg77.github.io/pixel-shooter/logo.png"
+    },
+    {
+      "slug": "funny-shooter-2",
+      "cat": "shooting-games-unblocked",
+      "domain": 99,
+      "urlgame": "https://classroomjq.github.io/funny-shooter-2/",
+      "title": "Funny Shooter 2",
+      "img": "https://classroomjq.github.io/funny-shooter-2/logo.png"
+    },
+    {
+      "slug": "skibidi-toilet-attack",
+      "cat": "shooting-games-unblocked",
+      "domain": 99,
+      "urlgame": "https://unblocked-games911.github.io/skibidi-toilet-attack/",
+      "title": "Skibidi Toilet Attack",
+      "img": "https://unblocked-games911.github.io/skibidi-toilet-attack/logo.png"
+    },
+    {
+      "slug": "you-vs-100-skibidi-toilets",
+      "cat": "shooting-games-unblocked",
+      "domain": 99,
+      "urlgame": "https://unblocked-games911.github.io/you-vs-100-skibidi-toilets/",
+      "title": "YOU VS 100 SKIBIDI TOILETS",
+      "img": "https://unblocked-games911.github.io/you-vs-100-skibidi-toilets/logo.png"
+    },
+    {
+      "slug": "skibidi-toilet-rampage",
+      "cat": "shooting-games-unblocked",
+      "domain": 99,
+      "urlgame": "https://unblocked-games911.github.io/skibidi-toilet-rampage/",
+      "title": "Skibidi Toilet Rampage",
+      "img": "https://unblocked-games911.github.io/skibidi-toilet-rampage/logo.png"
+    },
     {
       "slug": "awesome-tanks-2",
       "title": "Awesome Tanks 2",
@@ -207,14 +336,6 @@
       "domain": 20,
       "img": "shootimg/funny-battle-2.jpeg",
       "game": "https://bitlifeonline.github.io/class2623/funny-battle-2/"
-    },
-    {
-      "slug": "funny-shooter-2",
-      "title": "Funny Shooter 2",
-      "cat": "Shooting",
-      "domain": 20,
-      "img": "shootimg/funny-shooter-2.jpeg",
-      "game": "https://bitlifeonline.github.io/class2623/funny-shooter-2/"
     },
     {
       "slug": "hero-2",

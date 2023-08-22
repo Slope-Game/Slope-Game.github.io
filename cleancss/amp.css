@@ -192,3 +192,6 @@ background-color: rgb(189 189 189/0.3);
         grid-gap: 5px;
      }
 }
+iframe{
+    background-color: #000;
+}

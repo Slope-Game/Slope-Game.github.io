@@ -1,0 +1,948 @@
+[
+    {
+        "slug": "a-small-world-cup",
+        "cat": "skill-games-unblocked",
+        "domain": 99,
+        "urlgame": "https://rebemanae.github.io/a-small-world-cup/",
+        "title": "A Small World Cup",
+        "img": "https://rebemanae.github.io/a-small-world-cup/logo.png"
+    },
+    {
+        "slug": "idle-breakout",
+        "title": "Idle Breakout",
+        "domain": 9,
+        "img": "https://slope-game.github.io/new3623/idle-breakout/logo.png"
+    },{
+        "slug": "grand-prix-hero",
+        "cat": "car-games-unblocked",
+        "domain": 99,
+        "urlgame": "https://bitlifeonline.github.io/grand-prix-hero/",
+        "title": "Grand Prix Hero",
+        "img": "https://bitlifeonline.github.io/grand-prix-hero/logo.png"
+      },
+  {
+    "slug": "crazy-cars",
+    "cat": "car-games-unblocked",
+    "domain": 99,
+    "urlgame": "https://classroomjq.github.io/crazy-cars/",
+    "title": "Crazy Cars",
+    "img": "https://classroomjq.github.io/crazy-cars/logo.png"
+  },
+  {
+    "slug": "tricks",
+    "cat": "car-games-unblocked",
+    "domain": 99,
+    "urlgame": "https://rebemanae.github.io/tricks/",
+    "title": "Tricks",
+    "img": "https://rebemanae.github.io/tricks/logo.png"
+  },
+  {
+    "slug": "halloween-skeleton-smash",
+    "cat": "car-games-unblocked",
+    "domain": 99,
+    "urlgame": "https://slope-game.github.io/halloween-skeleton-smash/",
+    "title": "Halloween Skeleton Smash",
+    "img": "https://slope-game.github.io/halloween-skeleton-smash/logo.png"
+  },
+  {
+    "slug": "halloween-lonely-road-racing",
+    "cat": "car-games-unblocked",
+    "domain": 99,
+    "urlgame": "https://slope-game.github.io/halloween-lonely-road-racing/",
+    "title": "Halloween Lonely Road Racing",
+    "img": "https://slope-game.github.io/halloween-lonely-road-racing/logo.png"
+  },
+  {
+    "slug": "offroad-forest-racing",
+    "cat": "car-games-unblocked",
+    "domain": 99,
+    "urlgame": "https://slope-game.github.io/offroad-forest-racing/",
+    "title": "Offroad Forest Racing",
+    "img": "https://slope-game.github.io/offroad-forest-racing/logo.png"
+  },
+  {
+    "slug": "ultimate-car-arena",
+    "cat": "car-games-unblocked",
+    "domain": 99,
+    "urlgame": "https://slope-game.github.io/ultimate-car-arena/",
+    "title": "Ultimate Car Arena",
+    "img": "https://slope-game.github.io/ultimate-car-arena/logo.png"
+  },
+  {
+    "slug": "desert-car-racing-1",
+    "cat": "car-games-unblocked",
+    "domain": 99,
+    "urlgame": "https://slope-game.github.io/desert-car-racing-1/",
+    "title": "Desert Car Racing 1",
+    "img": "https://slope-game.github.io/desert-car-racing-1/logo.png"
+  },
+  {
+    "slug": "18-wheeler-truck-parking",
+    "cat": "car-games-unblocked",
+    "domain": 99,
+    "urlgame": "https://slope-game.github.io/18-wheeler-truck-parking/",
+    "title": "18 Wheeler Truck Parking",
+    "img": "https://slope-game.github.io/18-wheeler-truck-parking/logo.png"
+  },
+  {
+    "slug": "ultimate-offroad-cars-2",
+    "cat": "car-games-unblocked",
+    "domain": 99,
+    "urlgame": "https://slope-game.github.io/ultimate-offroad-cars-2/",
+    "title": "Ultimate Offroad Cars 2",
+    "img": "https://slope-game.github.io/ultimate-offroad-cars-2/logo.png"
+  },
+  {
+    "slug": "18-wheeler-driving-sim",
+    "cat": "car-games-unblocked",
+    "domain": 99,
+    "urlgame": "https://slope-game.github.io/18-wheeler-driving-sim/",
+    "title": "18 Wheeler Driving Sim",
+    "img": "https://slope-game.github.io/18-wheeler-driving-sim/logo.png"
+  },
+  {
+    "slug": "18-wheeler-cargo-simulator-2",
+    "cat": "car-games-unblocked",
+    "domain": 99,
+    "urlgame": "https://slope-game.github.io/18-wheeler-cargo-simulator-2/",
+    "title": "18 Wheeler Cargo Simulator 2",
+    "img": "https://slope-game.github.io/18-wheeler-cargo-simulator-2/logo.png"
+  },
+  {
+    "slug": "18-wheeler-cargo-simulator",
+    "cat": "car-games-unblocked",
+    "domain": 99,
+    "urlgame": "https://slope-game.github.io/18-wheeler-cargo-simulator/",
+    "title": "18 Wheeler Cargo Simulator",
+    "img": "https://slope-game.github.io/18-wheeler-cargo-simulator/logo.png"
+  },
+  {
+    "slug": "4wd-off-road-driving-sim",
+    "cat": "car-games-unblocked",
+    "domain": 99,
+    "urlgame": "https://slope-game.github.io/4wd-off-road-driving-sim/",
+    "title": "4WD Off Road Driving Sim",
+    "img": "https://slope-game.github.io/4wd-off-road-driving-sim/logo.png"
+  },
+  {
+    "slug": "18-wheeler-truck-parking-2",
+    "cat": "car-games-unblocked",
+    "domain": 99,
+    "urlgame": "https://slope-game.github.io/18-wheeler-truck-parking-2/",
+    "title": "18 Wheeler Truck Parking 2",
+    "img": "https://slope-game.github.io/18-wheeler-truck-parking-2/logo.png"
+  },
+  {
+    "slug": "gp-moto-racing-3",
+    "cat": "car-games-unblocked",
+    "domain": 99,
+    "urlgame": "https://slope-game.github.io/gp-moto-racing-3/",
+    "title": "GP Moto Racing 3",
+    "img": "https://slope-game.github.io/gp-moto-racing-3/logo.png"
+  },
+  {
+    "slug": "realconstructionexcavatorsimulator",
+    "cat": "car-games-unblocked",
+    "domain": 99,
+    "urlgame": "https://slope-game.github.io/realconstructionexcavatorsimulator/",
+    "title": "Real Construction Excavator Simulator",
+    "img": "https://slope-game.github.io/realconstructionexcavatorsimulator/logo.png"
+  },
+  {
+    "slug": "3d-arena-racing",
+    "cat": "car-games-unblocked",
+    "domain": 99,
+    "urlgame": "https://slope-game.github.io/3d-arena-racing/",
+    "title": "3D Arena Racing",
+    "img": "https://slope-game.github.io/3d-arena-racing/logo.png"
+  },
+  {
+    "slug": "gp-moto-racing",
+    "cat": "car-games-unblocked",
+    "domain": 99,
+    "urlgame": "https://slope-game.github.io/gp-moto-racing/",
+    "title": "GP Moto Racing",
+    "img": "https://slope-game.github.io/gp-moto-racing/logo.png"
+  },
+  {
+    "slug": "highway-bike-simulator",
+    "cat": "car-games-unblocked",
+    "domain": 99,
+    "urlgame": "https://slope-game.github.io/highway-bike-simulator/",
+    "title": "Highway Bike Simulator",
+    "img": "https://slope-game.github.io/highway-bike-simulator/logo.png"
+  },
+  {
+    "slug": "extreme-off-road-cars",
+    "cat": "car-games-unblocked",
+    "domain": 99,
+    "urlgame": "https://slope-game.github.io/extreme-off-road-cars/",
+    "title": "Extreme Off Road Cars",
+    "img": "https://slope-game.github.io/extreme-off-road-cars/logo.png"
+  },
+  {
+    "slug": "parking-fury-3d-bounty-hunter",
+    "cat": "car-games-unblocked",
+    "domain": 99,
+    "urlgame": "https://slope-game.github.io/parking-fury-3d-bounty-hunter/",
+    "title": "Parking Fury 3D Bounty Hunter",
+    "img": "https://slope-game.github.io/parking-fury-3d-bounty-hunter/logo.png"
+  },
+  {
+    "slug": "parking-fury-3d",
+    "cat": "car-games-unblocked",
+    "domain": 99,
+    "urlgame": "https://slope-game.github.io/parking-fury-3d/",
+    "title": "Parking Fury 3D",
+    "img": "https://slope-game.github.io/parking-fury-3d/logo.png"
+  },
+  {
+    "slug": "extreme-off-road-cars-3-cargo",
+    "cat": "car-games-unblocked",
+    "domain": 99,
+    "urlgame": "https://slope-game.github.io/extreme-off-road-cars-3-cargo/",
+    "title": "Extreme Off Road Cars 3 Cargo",
+    "img": "https://slope-game.github.io/extreme-off-road-cars-3-cargo/logo.png"
+  },
+  {
+    "slug": "off-road-rain-cargo-simulator",
+    "cat": "car-games-unblocked",
+    "domain": 99,
+    "urlgame": "https://slope-game.github.io/off-road-rain-cargo-simulator/",
+    "title": "Off Road Rain Cargo Simulator",
+    "img": "https://slope-game.github.io/off-road-rain-cargo-simulator/logo.png"
+  },
+  {
+    "slug": "parking-fury-3d-night-thief",
+    "cat": "car-games-unblocked",
+    "domain": 99,
+    "urlgame": "https://slope-game.github.io/parking-fury-3d-night-thief/",
+    "title": "Parking Fury 3D Night Thief",
+    "img": "https://slope-game.github.io/parking-fury-3d-night-thief/logo.png"
+  },
+  {
+    "slug": "traffic-jam-3d",
+    "cat": "car-games-unblocked",
+    "domain": 99,
+    "urlgame": "https://trafficjam3d.github.io/traffic-jam-3d/",
+    "title": "Traffic Jam 3d Game",
+    "img": "https://trafficjam3d.github.io/traffic-jam-3d/logo.png"
+  },{
+    "slug": "superhot-prototype",
+    "cat": "shooting-games-unblocked",
+    "domain": 99,
+    "urlgame": "https://classroomjq.github.io/superhot-prototype/",
+    "title": "Superhot Prototype",
+    "img": "https://classroomjq.github.io/superhot-prototype/logo.png"
+  },
+  {
+    "slug": "sniper-code-2",
+    "cat": "shooting-games-unblocked",
+    "domain": 99,
+    "urlgame": "https://slope-game.github.io/sniper-code-2/",
+    "title": "Sniper Code 2",
+    "img": "https://slope-game.github.io/sniper-code-2/logo.png"
+  },
+  {
+    "slug": "huggy-wuggy-shooter",
+    "cat": "shooting-games-unblocked",
+    "domain": 99,
+    "urlgame": "https://slope-game.github.io/huggy-wuggy-shooter/",
+    "title": "Huggy Wuggy Shooter",
+    "img": "https://slope-game.github.io/huggy-wuggy-shooter/logo.png"
+  },
+  {
+    "slug": "saloon-robbery",
+    "cat": "shooting-games-unblocked",
+    "domain": 99,
+    "urlgame": "https://rebemanae.github.io/saloon-robbery/",
+    "title": "Saloon Robbery",
+    "img": "https://rebemanae.github.io/saloon-robbery/logo.png"
+  },
+  {
+    "slug": "mr-bullet-3d",
+    "cat": "shooting-games-unblocked",
+    "domain": 99,
+    "urlgame": "https://rebemanae.github.io/mr-bullet-3d/",
+    "title": "Mr Bullet 3D",
+    "img": "https://rebemanae.github.io/mr-bullet-3d/logo.png"
+  },
+  {
+    "slug": "mr-bullet-2-online",
+    "cat": "shooting-games-unblocked",
+    "domain": 99,
+    "urlgame": "https://rebemanae.github.io/mr-bullet-2-online/",
+    "title": "Mr Bullet 2 Online",
+    "img": "https://rebemanae.github.io/mr-bullet-2-online/logo.png"
+  },
+  {
+    "slug": "pixel-shooter",
+    "cat": "shooting-games-unblocked",
+    "domain": 99,
+    "urlgame": "https://ubg77.github.io/pixel-shooter/",
+    "title": "Pixel Shooter",
+    "img": "https://ubg77.github.io/pixel-shooter/logo.png"
+  },
+  {
+    "slug": "funny-shooter-2",
+    "cat": "shooting-games-unblocked",
+    "domain": 99,
+    "urlgame": "https://classroomjq.github.io/funny-shooter-2/",
+    "title": "Funny Shooter 2",
+    "img": "https://classroomjq.github.io/funny-shooter-2/logo.png"
+  },
+  {
+    "slug": "skibidi-toilet-attack",
+    "cat": "shooting-games-unblocked",
+    "domain": 99,
+    "urlgame": "https://unblocked-games911.github.io/skibidi-toilet-attack/",
+    "title": "Skibidi Toilet Attack",
+    "img": "https://unblocked-games911.github.io/skibidi-toilet-attack/logo.png"
+  },
+  {
+    "slug": "you-vs-100-skibidi-toilets",
+    "cat": "shooting-games-unblocked",
+    "domain": 99,
+    "urlgame": "https://unblocked-games911.github.io/you-vs-100-skibidi-toilets/",
+    "title": "YOU VS 100 SKIBIDI TOILETS",
+    "img": "https://unblocked-games911.github.io/you-vs-100-skibidi-toilets/logo.png"
+  },
+  {
+    "slug": "skibidi-toilet-rampage",
+    "cat": "shooting-games-unblocked",
+    "domain": 99,
+    "urlgame": "https://unblocked-games911.github.io/skibidi-toilet-rampage/",
+    "title": "Skibidi Toilet Rampage",
+    "img": "https://unblocked-games911.github.io/skibidi-toilet-rampage/logo.png"
+  },{
+    "slug": "game1",
+    "title": "Game 1",
+    "cat": "Skill",
+    "domain": 7,
+    "img": "mk",
+    "ext": 1
+  },
+  {
+    "slug": "tomb",
+    "title": "Tomb of The Mask",
+    "cat": "Skill, Hot",
+    "domain": 11,
+    "img": "https://slope-game.github.io/new5923/tomb/logo.png"
+  },
+  {
+    "slug": "jacksmith",
+    "title": "jacksmith",
+    "cat": "Skill, Hot",
+    "domain": 11,
+    "img": "https://slope-game.github.io/new5923/jacksmith.png"
+  },
+  {
+    "slug": "bitlife-life-simulator",
+    "title": "BitLife",
+    "cat": "Skill, Hot",
+    "domain": 9,
+    "img": "https://slope-game.github.io/new3623/bitlife-life-simulator/logo.png"
+  },
+  {
+    "slug": "eggy-car",
+    "title": "Eggy car",
+    "cat": "Car",
+    "domain": 5,
+    "img": "eggy-car"
+  },
+  {
+    "slug": "among-us",
+    "title": "Among us",
+    "cat": "Action",
+    "domain": 5,
+    "img": "among-us"
+  },
+  {
+    "slug": "basketball-stars",
+    "title": "Basketball Stars",
+    "cat": "Sport",
+    "domain": 5,
+    "img": "basketball-stars"
+  },
+  {
+    "slug": "retro-bowl",
+    "title": "Retro Bowl",
+    "cat": "Sport",
+    "domain": 5
+  },{
+    "slug": "game1",
+    "title": "Game 1",
+    "cat": "Skill",
+    "domain": 7,
+    "img": "mk",
+    "ext": 1
+  },
+  {
+    "slug": "tomb",
+    "title": "Tomb of The Mask",
+    "cat": "Skill, Hot",
+    "domain": 11,
+    "img": "https://slope-game.github.io/new5923/tomb/logo.png"
+  },
+  {
+    "slug": "jacksmith",
+    "title": "jacksmith",
+    "cat": "Skill, Hot",
+    "domain": 11,
+    "img": "https://slope-game.github.io/new5923/jacksmith.png"
+  },
+  {
+    "slug": "bitlife-life-simulator",
+    "title": "BitLife",
+    "cat": "Skill, Hot",
+    "domain": 9,
+    "img": "https://slope-game.github.io/new3623/bitlife-life-simulator/logo.png"
+  },
+  {
+    "slug": "game2",
+    "title": "Game 2",
+    "cat": "Skill, Hot",
+    "domain": 2,
+    "img": "tunnelrush",
+    "ext": 1
+  },
+  {
+    "slug": "cookie-clicker",
+    "title": "Cookie Clicker",
+    "cat": "Idle",
+    "domain": 5,
+    "img": "cookie-clicker"
+  },
+  {
+    "slug": "eggy-car",
+    "title": "Eggy car",
+    "cat": "Car",
+    "domain": 5,
+    "img": "eggy-car"
+  },
+  {
+    "slug": "among-us",
+    "title": "Among us",
+    "cat": "Action",
+    "domain": 5,
+    "img": "among-us"
+  },
+  {
+    "slug": "smash-karts",
+    "title": "Smash Karts",
+    "cat": "Car",
+    "domain": 5,
+    "img": "smash-karts"
+  },
+  {
+    "slug": "rolling-ball-3d",
+    "title": "Rolling Ball 3D",
+    "cat": "Sport",
+    "domain": 2
+  },
+  {
+    "slug": "1v1-lol",
+    "title": "1v1.LOL",
+    "cat": "Shooting",
+    "domain": 5,
+    "img": "1v1-lol"
+  },
+  {
+    "slug": "gd",
+    "title": "Geometry Dash",
+    "cat": "Running",
+    "domain": 4,
+    "img": "gd",
+    "ext": 1
+  },
+  {
+    "slug": "motox3m-3",
+    "title": "Moto X3M 3",
+    "cat": "Skill",
+    "domain": 7
+  },
+  {
+    "slug": "getting-over-it",
+    "title": "Getting over it",
+    "cat": "Skill",
+    "domain": 4,
+    "img": "getting-over-it",
+    "ext": 1
+  },
+  {
+      "slug": "ape-sling",
+      "title": "Ape Sling",
+      "domain": 10,
+      "img": "https://slope-game.github.io/new3723/ape-sling/logo.png"
+  },
+  {
+      "slug": "awesome-tanks-2",
+      "title": "Awesome Tanks 2",
+      "domain": 9,
+      "img": "https://slope-game.github.io/new3623/awesome-tanks-2/logo.png"
+  },
+  {
+      "slug": "awesome-tanks",
+      "title": "Awesome Tanks",
+      "domain": 9,
+      "img": "https://slope-game.github.io/new3623/awesome-tanks/logo.png"
+  },
+  {
+      "slug": "bloxorz",
+      "title": "Bloxorz",
+      "domain": 9,
+      "img": "https://slope-game.github.io/new3623/bloxorz/logo.png"
+  },
+  {
+      "slug": "bottle-flip-2",
+      "title": "Bottle Flip 2",
+      "domain": 9,
+      "img": "https://slope-game.github.io/new3623/bottle-flip-2/logo.png"
+  },
+  {
+      "slug": "cooking-tile",
+      "title": "Cooking Tile",
+      "domain": 9,
+      "img": "https://slope-game.github.io/new3623/cooking-tile/logo.png"
+  },
+  {
+      "slug": "curve-ball-3d",
+      "title": "Curve Ball 3D",
+      "domain": 9,
+      "img": "https://slope-game.github.io/new3623/curve-ball-3d/logo.png"
+  },
+  {
+      "slug": "grindcraft",
+      "title": "Grindcraft",
+      "domain": 9,
+      "img": "https://slope-game.github.io/new3623/grindcraft/logo.png"
+  },
+  {
+      "slug": "hell-tile",
+      "title": "Hell Tile",
+      "domain": 9,
+      "img": "https://slope-game.github.io/new3623/hell-tile/logo.png"
+  },
+  {
+      "slug": "idle-breakout",
+      "title": "Idle Breakout",
+      "domain": 9,
+      "img": "https://slope-game.github.io/new3623/idle-breakout/logo.png"
+  },
+  {
+      "slug": "johnny-upgrade",
+      "title": "Johnny Upgrade",
+      "domain": 9,
+      "img": "https://slope-game.github.io/new3623/johnny-upgrade/logo.png"
+  },
+  {
+      "slug": "sheep-n-sheep",
+      "title": "Sheep n Sheep",
+      "domain": 9,
+      "img": "https://slope-game.github.io/new3623/sheep-n-sheep/logo.png"
+  },
+  {
+      "slug": "urban-stack",
+      "title": "Urban Stack",
+      "domain": 9,
+      "img": "https://slope-game.github.io/new3623/urban-stack/logo.png"
+  },
+  {
+      "slug": "basket-random",
+      "title": "Basket Random",
+      "domain": 10,
+      "img": "https://slope-game.github.io/new3723/basket-random/logo.png"
+  },
+  {
+      "slug": "bomb-it-7",
+      "title": "Bomb It 7",
+      "domain": 10,
+      "img": "https://slope-game.github.io/new3723/bomb-it-7/logo.png"
+  },
+  {
+    "slug": "a-small-world-cup",
+    "cat": "skill-games-unblocked",
+    "domain": 99,
+    "urlgame": "https://rebemanae.github.io/a-small-world-cup/",
+    "title": "A Small World Cup",
+    "img": "https://rebemanae.github.io/a-small-world-cup/logo.png"
+  },
+  {
+      "slug": "head-soccer-2023",
+      "title": "Head Soccer 2023",
+      "domain": 10,
+      "img": "https://slope-game.github.io/new3723/head-soccer-2023/logo.png"
+  },
+  {
+      "slug": "money-movers-3",
+      "title": "Money Movers 3",
+      "domain": 10,
+      "img": "https://slope-game.github.io/new3723/money-movers-3/logo.png"
+  },
+  {
+      "slug": "soccer-random",
+      "title": "Soccer Random",
+      "domain": 10,
+      "img": "https://slope-game.github.io/new3723/soccer-random/logo.png"
+  },
+  {
+    "slug": "rolling-sky",
+    "title": "Rolling Sky",
+    "cat": "Sport",
+    "domain": 2
+  },
+  {
+    "slug": "iron-snout",
+    "title": "Iron Snout",
+    "cat": "Action",
+    "domain": 5,
+    "img": "iron-snout"
+  },
+  {
+    "slug": "fireboy-and-watergirl-1",
+    "title": "Fireboy and watergirl",
+    "cat": "Skill",
+    "domain": 5,
+    "img": "fireboy-and-watergirl-1"
+  },
+  {
+    "slug": "basketball-stars",
+    "title": "Basketball Stars",
+    "cat": "Sport",
+    "domain": 5,
+    "img": "basketball-stars"
+  },
+  {
+    "slug": "retro-bowl",
+    "title": "Retro Bowl",
+    "cat": "Sport",
+    "domain": 5
+  },
+  {
+    "slug": "drift-hunters",
+    "title": "Drift Hunters",
+    "cat": "Car",
+    "domain": 5,
+    "img": "drift-hunters"
+  },
+  {
+    "slug": "crossy-road",
+    "title": "Crossy Road",
+    "cat": "Skill",
+    "domain": 2,
+    "img": "crossy-road"
+  },
+  {
+    "slug": "basketball-legends",
+    "title": "Basketball Legends",
+    "cat": "Sport",
+    "domain": 5,
+    "img": "basketball-legends"
+  },
+  {
+    "slug": "football-legends",
+    "title": "Football Legends",
+    "cat": "Sport",
+    "domain": 5,
+    "img": "football-legends"
+  },
+  {
+    "slug": "motox3m-2",
+    "title": "Moto X3M 2",
+    "cat": "Skill",
+    "domain": 7
+  },
+  {
+    "slug": "crowd-run-3d",
+    "title": "Crowd Run 3D",
+    "cat": "Skill",
+    "domain": 2,
+    "img": "crowd-run-3d"
+  },
+  {
+    "slug": "angry-gran-run",
+    "title": "Angry gran run",
+    "cat": "Skill, Running",
+    "domain": 2,
+    "img": "angry-gran-run"
+  },
+  {
+    "slug": "rodeo-stampede-savannah",
+    "title": "Rodeo Stampede Savannah",
+    "cat": "Running",
+    "domain": 2
+  },
+  {
+    "slug": "fnaf1",
+    "title": "FNAF 1",
+    "cat": "Skill",
+    "domain": 4,
+    "img": "fnaf1",
+    "ext": 1
+  },
+  {
+    "slug": "parkour-race",
+    "title": "Parkour Race",
+    "cat": "Sport",
+    "domain": 2
+  },
+  {
+    "slug": "vex7",
+    "title": "Vex 7",
+    "cat": "Skill",
+    "domain": 7
+  },
+  {
+    "slug": "tiny-fishing",
+    "title": "Tiny Fishing",
+    "cat": "Skill",
+    "domain": 5,
+    "img": "tiny-fishing"
+  },
+  {
+    "slug": "cubito",
+    "title": "Cubito",
+    "cat": "Skill",
+    "domain": 2,
+    "img": "cubito"
+  },
+  {
+    "slug": "mad-gunz",
+    "title": "Mad Gunz",
+    "cat": "Shooting",
+    "domain": 5
+  },
+  {
+    "slug": "jetpack-joyride",
+    "title": "JetPack JoyRide",
+    "cat": "Running",
+    "domain": 2
+  },
+  {
+    "slug": "moto-x3m",
+    "title": "Moto x3m",
+    "cat": "Racing",
+    "domain": 5,
+    "img": "moto-x3m"
+  },
+  {
+    "slug": "eagle-ride",
+    "title": "Eagle Ride",
+    "cat": "Action, Running",
+    "domain": 2,
+    "img": "eagle-ride"
+  },
+  {
+    "slug": "burnin-rubber-5-xs",
+    "title": "Burnin Rubber 5 XS",
+    "cat": "Car",
+    "domain": 5,
+    "img": "burnin-rubber-5-xs"
+  },
+  {
+    "slug": "penalty-kick-online",
+    "title": "Penalty kick online",
+    "cat": "Sport",
+    "domain": 5
+  },
+  {
+    "slug": "slope3",
+    "title": "Slope 3",
+    "cat": "Running",
+    "domain": 2
+  },
+  {
+    "slug": "stair-race-3d",
+    "title": "Stair Race 3D",
+    "cat": "Running",
+    "domain": 2
+  },
+  {
+    "slug": "bottle-flip-3d",
+    "title": "Flip Bottle",
+    "cat": "Skill",
+    "domain": 5,
+    "img": "bottle-flip-3d",
+    "ext": 1
+  },
+  {
+    "slug": "color-road-2",
+    "title": "Color Road 2",
+    "cat": "Skill",
+    "domain": 7
+  },
+  {
+    "slug": "madalin-stunt-cars-3",
+    "title": "Madalin stunt cars 3",
+    "cat": "Car",
+    "domain": 5
+  },
+  {
+    "slug": "stickmanhook",
+    "title": "Stickman Hook",
+    "cat": "Stickman",
+    "domain": 5
+  },
+  {
+    "slug": "house-of-hazards",
+    "title": "House Of Hazards",
+    "cat": "Skill",
+    "domain": 5
+  },
+  {
+    "slug": "stickmerge",
+    "title": "Stick Merge",
+    "cat": "Idle, Stickman",
+    "domain": 5
+  },
+  {
+    "slug": "rocket-soccer-derby",
+    "title": "Rocket Soccer Derby",
+    "cat": "Car",
+    "domain": 6
+  },
+  {
+    "slug": "running-fred",
+    "title": "Running Fred",
+    "cat": "Sport",
+    "domain": 2
+  },
+  {
+    "slug": "drive-mad",
+    "title": "Drive Mad",
+    "cat": "Car",
+    "domain": 3,
+    "img": "drive-mad",
+    "ext": 1
+  },
+  {
+    "slug": "iron-snout-2",
+    "title": "Iron Snout 2",
+    "cat": "Action",
+    "domain": 5,
+    "img": "iron-snout-2"
+  },
+  {
+    "slug": "temple-run-2",
+    "title": "Temple Run 2",
+    "cat": "Running",
+    "domain": 2
+  },
+  {
+    "slug": "tunnel-rush-2",
+    "title": "Tunnel Rush 2",
+    "cat": "Skill, Running",
+    "domain": 2,
+    "img": "tunnel-rush-2"
+  },
+  {
+    "slug": "subway-surfers-nyc",
+    "title": "Subway Surfers New York City",
+    "cat": "Running",
+    "domain": 8
+  },
+  {
+    "slug": "spin-master",
+    "title": "Spin Master",
+    "cat": "Skill",
+    "domain": 7
+  },
+  {
+    "slug": "murder",
+    "title": "Murder",
+    "cat": "Skill",
+    "domain": 4
+  },
+  {
+    "slug": "elasticman",
+    "title": "Elasticman",
+    "cat": "Skill",
+    "domain": 8
+  },
+  {
+    "slug": "gswitch",
+    "title": "G-Switch 3",
+    "cat": "Running",
+    "domain": 2
+  },
+  {
+    "slug": "temple-of-boom",
+    "title": "Temple of boom",
+    "cat": "Action",
+    "domain": 4
+  },
+  {
+    "slug": "fireboy-and-watergirl-5",
+    "cat": "2-player-games-unblocked",
+    "domain": 99,
+    "urlgame": "https://slope-game.github.io/fireboy-water-5/",
+    "title": "Fireboy & Watergirl 5 Elements",
+    "img": "https://slope-game.github.io/fireboy-water-5/logo.png"
+  },
+  {
+    "slug": "penalty-shooters-2",
+    "title": "Penalty Shooters 2",
+    "cat": "Sport",
+    "domain": 6
+  },
+  {
+    "slug": "subway-surfers-singapore",
+    "title": "Subway Surfers Singapore",
+    "cat": "Running",
+    "domain": 8
+  },
+  {
+    "slug": "subway-surfers-winter-holiday",
+    "title": "Subway Surfers Winter Holiday",
+    "cat": "Running",
+    "domain": 8
+  },
+  {
+    "slug": "subway-surfers-havana",
+    "title": "Subway Surfers Havana",
+    "cat": "Running",
+    "domain": 8
+  },
+  {
+    "slug": "subway-surfers-mumbai",
+    "title": "Subway Surfers Mumbai",
+    "cat": "Running",
+    "domain": 8
+  },
+  {
+    "slug": "subway-surfers",
+    "title": "Subway Surfers Tokyo",
+    "cat": "Running",
+    "domain": 8
+  },
+  {
+    "slug": "subway-surfers-bali",
+    "title": "Subway Surfers Bali",
+    "cat": "Running",
+    "domain": 8
+  },
+  {
+    "slug": "subway-surfers-new-orleans",
+    "title": "Subway Surfers New Orleans",
+    "cat": "Running",
+    "domain": 8
+  },
+  {
+    "slug": "subway-surfers-hongkong",
+    "title": "Subway Surfers HongKong",
+    "cat": "Running",
+    "domain": 8
+  },
+  {
+    "slug": "subway-surfers-venice",
+    "title": "Subway Surfers Venice",
+    "cat": "Running",
+    "domain": 8
+  },
+  {
+    "slug": "subway-surfers-nyc",
+    "title": "Subway Surfers New York City",
+    "cat": "Running",
+    "domain": 8
+  }
+]

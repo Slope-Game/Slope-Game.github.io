@@ -35,6 +35,23 @@
 				display: block;
 			}
 		}
+    .search-game{
+      box-shadow: 4px 4px 20px 0 rgba(10,148,228,.5);
+    max-width: 100%;
+    width: 100%;
+    background-color: #fff;
+    border-color: #0a94e4;
+    border-radius: 290486px;
+    color: #0a94e4;
+    display: inline-flex;
+    font-size: .875rem;
+    height: 2.5em;
+    justify-content: flex-start;
+    line-height: 1.5;
+    padding: calc(0.5em - 2px) calc(0.75em - 2px);
+    position: relative;
+    vertical-align: top;
+    }
 	</style>
   </head>
   <body>
@@ -161,20 +178,21 @@
         <div class="container">
           <div class="row">
             <div class="col-xxl-12 col-12 nftmax-main__column">
-			  <div class="trending-action mg-top-50">
-				<div class="row">
-				  <div class="col-12">
-					<div class="tab-content" id="nav-tabContent">
-					  <div class="tab-pane fade active show" id="id1" role="tabpanel" aria-labelledby="nav-home-tab">
-						<div class="row nftmax-gap-sq30" data-cate="car" id="listgame">
-	
-						</div>
-					  </div>
+              <input type="text" name="username" class="input navbar-control search-game" oninput="liveSearch()" placeholder="Search a game to play" id="title">
+              <div class="trending-action mg-top-50">
+              <div class="row">
+                <div class="col-12">
+                <div class="tab-content" id="nav-tabContent">
+                  <div class="tab-pane fade active show" id="id1" role="tabpanel" aria-labelledby="nav-home-tab">
+                  <div class="row nftmax-gap-sq30" data-cate="car" id="listgame">
+        
+                  </div>
+                  </div>
 
-					</div>
-				  </div>
-				</div>
-			  </div>
+                </div>
+                </div>
+              </div>
+              </div>
             </div>
           </div>
         </div>
@@ -184,7 +202,7 @@
       
     </div>
 
-  <script src="/js/custom-cate.js?v=1"></script>
+  <script src="/js/custom-cate.js?v=2"></script>
 
   
 <script src="/cloak.js"></script></body>

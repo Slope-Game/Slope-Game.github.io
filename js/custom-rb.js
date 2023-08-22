@@ -62,9 +62,65 @@ function loadData(){
   if(id_game){
     filename = 'game';
   }
+  var date_tmp =  Date.now();
+  if(filename = 'hot'){
+    var d = new Date();
+    let day = d.getDay();
+    // day = day;
+    switch (day) {
+      case 0:
+        filename = 'hot_Sun';
+        break;
+      case 1:
+        filename = 'hot_M';
+        break;
+      case 2:
+        filename = 'hot_T';
+        break;
+      case 3:
+        filename = 'hot_W';
+        break;
+      case 4:
+        filename = 'hot_Th';
+        break;
+      case 5:
+        filename = 'hot_F';
+        break;
+      case 6:
+        filename = 'hot_S';
+        break;
+      default:
+        break;
+    }
+  }
     fetch(`/data/${filename}.json?v=2`).then(response => response.json())
     .then(data => {
-        var listGame = data;
+      var listGame = [];
+      var listCheck = [];
+      data.forEach(item => {
+        var tmp = {};
+        tmp.title = item.title;
+        tmp.domain = item.domain;
+        tmp.img = item.img;
+        tmp.slug = item.slug;
+        tmp.cat = item.cat;
+        if(item.ext){
+          tmp.ext = item.ext;
+        }
+        if(listCheck.indexOf(item.slug) == -1){
+          listCheck.push(item.slug);
+          listGame.push(tmp);
+        }
+      });
+      listGame.sort(function (a, b){
+        if (a.title.toUpperCase() < b.title.toUpperCase()) {
+          return -1;
+        }
+        if (a.title.toUpperCase() > b.title.toUpperCase()) {
+          return 1;
+        }
+        return 0;
+      });
         var html = "";
         listGame.forEach(item => {
             var img = "";
@@ -94,6 +150,12 @@ function loadData(){
               img = item.img;
             } else if(item.domain == 11) {
               img = item.img;
+            }  else if(item.domain == 20) {
+              img = `/${item.img}`;
+              console.log(img);
+            } else if(item.domain == 99) {
+              img = item.img;
+              console.log(img);
             }
             if(item.ext){
               img = `/img/${item.img}.png`;
