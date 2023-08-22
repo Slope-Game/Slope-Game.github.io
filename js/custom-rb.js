@@ -63,7 +63,7 @@ function loadData(){
     filename = 'game';
   }
   var date_tmp =  Date.now();
-  if(filename = 'hot'){
+  if(filename == 'hot'){
     var d = new Date();
     let day = d.getDay();
     // day = day;

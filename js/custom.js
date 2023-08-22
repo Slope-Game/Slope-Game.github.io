@@ -264,8 +264,13 @@ function loadData(){
   if(id_game){
     filename = 'game';
   }
+  var url = document.URL;
+  if(url.indexOf("list.html") != -1){
+    filename = "game";
+  }
+  console.log(url);
   var date_tmp =  Date.now();
-  if(filename = 'hot'){
+  if(filename == 'hot'){
     var d = new Date();
     let day = d.getDay();
     // day = day;
