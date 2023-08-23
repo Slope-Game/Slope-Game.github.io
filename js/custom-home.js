@@ -1,3 +1,4 @@
+
 function showMenu(e){
     e.style.display = "none";
     var menu = document.querySelector(".nftmax-smenu");
@@ -20,55 +21,47 @@ function fullscreen(){
     document.querySelector('.btn-full svg use').setAttribute("href","#closeFullscreenIcon");
   }
 }
-function open_fullscreen() {
-    let game = document.getElementById("gameframe");
-    if (game.requestFullscreen) {
-    game.requestFullscreen();
-    } else if (game.mozRequestFullScreen) { /* Firefox */
-    game.mozRequestFullScreen();
-    } else if (game.webkitRequestFullscreen) { /* Chrome, Safari and Opera */
-    game.webkitRequestFullscreen();
-    } else if (game.msRequestFullscreen) { /* IE/Edge */
-    game.msRequestFullscreen();
-    }
-};
-function loadGA(){
-    
-    var  r = document.createElement("script");
-  r.setAttribute("src", "https://www.googletagmanager.com/gtag/js?id=G-BF3BWX3NND"), r.setAttribute("type", "text/javascript"), r.setAttribute("crossOrigin", "anonymous"),  r.onload = function (){
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-  
-      gtag('config', 'G-BF3BWX3NND');
-  
-    },document.head.appendChild(r);
-    
-}
-function loadAds(){
-    var  r = document.createElement("script");
-    r.setAttribute("src", "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7889675448259925"), r.setAttribute("type", "text/javascript"), r.setAttribute("crossOrigin", "anonymous"), r.onload = function (){
-      // if(document.querySelector('.adsbygoogle')){
-      //   (adsbygoogle = window.adsbygoogle || []).push({});
-      //   (adsbygoogle = window.adsbygoogle || []).push({});
-      // }
-    },document.head.appendChild(r);
-    
-}
 function liveSearch(){
   var id_game = document.querySelector("#listgame");
-  var filename = 'hot';
-  if(id_game){
-    filename = id_game.dataset.cate;
-  }
+  var filename = 'game';
+  // if(id_game){
+  //   filename = id_game.dataset.cate;
+  // }
   
-    fetch(`/data/${filename}.json?v=2`).then(response => response.json())
-    .then(listGame => {
+    fetch(`/data/${filename}.json?v=3`).then(response => response.json())
+    .then(data => {
       var x = document.querySelector(".search-game").value;
       console.log(x);
       
       let html = "";
       if(x != ""){
+        var listGame = [];
+        var listCheck = [];
+        data.forEach(item => {
+          var tmp = {};
+          tmp.title = item.title;
+          tmp.domain = item.domain;
+          tmp.img = item.img;
+          tmp.slug = item.slug;
+          tmp.cat = item.cat;
+          if(item.ext){
+            tmp.ext = item.ext;
+          }
+          if(listCheck.indexOf(item.slug) == -1){
+            listCheck.push(item.slug);
+            listGame.push(tmp);
+          }
+        });
+        listGame.sort(function (a, b){
+          if (a.title.toUpperCase() < b.title.toUpperCase()) {
+            return -1;
+          }
+          if (a.title.toUpperCase() > b.title.toUpperCase()) {
+            return 1;
+          }
+          return 0;
+        });
+        
         for (var j=0; j<listGame.length; j++) {
             if (listGame[j].title.toUpperCase().indexOf(x.toUpperCase()) >= 0) {
                 var item = listGame[j];
@@ -76,7 +69,11 @@ function liveSearch(){
                 if(item.domain == 1){
                     img = `https://slope-game.github.io/file/${item.slug}/logo.png`;
                 } else if(item.domain == 2) {
+                  
                     img = `https://slope-game.github.io/rungame/${item.slug}/logo.png`;
+                    if(item.slug == "roblox-unblocked"){
+                      img = item.img;
+                    }
                 } else if(item.domain == 3) {
                   img = `https://ubg77.github.io/game131022/${item.slug}/logo.png`;
                 } else if(item.domain == 4) {
@@ -99,7 +96,7 @@ function liveSearch(){
                   img = item.img;
                 } else if(item.domain == 11) {
                   img = item.img;
-                }else if(item.domain == 20) {
+                } else if(item.domain == 20) {
                   img = `/${item.img}`;
                   console.log(img);
                 } else if(item.domain == 99) {
@@ -221,13 +218,89 @@ function liveSearch(){
   
 
 }
+function open_fullscreen() {
+    let game = document.getElementById("gameframe");
+    if (game.requestFullscreen) {
+    game.requestFullscreen();
+    } else if (game.mozRequestFullScreen) { /* Firefox */
+    game.mozRequestFullScreen();
+    } else if (game.webkitRequestFullscreen) { /* Chrome, Safari and Opera */
+    game.webkitRequestFullscreen();
+    } else if (game.msRequestFullscreen) { /* IE/Edge */
+    game.msRequestFullscreen();
+    }
+};
+function loadGA(){
+    
+    var  r = document.createElement("script");
+  r.setAttribute("src", "https://www.googletagmanager.com/gtag/js?id=G-BF3BWX3NND"), r.setAttribute("type", "text/javascript"), r.setAttribute("crossOrigin", "anonymous"),  r.onload = function (){
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+  
+      gtag('config', 'G-BF3BWX3NND');
+  
+    },document.head.appendChild(r);
+    
+}
+function loadAds(){
+    var  r = document.createElement("script");
+    r.setAttribute("src", "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7889675448259925"), r.setAttribute("type", "text/javascript"), r.setAttribute("crossOrigin", "anonymous"), r.onload = function (){
+      if(document.querySelector('.adsbygoogle')){
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      }
+    },document.head.appendChild(r);
+    
+}
+function isNumeric(str) {
+  if (typeof str != "string") return false 
+  return !isNaN(str) && 
+         !isNaN(parseFloat(str))
+}
 function loadData(){
   var id_game = document.querySelector("#listgame");
   var filename = 'hot';
   if(id_game){
-    filename = id_game.dataset.cate;
+    filename = 'game';
   }
-    fetch(`/data/${filename}.json?v=2`).then(response => response.json())
+  var url = document.URL;
+  if(url.indexOf("list.html") != -1){
+    filename = "game";
+  }
+  console.log(url);
+  var date_tmp =  Date.now();
+  if(filename == 'hot'){
+    var d = new Date();
+    let day = d.getDay();
+    // day = day;
+    switch (day) {
+      case 0:
+        filename = 'hot_Sun';
+        break;
+      case 1:
+        filename = 'hot_M';
+        break;
+      case 2:
+        filename = 'hot_T';
+        break;
+      case 3:
+        filename = 'hot_W';
+        break;
+      case 4:
+        filename = 'hot_Th';
+        break;
+      case 5:
+        filename = 'hot_F';
+        break;
+      case 6:
+        filename = 'hot_S';
+        break;
+      default:
+        break;
+    }
+  }
+  fetch(`/data/${filename}.json?v=${date_tmp}`).then(response => response.json())
     .then(data => {
         var listGame = [];
         var listCheck = [];
@@ -255,8 +328,24 @@ function loadData(){
           }
           return 0;
         });
+        
+        //var html = `<div id="headerSearchResult" style="display: block;font-size: 4vmin;">Games found starting with Number.</div>`;
         var html = "";
-        listGame.forEach(item => {
+        listGame.forEach((item, index) => {
+         
+            var tmp_str = item.title.toLowerCase().split("");
+            if(isNumeric(tmp_str[0])){
+              item.number = 1;
+            } else {
+              if(index > 0 && listGame[index].title.toLowerCase().split("")[0] != listGame[index-1].title.toLowerCase().split("")[0]){
+                listGame[index].end = 1;
+              }
+            }
+            
+        });
+        
+        listGame.forEach((item, index) => {
+            
             var img = "";
             if(item.domain == 1){
                 img = `https://slope-game.github.io/file/${item.slug}/logo.png`;
@@ -284,17 +373,16 @@ function loadData(){
               img = item.img;
             } else if(item.domain == 11) {
               img = item.img;
-            }else if(item.domain == 20) {
+            } else if(item.domain == 20) {
               img = `/${item.img}`;
-              console.log(img);
+              // console.log(img);
             } else if(item.domain == 99) {
               img = item.img;
-              console.log(img);
+              // console.log(img);
             }
             if(item.ext){
               img = `/img/${item.img}.png`;
             }
-
             if(id_game){
               html += `<div class="col-lg-3 col-md-3 col-12">
               <div class="trending-action__single trending-action__single--v2">
@@ -319,7 +407,12 @@ function loadData(){
                   <img src="${img}" alt="${item.title}">
                   </a>
                 </div>
-
+                <div class="trending-action__body trending-marketplace__body">
+                  <h2 class="trending-action__title">
+                    <a href="/${item.slug}.html">${item.title}</a>
+                  </h2>
+                  
+                </div>
             </div>`;
             }
         
@@ -338,13 +431,7 @@ function loadData(){
 window.addEventListener('load', function() {
     
     loadData();
-    var menu = this.document.createElement("a");
-    menu.href = "/roblox-unblocked.html";
-    menu.innerHTML = `<span class="menu-bar__text">
-    <span class="menu-bar__name">Roblox</span>
-  </span>`;
-    // console.log(document.querySelector(".menu-bar__one .active"));
-    // document.querySelector(".menu-bar__one .active").prepend(menu);
+
     console.log(window.location.href.indexOf("localhost"));
     
 })
