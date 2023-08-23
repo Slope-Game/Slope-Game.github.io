@@ -246,8 +246,10 @@ function loadGA(){
 function loadAds(){
     var  r = document.createElement("script");
     r.setAttribute("src", "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7889675448259925"), r.setAttribute("type", "text/javascript"), r.setAttribute("crossOrigin", "anonymous"), r.onload = function (){
-      if(document.querySelector('.adsbygoogle')){
+      if(document.querySelector('.ads_728x90')){
         (adsbygoogle = window.adsbygoogle || []).push({});
+      }
+      if(document.querySelector('.ads_300x600')){
         (adsbygoogle = window.adsbygoogle || []).push({});
       }
     },document.head.appendChild(r);
