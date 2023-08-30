@@ -250,6 +250,19 @@
                       img = `https://slope-game.github.io/newgame/${item.slug}/logo.png`;
                     } else if(item.domain == 8) {
                       img = `https://ubg77.github.io/updatefaqs/${item.slug}/logo.png`;
+                    } else if(item.domain == 9) {
+                      img = item.img;
+                    }
+                    else if(item.domain == 10) {
+                      img = item.img;
+                    } else if(item.domain == 11) {
+                      img = item.img;
+                    } else if(item.domain == 20) {
+                      img = `/${item.img}`;
+                      // console.log(img);
+                    } else if(item.domain == 99) {
+                      img = item.img;
+                      // console.log(img);
                     }
                     if(item.ext){
                       img = `/img/${item.img}.png`;

@@ -1089,5 +1089,772 @@
       "title": "Subway Surfers New York City",
       "cat": "Running",
       "domain": 8
+    },
+    {
+      "slug": "johnny-revenge",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/johnny-revenge/",
+      "title": "Johnny Revenge",
+      "img": "https://slope-game.github.io/johnny-revenge/logo.png"
+    },
+    {
+      "slug": "lows-adventures-1",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/lows-adventures-1/",
+      "title": "Low's Adventures 1",
+      "img": "https://slope-game.github.io/lows-adventures-1/logo.png"
+    },
+    {
+      "slug": "lows-adventures-2",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/lows-adventures-2/",
+      "title": "Low's Adventures 2",
+      "img": "https://slope-game.github.io/lows-adventures-2/logo.png"
+    },
+    {
+      "slug": "rambling-racer",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/rambling-racer/",
+      "title": "Rambling Racer",
+      "img": "https://slope-game.github.io/rambling-racer/logo.png"
+    },
+    {
+      "slug": "bobblehead-soccer",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/bobblehead-soccer/",
+      "title": "BobbleHead Soccer",
+      "img": "https://slope-game.github.io/bobblehead-soccer/logo.png"
+    },
+    {
+      "slug": "tiny-cars",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/tiny-cars/",
+      "title": "Tiny Cars",
+      "img": "https://slope-game.github.io/tiny-cars/logo.png"
+    },
+    {
+      "slug": "drop-the-number",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/drop-the-number/",
+      "title": "Drop The Number",
+      "img": "https://slope-game.github.io/drop-the-number/logo.png"
+    },
+    {
+      "slug": "run-run-duck",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/run-run-duck/",
+      "title": "Run Run Duck",
+      "img": "https://slope-game.github.io/run-run-duck/logo.png"
+    },
+    {
+      "slug": "geometry-dash-remastered",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/geometry-dash-remastered/",
+      "title": "Geometry Dash Remastered",
+      "img": "https://slope-game.github.io/geometry-dash-remastered/logo.png"
+    },
+    {
+      "slug": "diggy",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/diggy/",
+      "title": "Diggy",
+      "img": "https://slope-game.github.io/diggy/logo.png"
+    },
+    {
+      "slug": "cannon-basketball",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/cannon-basketball/",
+      "title": "Cannon BasketBall",
+      "img": "https://slope-game.github.io/cannon-basketball/logo.png"
+    },
+    {
+      "slug": "cannon-basketball-2",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/cannon-basketball-2/",
+      "title": "Cannon BasketBall 2",
+      "img": "https://slope-game.github.io/cannon-basketball-2/logo.png"
+    },
+    {
+      "slug": "cannon-basketball-3",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/cannon-basketball-3/",
+      "title": "Cannon BasketBall 3",
+      "img": "https://slope-game.github.io/cannon-basketball-3/logo.png"
+    },
+    {
+      "slug": "cannon-basketball-4",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/cannon-basketball-4/",
+      "title": "Cannon BasketBall 4",
+      "img": "https://slope-game.github.io/cannon-basketball-4/logo.png"
+    },
+    {
+      "slug": "swing-monkey",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/swing-monkey/",
+      "title": "Swing Monkey",
+      "img": "https://slope-game.github.io/swing-monkey/logo.png"
+    },
+    {
+      "slug": "the-sun-for-the-vampire",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/the-sun-for-the-vampire/",
+      "title": "The Sun For The Vampire",
+      "img": "https://slope-game.github.io/the-sun-for-the-vampire/logo.png"
+    },
+    {
+      "slug": "the-sun-for-the-vampire-2",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/the-sun-for-the-vampire-2/",
+      "title": "The Sun For The Vampire 2",
+      "img": "https://slope-game.github.io/the-sun-for-the-vampire-2/logo.png"
+    },
+    {
+      "slug": "the-sun-for-the-vampire-3",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/the-sun-for-the-vampire-3/",
+      "title": "The Sun For The Vampire 3",
+      "img": "https://slope-game.github.io/the-sun-for-the-vampire-3/logo.png"
+    },
+    {
+      "slug": "three-goblets",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/three-goblets/",
+      "title": "Three Goblets",
+      "img": "https://slope-game.github.io/three-goblets/logo.png"
+    },
+    {
+      "slug": "tradecraft",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/tradecraft/",
+      "title": "TradeCraft",
+      "img": "https://slope-game.github.io/tradecraft/logo.png"
+    },
+    {
+      "slug": "age-of-war-game",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/age-of-war-game/",
+      "title": "Age Of War",
+      "img": "https://slope-game.github.io/age-of-war-game/logo.png"
+    },
+    {
+      "slug": "up-hill-racing-2",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/up-hill-racing-2/",
+      "title": "Up Hill Racing 2",
+      "img": "https://slope-game.github.io/up-hill-racing-2/logo.png"
+    },
+    {
+      "slug": "helix-jump-halloween",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/helix-jump-halloween/",
+      "title": "Heli Jump Halloween",
+      "img": "https://slope-game.github.io/helix-jump-halloween/logo.png"
+    },
+    {
+      "slug": "round-hit-3d",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/round-hit-3d/",
+      "title": "Round Hit 3D",
+      "img": "https://slope-game.github.io/round-hit-3d/logo.png"
+    },
+    {
+      "slug": "paint-pop-3d-2",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/paint-pop-3d-2/",
+      "title": "Paint Pop 3D",
+      "img": "https://slope-game.github.io/paint-pop-3d-2/logo.png"
+    },
+    {
+      "slug": "geometry-dash-mr-dubstep",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/geometry-dash-mr-dubstep/",
+      "title": "Geometry Dash Mr Dubstep",
+      "img": "https://slope-game.github.io/geometry-dash-mr-dubstep/logo.png"
+    },
+    {
+      "slug": "tiles-hop-3d",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/tiles-hop-3d/",
+      "title": "Tiles Hop 3D",
+      "img": "https://slope-game.github.io/tiles-hop-3d/logo.png"
+    },
+    {
+      "slug": "escape-run",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/escape-run/",
+      "title": "Escape Run",
+      "img": "https://slope-game.github.io/escape-run/logo.png"
+    },
+    {
+      "slug": "trollface-quest-usa-2",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/trollface-quest-usa-2/",
+      "title": "TrollFace Quest USA 2",
+      "img": "https://slope-game.github.io/trollface-quest-usa-2/logo.png"
+    },
+    {
+      "slug": "trollface-quest-usa-1",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/trollface-quest-usa-1/",
+      "title": "TrollFace Quest USA 1",
+      "img": "https://slope-game.github.io/trollface-quest-usa-1/logo.png"
+    },
+    {
+      "slug": "adam-and-eve-astronaut",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/adam-and-eve-astronaut/",
+      "title": "Adam and Eve Astronaut",
+      "img": "https://slope-game.github.io/adam-and-eve-astronaut/logo.png"
+    },
+    {
+      "slug": "snail-bob-8",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/snail-bob-8/",
+      "title": "Snail Bob 8: Island Story",
+      "img": "https://slope-game.github.io/snail-bob-8/logo.png"
+    },
+    {
+      "slug": "snail-bob-7",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/snail-bob-7/",
+      "title": "Snail Bob 7: Fantasy Story",
+      "img": "https://slope-game.github.io/snail-bob-7/logo.png"
+    },
+    {
+      "slug": "snail-bob-6",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/snail-bob-6/",
+      "title": "Snail Bob 6: Winter Story",
+      "img": "https://slope-game.github.io/snail-bob-6/logo.png"
+    },
+    {
+      "slug": "snail-bob-5-html5",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/snail-bob-5-html5/",
+      "title": "Snail Bob 5: Love Story",
+      "img": "https://slope-game.github.io/snail-bob-5-html5/logo.png"
+    },
+    {
+      "slug": "snail-bob-4",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/snail-bob-4/",
+      "title": "Snail Bob 4",
+      "img": "https://slope-game.github.io/snail-bob-4/logo.png"
+    },
+    {
+      "slug": "snail-bob-3",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/snail-bob-3/",
+      "title": "Snail Bob 3",
+      "img": "https://slope-game.github.io/snail-bob-3/logo.png"
+    },
+    {
+      "slug": "snail-bob-2-html5",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/snail-bob-2-html5/",
+      "title": "Snail Bob 2",
+      "img": "https://slope-game.github.io/snail-bob-2-html5/logo.png"
+    },
+    {
+      "slug": "snail-bob-1-html5",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/snail-bob-1-html5/",
+      "title": "Snail Bob 1",
+      "img": "https://slope-game.github.io/snail-bob-1-html5/logo.png"
+    },
+    {
+      "slug": "flying-car-game-police-games",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/flying-car-game-police-games/",
+      "title": "Flying Car Game: Police Games",
+      "img": "https://slope-game.github.io/flying-car-game-police-games/logo.png"
+    },
+    {
+      "slug": "stick-war-ninja-duel",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/stick-war-ninja-duel/",
+      "title": "Stick War Ninja Duel",
+      "img": "https://slope-game.github.io/stick-war-ninja-duel/logo.png"
+    },
+    {
+      "slug": "grindcraft-remastered",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/grindcraft-remastered/",
+      "title": "Grindcraft Remastered",
+      "img": "https://slope-game.github.io/grindcraft-remastered/logo.png"
+    },
+    {
+      "slug": "balls-race",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/balls-race/",
+      "title": "Balls Race",
+      "img": "https://slope-game.github.io/balls-race/logo.png"
+    },
+    {
+      "slug": "wheely-8-1",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/wheely-8-1/",
+      "title": "Wheely 8",
+      "img": "https://slope-game.github.io/wheely-8-1/logo.png"
+    },
+    {
+      "slug": "wheely-7",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/wheely-7/",
+      "title": "Wheely 7",
+      "img": "https://slope-game.github.io/wheely-7/logo.png"
+    },
+    {
+      "slug": "wheely-6",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/wheely-6/",
+      "title": "Wheely 6",
+      "img": "https://slope-game.github.io/wheely-6/logo.png"
+    },
+    {
+      "slug": "wheely-5",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/wheely-5/",
+      "title": "Wheely 5",
+      "img": "https://slope-game.github.io/wheely-5/logo.png"
+    },
+    {
+      "slug": "wheely-4",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/wheely-4/",
+      "title": "Wheely 4",
+      "img": "https://slope-game.github.io/wheely-4/logo.png"
+    },
+    {
+      "slug": "wheely-3",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/wheely-3/",
+      "title": "Wheely 3",
+      "img": "https://slope-game.github.io/wheely-3/logo.png"
+    },
+    {
+      "slug": "wheely-2",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/wheely-2/",
+      "title": "Wheely 2",
+      "img": "https://slope-game.github.io/wheely-2/logo.png"
+    },
+    {
+      "slug": "bomb-it-6",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/bomb-it-6/",
+      "title": "Bomb It 6",
+      "img": "https://slope-game.github.io/bomb-it-6/logo.png"
+    },
+    {
+      "slug": "bomb-it-5",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/bomb-it-5/",
+      "title": "Bomb It 5",
+      "img": "https://slope-game.github.io/bomb-it-5/logo.png"
+    },
+    {
+      "slug": "bomb-it-4",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/bomb-it-4/",
+      "title": "Bomb It 4",
+      "img": "https://slope-game.github.io/bomb-it-4/logo.png"
+    },
+    {
+      "slug": "bomb-it-3",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/bomb-it-3/",
+      "title": "Bomb It 3",
+      "img": "https://slope-game.github.io/bomb-it-3/logo.png"
+    },
+    {
+      "slug": "bomb-it-2",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/bomb-it-2/",
+      "title": "Bomb It 2",
+      "img": "https://slope-game.github.io/bomb-it-2/logo.png"
+    },
+    {
+      "slug": "bomb-it",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/bomb-it/",
+      "title": "Bomb It",
+      "img": "https://slope-game.github.io/bomb-it/logo.png"
+    },
+    {
+      "slug": "silly-ways-to-die-differences",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/silly-ways-to-die-differences/",
+      "title": "Silly Ways to Die Differences",
+      "img": "https://slope-game.github.io/silly-ways-to-die-differences/logo.png"
+    },
+    {
+      "slug": "silly-ways-to-die-adventures",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/silly-ways-to-die-adventures/",
+      "title": "Silly Ways to Die Adventures",
+      "img": "https://slope-game.github.io/silly-ways-to-die-adventures/logo.png"
+    },
+    {
+      "slug": "silly-ways-to-die-christmas-party",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/silly-ways-to-die-christmas-party/",
+      "title": "Silly Ways to Die Christmas Party",
+      "img": "https://slope-game.github.io/silly-ways-to-die-christmas-party/logo.png"
+    },
+    {
+      "slug": "sea-bubble-pirates",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/sea-bubble-pirates/",
+      "title": "Sea Bubble Pirates",
+      "img": "https://slope-game.github.io/sea-bubble-pirates/logo.png"
+    },
+    {
+      "slug": "fishing-3-online",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/fishing-3-online/",
+      "title": "Fishing 3 Online",
+      "img": "https://slope-game.github.io/fishing-3-online/logo.png"
+    },
+    {
+      "slug": "tomb-of-the-cat",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/tomb-of-the-cat/",
+      "title": "Tomb Of The Cat",
+      "img": "https://slope-game.github.io/tomb-of-the-cat/logo.png"
+    },
+    {
+      "slug": "tomb-of-the-cat-color",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/tomb-of-the-cat-color/",
+      "title": "Tomb Of The Cat Color",
+      "img": "https://slope-game.github.io/tomb-of-the-cat-color/logo.png"
+    },
+    {
+      "slug": "tomb-of-the-mask-color",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/tomb-of-the-mask-color/",
+      "title": "Tomb Of The Mask Color",
+      "img": "https://slope-game.github.io/tomb-of-the-mask-color/logo.png"
+    },
+    {
+      "slug": "tomb-of-the-mark-2",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/tomb-of-the-mark-2/",
+      "title": "Tomb Of The Mask 2",
+      "img": "https://slope-game.github.io/tomb-of-the-mark-2/logo.png"
+    },
+    {
+      "slug": "xmas-rooftop-battles",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/xmas-rooftop-battles/",
+      "title": "Xmas Rooftop Battles",
+      "img": "https://slope-game.github.io/xmas-rooftop-battles/logo.png"
+    },
+    {
+      "slug": "tomb-of-the-mask-neon",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/tomb-of-the-mask-neon/",
+      "title": "Tomb Of The Mask Neon",
+      "img": "https://slope-game.github.io/tomb-of-the-mask-neon/logo.png"
+    },
+    {
+      "slug": "rooftop-shooters",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/rooftop-shooters/",
+      "title": "Roofttop Shooters",
+      "img": "https://slope-game.github.io/rooftop-shooters/logo.png"
+    },
+    {
+      "slug": "castel-wars-modern",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/castel-wars-modern/",
+      "title": "Castel Wars Modern",
+      "img": "https://slope-game.github.io/castel-wars-modern/logo.png"
+    },
+    {
+      "slug": "down-the-hill-1",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/down-the-hill-1/",
+      "title": "Down The Hill",
+      "img": "https://slope-game.github.io/down-the-hill-1/logo.png"
+    },
+    {
+      "slug": "fall-red-stickman",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/fall-red-stickman/",
+      "title": "Fall Red Stickman",
+      "img": "https://slope-game.github.io/fall-red-stickman/logo.png"
+    },
+    {
+      "slug": "trollface-quest-horror-2",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/trollface-quest-horror-2/",
+      "title": "TrollFace Quest Horror 2",
+      "img": "https://slope-game.github.io/trollface-quest-horror-2/logo.png"
+    },
+    {
+      "slug": "trollface-quest-horror-1",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/trollface-quest-horror-1/",
+      "title": "TrollFace Quest Horror 1",
+      "img": "https://slope-game.github.io/trollface-quest-horror-1/logo.png"
+    },
+    {
+      "slug": "slope-run",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/slope-run/",
+      "title": "Slope Run",
+      "img": "https://slope-game.github.io/slope-run/logo.png"
+    },
+    {
+      "slug": "crazy-runner-in-city",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/crazy-runner-in-city/",
+      "title": "Crazy Runner in City",
+      "img": "https://slope-game.github.io/crazy-runner-in-city/logo.png"
+    },
+    {
+      "slug": "dune-surfer",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/dune-surfer/",
+      "title": "Dune Surfer",
+      "img": "https://slope-game.github.io/dune-surfer/logo.png"
+    },
+    {
+      "slug": "jump-monster",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/jump-monster/",
+      "title": "Jump Monster",
+      "img": "https://slope-game.github.io/jump-monster/logo.png"
+    },
+    {
+      "slug": "heroball-adventures",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/heroball-adventures/",
+      "title": "Heroball Adventures",
+      "img": "https://slope-game.github.io/heroball-adventures/logo.png"
+    },
+    {
+      "slug": "parkour-rooftop",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/parkour-rooftop/",
+      "title": "Parkour Rooftop",
+      "img": "https://slope-game.github.io/parkour-rooftop/logo.png"
+    },
+    {
+      "slug": "interstellar-run",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/interstellar-run/",
+      "title": "Interstellar Run",
+      "img": "https://slope-game.github.io/interstellar-run/logo.png"
+    },
+    {
+      "slug": "protect-my-dog",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/protect-my-dog/",
+      "title": "Protect My Dog",
+      "img": "https://slope-game.github.io/protect-my-dog/logo.png"
+    },
+    {
+      "slug": "draw-and-save-stickman",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/draw-and-save-stickman/",
+      "title": "Draw and Save Stickman",
+      "img": "https://slope-game.github.io/draw-and-save-stickman/logo.png"
+    },
+    {
+      "slug": "crazy-intersection",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/crazy-intersection/",
+      "title": "Crazy Intersection",
+      "img": "https://slope-game.github.io/crazy-intersection/logo.png"
+    },
+    {
+      "slug": "winding-road",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/winding-road/",
+      "title": "Winding Road",
+      "img": "https://slope-game.github.io/winding-road/logo.png"
+    },
+    {
+      "slug": "curvy-road",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/curvy-road/",
+      "title": "Curvy Road",
+      "img": "https://slope-game.github.io/curvy-road/logo.png"
+    },
+    {
+      "slug": "spider-swing-manhattan",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/spider-swing-manhattan/",
+      "title": "Spider Swing Manhattan",
+      "img": "https://slope-game.github.io/spider-swing-manhattan/logo.png"
+    },
+    {
+      "slug": "kong-climb",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/kong-climb/",
+      "title": "Kong Climb",
+      "img": "https://slope-game.github.io/kong-climb/logo.png"
+    },
+    {
+      "slug": "dangerous-roads",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/dangerous-roads/",
+      "title": "Dangerous Road",
+      "img": "https://slope-game.github.io/dangerous-roads/logo.png"
+    },
+    {
+      "slug": "food-empire-inc",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/food-empire-inc/",
+      "title": "Food Empire Inc",
+      "img": "https://slope-game.github.io/food-empire-inc/logo.png"
+    },
+    {
+      "slug": "healing-rush",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/healing-rush/",
+      "title": "Healing Rush",
+      "img": "https://slope-game.github.io/healing-rush/logo.png"
+    },
+    {
+      "slug": "zik-zak",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/zik-zak/",
+      "title": "Zik Zak",
+      "img": "https://slope-game.github.io/zik-zak/logo.png"
+    },{
+      "slug": "fireboy-and-watergirl-6",
+      "cat": "2-player-games-unblocked",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/fireboy-water-6/",
+      "title": "Fireboy & Watergirl 6 Fairy Tales",
+      "img": "https://slope-game.github.io/fireboy-water-6/logo.png"
+    },
+    {
+      "slug": "fireboy-and-watergirl-5",
+      "cat": "2-player-games-unblocked",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/fireboy-water-5/",
+      "title": "Fireboy & Watergirl 5 Elements",
+      "img": "https://slope-game.github.io/fireboy-water-5/logo.png"
+    },
+    {
+      "slug": "fireboy-and-watergirl-4",
+      "cat": "2-player-games-unblocked",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/fireboy-water-4/",
+      "title": "Fireboy & Watergirl 4 Crystal Temple",
+      "img": "https://slope-game.github.io/fireboy-water-4/logo.png"
+    },
+    {
+      "slug": "fireboy-and-watergirl-3",
+      "cat": "2-player-games-unblocked",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/fireboy-water-3/",
+      "title": "Fireboy & Watergirl 3 Ice Temple",
+      "img": "https://slope-game.github.io/fireboy-water-3/logo.png"
+    },
+    {
+      "slug": "fireboy-and-watergirl-2",
+      "cat": "2-player-games-unblocked",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/fireboy-water-2/",
+      "title": "Fireboy & Watergirl 2 Light Temple",
+      "img": "https://slope-game.github.io/fireboy-water-2/logo.png"
     }
 ]
