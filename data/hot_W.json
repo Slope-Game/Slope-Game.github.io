@@ -1856,5 +1856,261 @@
       "urlgame": "https://slope-game.github.io/fireboy-water-2/",
       "title": "Fireboy & Watergirl 2 Light Temple",
       "img": "https://slope-game.github.io/fireboy-water-2/logo.png"
+    },
+    {
+      "slug": "penguin-diner",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/penguin-diner/",
+      "title": "Penguin Diner",
+      "img": "https://slope-game.github.io/penguin-diner/logo.png"
+    },
+    {
+      "slug": "penguin-diner-2",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/penguin-diner-2/",
+      "title": "Penguin Diner 2",
+      "img": "https://slope-game.github.io/penguin-diner-2/logo.png"
+    },
+    {
+      "slug": "killer-assassin",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/killer-assassin/",
+      "title": "Killer Assassin",
+      "img": "https://slope-game.github.io/killer-assassin/logo.png"
+    },
+    {
+      "slug": "heads-mayhem",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/heads-mayhem/",
+      "title": "Heads Mayhem",
+      "img": "https://slope-game.github.io/heads-mayhem/logo.png"
+    },
+    {
+      "slug": "stickman-archer-2",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/stickman-archer-2/",
+      "title": "Stickman Archer 2",
+      "img": "https://slope-game.github.io/stickman-archer-2/logo.png"
+    },
+    {
+      "slug": "stickman-archer-3-2018",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/stickman-archer-3-2018/",
+      "title": "Stickman Archer 3 (2018)",
+      "img": "https://slope-game.github.io/stickman-archer-3-2018/logo.png"
+    },
+    {
+      "slug": "stick-hero",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/stick-hero/",
+      "title": "Stick Hero",
+      "img": "https://slope-game.github.io/stick-hero/logo.png"
+    },
+    {
+      "slug": "roller-ball-6-bounce-ball-6",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/roller-ball-6-bounce-ball-6/",
+      "title": "Roller Ball 6 : Bounce Ball 6",
+      "img": "https://slope-game.github.io/roller-ball-6-bounce-ball-6/logo.png"
+    },
+    {
+      "slug": "neon-biker",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/neon-biker/",
+      "title": "Neon Biker",
+      "img": "https://slope-game.github.io/neon-biker/logo.png"
+    },
+    {
+      "slug": "helix-jump-advanced",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/helix-jump-advanced/",
+      "title": "Gunblood",
+      "img": "https://slope-game.github.io/helix-jump-advanced/logo.png"
+    },
+    {
+      "slug": "arcane-archer",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/arcane-archer/",
+      "title": "Archer Top",
+      "img": "https://slope-game.github.io/arcane-archer/logo.png"
+    },
+    {
+      "slug": "blumgi-bloom",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/blumgi-bloom/",
+      "title": "Bloom Bloom",
+      "img": "https://slope-game.github.io/blumgi-bloom/logo.png"
+    },
+    {
+      "slug": "police-endless-car",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/police-endless-car/",
+      "title": "Police Endless Car",
+      "img": "https://slope-game.github.io/police-endless-car/logo.png"
+    },
+    {
+      "slug": "snow-rider-3d",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/snow-rider-3d/",
+      "title": "Snow Rider 3D",
+      "img": "https://slope-game.github.io/snow-rider-3d/logo.png"
+    },
+    {
+      "slug": "ball-rush",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/ball-rush/",
+      "title": "Ball Rush",
+      "img": "https://slope-game.github.io/ball-rush/logo.png"
+    },
+    {
+      "slug": "red-ball-bounce",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/red-ball-bounce/",
+      "title": "Red Ball Bounce",
+      "img": "https://slope-game.github.io/red-ball-bounce/logo.png"
+    },
+    {
+      "slug": "two-tubes-3d",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/two-tubes-3d/",
+      "title": "Two Tubes 3D",
+      "img": "https://slope-game.github.io/two-tubes-3d/logo.png"
+    },
+    {
+      "slug": "balls-avoid",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/balls-avoid/",
+      "title": "Balls Avoid",
+      "img": "https://slope-game.github.io/balls-avoid/logo.png"
+    },
+    {
+      "slug": "xmas-slope",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/xmas-slope/",
+      "title": "Xmas Slope",
+      "img": "https://slope-game.github.io/xmas-slope/logo.png"
+    },
+    {
+      "slug": "neon-tile-rush",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/neon-tile-rush/",
+      "title": "Neon Tile Rush",
+      "img": "https://slope-game.github.io/neon-tile-rush/logo.png"
+    },
+    {
+      "slug": "ski-slopes",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/ski-slopes/",
+      "title": "Ski Slopes",
+      "img": "https://slope-game.github.io/ski-slopes/logo.png"
+    },
+    {
+      "slug": "gunblood",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/gunblood/",
+      "title": "Gunblood",
+      "img": "https://slope-game.github.io/gunblood/logo.png"
+    },
+    {
+      "slug": "tug-the-table",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/tug-the-table/",
+      "title": "Tug the Table",
+      "img": "https://slope-game.github.io/tug-the-table/logo.png"
+    },
+    {
+      "slug": "big-bad-ape-1",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/big-bad-ape-1/",
+      "title": "Big Bad Ape",
+      "img": "https://slope-game.github.io/big-bad-ape-1/logo.png"
+    },
+    {
+      "slug": "superheroio",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/superheroio/",
+      "title": "SuperHero.io",
+      "img": "https://slope-game.github.io/superheroio/logo.png"
+    },
+    {
+      "slug": "drunken-boxing",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/drunken-boxing/",
+      "title": "Drunken Boxing",
+      "img": "https://slope-game.github.io/drunken-boxing/logo.png"
+    },
+    {
+      "slug": "drunken-boxing-2",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/drunken-boxing-2/",
+      "title": "Drunken Boxing 2",
+      "img": "https://slope-game.github.io/drunken-boxing-2/logo.png"
+    },
+    {
+      "slug": "apple-shooter-1",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/apple-shooter-1/",
+      "title": "Apple Shooter 1",
+      "img": "https://slope-game.github.io/apple-shooter-1/logo.png"
+    },
+    {
+      "slug": "moto-maniac-2",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://classroomjq.github.io/moto-maniac-2/",
+      "title": "Moto Mac 2D 2",
+      "img": "https://classroomjq.github.io/moto-maniac-2/logo.png"
+    },
+    {
+      "slug": "moto-maniac",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://classroomjq.github.io/moto-maniac/",
+      "title": "Moto Mac 2D",
+      "img": "https://classroomjq.github.io/moto-maniac/logo.png"
+    },
+    {
+      "slug": "agent-walker-vs-skibidi-toilets",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/agent-walker-vs-skibidi-toilets/",
+      "title": "Agent Walker vs Skibidi Toilets",
+      "img": "https://slope-game.github.io/agent-walker-vs-skibidi-toilets/logo.png"
+    },
+    {
+      "slug": "only-up-3d-parkour-go-ascend",
+      "cat": "update",
+      "domain": 99,
+      "urlgame": "https://slope-game.github.io/only-up-3d-parkour-go-ascend/",
+      "title": "Only Up 3D Parkour Go Ascend",
+      "img": "https://slope-game.github.io/only-up-3d-parkour-go-ascend/logo.png"
     }
 ]
