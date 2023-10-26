@@ -443,4 +443,5 @@ function loadMainGame(){
 }
 function playGame(){
   document.querySelector(".game-frame").innerHTML = `<iframe allowfullscreen="true" src="${document.querySelector('#talpa-splash-button').dataset.url}" id="gameframe" frameborder="0" style="height: 100%;width: 100%;"></iframe>`;
+  playBtnCode();
 }
