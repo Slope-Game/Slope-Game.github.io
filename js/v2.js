@@ -459,7 +459,7 @@ function playBtnCode() {
     if(checkAdsClick()){
         return false;
     }
-    if(!check_ref){
+    if(check_ref){
         showButton();
     }
 
