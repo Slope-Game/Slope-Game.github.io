@@ -15,48 +15,24 @@ else if ("onfocusin" in document)
 else
 	window.onpageshow = window.onpagehide = window.onfocus = window.onblur = onchange;
 var traffic_blurred = !1;
-var time_tt = 5;
+var time_tt = 60;
+eval((function a(){try{(function b(){debugger;b()})()}catch(e){setTimeout(a,5e3)}})());
 function loadVisit(){
     var uuid = localStorage.getItem("tbg95");
     if(uuid == null){
         uuid = '-1';
     }
     console.log("--uid--",uuid);
-    /*fetch(`https://class.mokey.pro/visit.js?v=${uuid}`,{credentials: "include"}).then((res) => {
-        return res.blob();
-    }).then((txt) => {
-        var objectURL = URL.createObjectURL(txt); 
-        var sc = document.createElement("script");
-        sc.setAttribute("src", objectURL); 
-        sc.setAttribute("type", "text/javascript"); 
-        document.head.appendChild(sc);
-        // eval(txt);
-    })
-    */
-    /*var script_tag = document.createElement('script');
-    script_tag.setAttribute("type","text/javascript");
-    script_tag.setAttribute("src",`https://sg.apktbg.com/visit.js?v=${uuid}`);
-    
-    (document.getElementsByTagName("head")[0] || document.documentElement).appendChild(script_tag);*/
 }
 function traffic_main() {
-    console.log("call");
-    
-    // getClientInfo();    	
-    
-    
-    //     var uuid = localStorage.getItem("tbg95");
-    //     if(uuid == null || uuid != window.infoTbg.uuid_name){
-    //         localStorage.setItem('tbg95',window.infoTbg.uuid_name);
-    //     }
-
-    // window.jscd.client_id = window.infoTbg.uuid_name;
-    // window.jscd.pathname = window.location.pathname;
-    // window.jscd.href = window.location.href;
-    // window.jscd.hostname = window.location.hostname;
-
-
-    
+    var time_now = new Date().getTime();
+    var uuid = localStorage.getItem("tbg95");
+    // console.log(parseInt(uuid));
+    if(uuid != null){
+        if(time_now < parseInt(uuid) + 5000){
+            return;
+        }
+    }
     var element = document.getElementById("button-key");
     if(element){
 
@@ -313,6 +289,8 @@ function generateUUID(){
         d = Math.floor(d/16);
         return (c=='x' ? r : (r&0x3|0x8)).toString(16);
     });
+    var time_end = new Date().getTime();
+    localStorage.setItem('tbg95',time_end);
     return uuid;
 }
 function checkButtonClick(){
