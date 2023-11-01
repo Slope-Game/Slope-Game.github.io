@@ -3,12 +3,14 @@ function showMenu(e){
     var menu = document.querySelector(".nftmax-smenu");
     console.log(menu);
     menu.style.transform = "translateX(0)";
+    document.querySelector('.close-icon').style.display = "block";
 }
 function hideMenu(){
     var menu = document.querySelector(".nftmax-smenu");
     menu.style.transform = "translateX(-100%)";
     var icon_menu = document.querySelector(".icon-menu");
     icon_menu.style.display ="block";
+    document.querySelector('.close-icon').style.display = "none";
 }
 function fullscreen(){
   var main_game = document.querySelector('#game-main');
