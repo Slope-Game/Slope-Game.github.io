@@ -13,14 +13,15 @@ function hideMenu(){
     document.querySelector('.close-icon').style.display = "none";
 }
 function fullscreen(){
-  var main_game = document.querySelector('#game-main');
+  /*var main_game = document.querySelector('#game-main');
   if(main_game.classList.contains("fullscreen")){
     main_game.classList.remove("fullscreen");
     document.querySelector('.btn-full svg use').setAttribute("href","#enterFullscreenIcon");
   } else {
     main_game.classList.add("fullscreen");
     document.querySelector('.btn-full svg use').setAttribute("href","#closeFullscreenIcon");
-  }
+  }*/
+  open_fullscreen();
 }
 function open_fullscreen() {
     let game = document.getElementById("gameframe");
