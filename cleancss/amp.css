@@ -15,7 +15,7 @@
     grid-template-rows: repeat(12, 94px);
     padding-top: 20px;
     padding-right: 12px;
-    grid-gap: 12px;
+    grid-gap: 11px;
     padding-bottom: 40px;
  }
  .main-list{

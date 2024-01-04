@@ -390,12 +390,12 @@
       </section>
       
     </div>
-    <script src="./js/v2.js"></script>
+    <!-- <script src="./js/v2.js"></script> -->
   <script src="/js/custom-home.js?v=3"></script>
 
   <div id="popup1" class="overlay">
     <div class="popup">
-      <h2>Update: December 27, 2023</h2>
+      <h2 id="timeStt">Update: December 27, 2023</h2>
       <a class="close" href="#" onclick="document.querySelector('.overlay').style.opacity = 0">&times;</a>
       <div class="content">
         We have fixed Roblox play on chromebook. <a href="/roblox.html">Click Here</a> to play. 
@@ -403,12 +403,20 @@
       </div>
     </div>
   </div>
+  
   <script>
 window.addEventListener('load', function() {
+  var date = new Date();
+  var html = `Updatet: ${date.toDateString()}`;
+  document.querySelector('#timeStt').innerHTML = html;
   setTimeout(function(){document.querySelector('.overlay').style.opacity = 0; document.querySelector('#popup1').style.display = "none";},3000);
 })
   </script>
-<script src="/cloak.js?v=4"></script>
+<script src="/cloak.js?v=5"></script>
+<script>
+  // var el = document.querySelector(".ads-bottom");
+// fadeIn(el, 1000);
+</script>
 
 </body>
 </html>
