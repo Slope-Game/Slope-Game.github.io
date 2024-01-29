@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Sport",
+        "slug": "sport-games"
+    },{
+        "title": "Idle",
+        "slug": "idle-games"
+    },{
+        "title": "Simulator",
+        "slug": "simulator-games"
+    }
+    ,{
+        "title": "Flash",
+        "slug": "flash-games"
+    },{
+        "title": "Roblox",
+        "slug": "roblox"
+    },{
+        "title": "All",
+        "slug": "list"
+    }
+]

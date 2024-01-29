@@ -1,281 +1,195 @@
 <!DOCTYPE html>
-<html class="no-js" lang="zxx">
-  <head>
-    <meta charset="utf-8">
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="#">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Elasticman | slope-game.github.io</title>
     <link rel="icon" href="img/favicon.png">
-    <!-- <link rel="stylesheet" href="css/bootstrap.min.css">
-     <link rel="stylesheet" href="css/font-awesome-all.min.css">
-    <link rel="stylesheet" href="css/charts.min.css">
-    <link rel="stylesheet" href="css/slickslider.min.css">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="style.css"> -->
-	<link rel="stylesheet" href="/cleancss/amp.css">
-  <link rel="stylesheet" href="/css/preload.css">
-  <meta name="google-site-verification" content="2rHJ7VRPQvWn6LSai_6iqg6l9tapR7KgqtMHnSXioOQ" />
-  <meta name="robots" content="noindex,nofollow" />
-	<style>
-		.icon-menu{
-			position: fixed;
-    top: 7px;
-    left: 20px;
-    z-index: 6000;
-    background: #fff;
-    justify-content: center;
-	padding: 9px 8px 9px 9px;
-    border-radius: 5px;
-    display: flex;
-    border: solid 2px #cf1f1f;
-		}
-		.close-icon{
-			display: none;
-		}
-		.close-icon img{
-			transform: rotate(180deg);
-		}
-		@media only screen and (min-width: 0px) and (max-width: 1278px){
-			.close-icon{
-				display: block;
-			}
-		}
-	</style>
-  </head>
-  <body>
-    <div class="body-bg" style="background-image:url('/img/body-bg.jpg')">
-		<div class="icon-menu" onclick="showMenu(this)">
-			<img src="/img/menu-toggle.svg" alt="#" >
-		</div>
-      <div class="nftmax-smenu">
-        <div class="admin-menu">
-          <div class="logo">
-            <a href="/">
-              <img class="nftmax-logo__main" src="/img/slope-logo.png" alt="Slope Game Logo">
-            </a>
-            <div class="nftmax__sicon close-icon" onclick="hideMenu()">
-              <img src="img/menu-toggle.svg" alt="#">
-            </div>
-          </div>
-          <div class="admin-menu__one">
-            <h4 class="admin-menu__title nftmax-scolor">Games</h4>
-            <div class="menu-bar">
-              <ul class="menu-bar__one">
-                <li class="active">
-                  <a href="/list.html">
-                    <span class="menu-bar__text">
-                      <span class="menu-bar__name">All Games</span>
-                    </span>
-                  </a>
-                  <a href="/rolling-ball-3d.html">
-                    <span class="menu-bar__text">
-                      <span class="menu-bar__name">Rolling Ball 3D</span>
-                    </span>
-                  </a>
-                  <a href="/iron-snout.html">
-                    <span class="menu-bar__text">
-                      <span class="menu-bar__name">Iron Snout</span>
-                    </span>
-                  </a>
-                  <a href="/rolling-sky.html">
-                    <span class="menu-bar__text">
-                      <span class="menu-bar__name">Rolling Sky</span>
-                    </span>
-                  </a>
+<link rel="stylesheet" type="text/css" href="/assets/style.css" />
+<meta name="robots" content="noindex,nofollow" />
+<meta name="google-site-verification" content="2rHJ7VRPQvWn6LSai_6iqg6l9tapR7KgqtMHnSXioOQ" />
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BF3BWX3NND"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-                  <a href="/fireboy-and-watergirl-1.html">
-                    <span class="menu-bar__text">
-                      <span class="menu-bar__name">Fireboy and watergirl</span>
-                    </span>
-                  </a>
-                  <a href="/vex7.html">
-                    <span class="menu-bar__text">
-                      <span class="menu-bar__name">Vex 7</span>
-                    </span>
-                  </a>
-                  <a href="/bitlife-life-simulator.html">
-                    <span class="menu-bar__text">
-                      <span class="menu-bar__name">BitLife</span>
-                    </span>
-                  </a>
-                  <a href="/among-us.html">
-                    <span class="menu-bar__text">
-                      <span class="menu-bar__name">Among Us</span>
-                    </span>
-                  </a>
-                  <a href="/cookie-clicker.html">
-                    <span class="menu-bar__text">
-                      <span class="menu-bar__name">Cookie Clicker</span>
-                    </span>
-                  </a>
-                  <a href="/eggy-car.html">
-                    <span class="menu-bar__text">
-                      <span class="menu-bar__name">Eggy Car</span>
-                    </span>
-                  </a>
-                  <a href="/smash-karts.html">
-                    <span class="menu-bar__text">
-                      <span class="menu-bar__name">Smash Karts</span>
-                    </span>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="admin-menu__two mg-top-50">
-            <h4 class="admin-menu__title nftmax-scolor">Settings</h4>
-            <div class="menu-bar">
-              <ul class="menu-bar__one">
-                <li>
-                  <a href="/profile.html">
-                    <span class="menu-bar__text">
-                      <span class="nftmax-menu-icon nftmax-svg-icon__v10">
-                        <svg class="nftmax-svg-icon" viewBox="0 0 15 20" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M10.8692 11.6667H4.13085C3.03569 11.668 1.98576 12.1036 1.21136 12.878C0.436961 13.6524 0.00132319 14.7023 0 15.7975V20H15.0001V15.7975C14.9987 14.7023 14.5631 13.6524 13.7887 12.878C13.0143 12.1036 11.9644 11.668 10.8692 11.6667Z"></path>
-                          <path d="M7.49953 10C10.261 10 12.4995 7.76145 12.4995 5.00002C12.4995 2.23858 10.261 0 7.49953 0C4.7381 0 2.49951 2.23858 2.49951 5.00002C2.49951 7.76145 4.7381 10 7.49953 10Z"></path>
-                        </svg>
-                      </span>
-                      <span class="menu-bar__name">Apps</span>
-                    </span>
-                  </a>
-                </li>
-                <li>
-                  <a href="/settings.html">
-                    <span class="menu-bar__text">
-                      <span class="nftmax-menu-icon nftmax-svg-icon__v11">
-                        <svg class="nftmax-svg-icon" viewBox="0 0 14 16" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M0.259306 11.548C0.789972 12.469 1.96681 12.7854 2.88783 12.2548C2.88846 12.2544 2.88906 12.254 2.88969 12.2537L3.17517 12.0888C3.71408 12.5499 4.33352 12.9074 5.00231 13.1435V13.4727C5.00231 14.5356 5.86402 15.3973 6.92698 15.3973C7.98993 15.3973 8.85164 14.5356 8.85164 13.4727V13.1435C9.52052 12.9071 10.14 12.5491 10.6788 12.0875L10.9656 12.253C11.8868 12.7845 13.0645 12.4686 13.5959 11.5473C14.1274 10.6261 13.8115 9.44842 12.8902 8.91694L12.6054 8.75271C12.7336 8.05499 12.7336 7.33974 12.6054 6.64199L12.8902 6.47776C13.8114 5.94628 14.1274 4.76863 13.5959 3.84738C13.0645 2.92615 11.8868 2.61018 10.9656 3.14165L10.6801 3.30654C10.1406 2.84604 9.52076 2.48913 8.85164 2.25378V1.92467C8.85164 0.861709 7.98993 0 6.92698 0C5.86402 0 5.00231 0.861709 5.00231 1.92467V2.25378C4.33343 2.49025 3.71396 2.84823 3.17517 3.30979L2.8884 3.14364C1.96715 2.61213 0.789491 2.92811 0.258013 3.84933C-0.273465 4.77055 0.0424806 5.94824 0.963734 6.47972L1.24858 6.64394C1.12035 7.34166 1.12035 8.05692 1.24858 8.75467L0.963734 8.9189C0.0450368 9.45179 -0.269887 10.6272 0.259306 11.548ZM6.92698 5.13245C8.34425 5.13245 9.49319 6.28139 9.49319 7.69866C9.49319 9.11594 8.34425 10.2649 6.92698 10.2649C5.5097 10.2649 4.36077 9.11594 4.36077 7.69866C4.36077 6.28139 5.5097 5.13245 6.92698 5.13245Z"></path>
-                        </svg>
-                      </span>
-                      <span class="menu-bar__name">Cloak</span>
-                    </span>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          
+    gtag('config', 'G-BF3BWX3NND');
+    
+</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7889675448259925"
+     crossorigin="anonymous"></script>
+</head>
+<body>
+<header id="header">
+    <a href="/" class="logo">
+        <img src="/img/slope-logo.png" width="190" height="85" alt="Slope Game" />
+    </a>
+    <div class="headwrap">
+        <div class="headtop">
+                <div class="search">
+                    <button type="button" class="icon-search"></button>
+                     <form action="#" method="get" id="formSearch">
+                       <input id="search" autocomplete="off" type="search" maxlength="50" />
+                     </form>
+                    <ul id="results"></ul>
+                </div>
+                  <button type="button" class="icon-login"></button>
         </div>
-      </div>
-      <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
-        <symbol id="closeFullscreenIcon" viewBox="0 0 24 24">
-            <path d="M5.25 15.5a1.25 1.25 0 1 1 0-2.5h4.5a1.25 1.25 0 1 1 0 2.5h-4.5zM14.25 15.5a1.25 1.25 0 1 1 0-2.5h4.5a1.25 1.25 0 1 1 0 2.5h-4.5zM5.25 11a1.25 1.25 0 1 1 0-2.5h4.5a1.25 1.25 0 1 1 0 2.5h-4.5zM14.25 11a1.25 1.25 0 1 1 0-2.5h4.5a1.25 1.25 0 1 1 0 2.5h-4.5z" fill="#009CFF"></path><path d="M14.25 20c-.69 0-1.25-.56-1.25-1.25v-4.5a1.25 1.25 0 1 1 2.5 0v4.5c0 .69-.56 1.25-1.25 1.25zM14.25 11c-.69 0-1.25-.56-1.25-1.25v-4.5a1.25 1.25 0 1 1 2.5 0v4.5c0 .69-.56 1.25-1.25 1.25zM9.75 11c-.69 0-1.25-.56-1.25-1.25v-4.5a1.25 1.25 0 1 1 2.5 0v4.5c0 .69-.56 1.25-1.25 1.25zM9.75 20c-.69 0-1.25-.56-1.25-1.25v-4.5a1.25 1.25 0 1 1 2.5 0v4.5c0 .69-.56 1.25-1.25 1.25z" fill="#009CFF"></path>
-        </symbol>
-        <symbol id="enterFullscreenIcon" viewBox="0 0 24 24">
-            <path d="M5.25 20a1.25 1.25 0 1 1 0-2.5h4.5a1.25 1.25 0 1 1 0 2.5h-4.5zM14.25 20a1.25 1.25 0 1 1 0-2.5h4.5a1.25 1.25 0 1 1 0 2.5h-4.5zM5.25 6.5a1.25 1.25 0 1 1 0-2.5h4.5a1.25 1.25 0 1 1 0 2.5h-4.5zM14.25 6.5a1.25 1.25 0 1 1 0-2.5h4.5a1.25 1.25 0 1 1 0 2.5h-4.5z" fill="#009CFF"></path><path d="M5.25 11C4.56 11 4 10.44 4 9.75v-4.5a1.25 1.25 0 1 1 2.5 0v4.5c0 .69-.56 1.25-1.25 1.25zM18.75 11c-.69 0-1.25-.56-1.25-1.25v-4.5a1.25 1.25 0 1 1 2.5 0v4.5c0 .69-.56 1.25-1.25 1.25zM5.25 20C4.56 20 4 19.44 4 18.75v-4.5a1.25 1.25 0 1 1 2.5 0v4.5c0 .69-.56 1.25-1.25 1.25zM18.75 20c-.69 0-1.25-.56-1.25-1.25v-4.5a1.25 1.25 0 1 1 2.5 0v4.5c0 .69-.56 1.25-1.25 1.25z" fill="#009CFF"></path>
-        </symbol>
-      </svg>
-      <section class="main-site">
-        <div class="game-arena" id="game-main">
-            <div class="game-frame">
-                <div style="background-color: rgb(48, 48, 48);height: 100%;">
-                  <div class="talpa-splash-container">
-                    <div class="talpa-splash-top">
-                      <div>
-                        <div style="--thumb:url(https://ubg77.github.io/updatefaqs/elasticman/logo.png);"></div>
-                        <button id="talpa-splash-button" class="BG-splash-button" data-url="https://ubg77.github.io/updatefaqs/elasticman/" onclick="playGame()" style="display: block;">play now!</button>
-                        <div class="talpa-loader" style="display: none;">Loading...</div>
-                      </div>
-                    </div>
-                    
-                  </div>
+        <nav>
+             <ul id="menu">
+                <li class="navhome"><a href="/" class="icon-home"></a></li>
+                <li class="navover"><a href="/action-games.html" class="border1">Action</a>
+        <li class="navover"><a href="/adventure-games.html" class="border2">Adventure</a>
+        <li class="navover"><a href="/running-games.html" class="border3">Running</a>
+        <li class="navover"><a href="/car-games.html" class="border4">Car</a>
+        <li class="navover"><a href="/shooting-games.html" class="border5">Shooting</a>
+        <li class="navover"><a href="/skill-games.html" class="border0">Skill</a>
+          <li class="navover"><a href="/stickman-games.html" class="border0">Stickman</a>
+        <li class="navover"><a href="/2-player-games.html" class="border0">2 players</a>
+<li class="navover"><a href="/io-games.html" class="border0">Io</a>
+             </ul>
+        </nav>
+    </div>
+</header>
+<main id="main" data-cat="action">
+    <div class="main">
+    <div class="Hside">
+        <div id="bgame" class="border">
+        <div id="game" style="width:960px; height:610px;display:none;">
+            <iframe id="game-frame" src="about:blank" data-url="https://ubg77.github.io/updatefaqs/elasticman/" allow="autoplay" scrolling="no" allowfullscreen></iframe>
+        </div>
+        <div id="loader" class="preview">
+            <div id="playGame">
+            <img src="https://ubg77.github.io/updatefaqs/elasticman/logo.png" alt="Elasticman | slope-game.github.io Unblocked Game" width="900" height="500" class="glow" />
+            <div class="play">
+                <div class="playimg">
+                <img src="https://ubg77.github.io/updatefaqs/elasticman/logo.png" alt="Elasticman | slope-game.github.io Unblocked Game" width="190" height="190" />
                 </div>
-                <!-- <iframe src="https://ubg77.github.io/updatefaqs/elasticman/" id="gameframe" frameborder="0" style="height: 100%;width: 100%;"></iframe> -->
-              </div>
-            <div class="game-info">
-                <div class="card-info">
-                    <img src="https://ubg77.github.io/updatefaqs/elasticman/logo.png" alt="Elasticman Unblocked Games Logo" width="45" height="45">
-                    <h2 class="text-sm sm:text-xl my-auto">Elasticman</h2>
+                <div class="playBT" onclick="playGame()">
+                <span style="font-size:23px" >Play Now</span>
+                <span class="icon-arrow"></span>
                 </div>
-                <div class="btn-full" onclick="fullscreen()">
-                    <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"><use href="#enterFullscreenIcon"></use></svg>
-                </div>
+            </div>
+            </div>
+        </div>         
+        <div class="gamebar">
+            <div class="gameopt">
+            <button type="button" id="pad" onclick="ShowControl()" tooltip="Show controls">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29.78 30">
+                <path d="M29.4 8.7c-.2-.2-4.6-.3-8-.3L21.1.3c-.4-.4-12-.4-12.5 0-.2.2-.3 4.6-.3 8.1-3.4 0-7.9.1-8 .3-.4.4-.4 12 0 12.6.2.2 4.6.3 8 .3 0 3.4.1 8 .3 8.1.4.4 12 .4 12.5 0 .2-.2.3-4.6.3-8.1 3.4 0 7.9-.1 8-.3.5-.5.5-12.2 0-12.6z" fill="#888"/><path d="M18.7 5.9a22.29 22.29 0 0 0-4-4.1 31.08 31.08 0 0 0-4 4.1h8m-8 18.1a22.29 22.29 0 0 0 4 4.1 31.08 31.08 0 0 0 4-4.1c-2.7-.1-5.2-.1-8 0m13-5.1a22.29 22.29 0 0 0 4.1-4 31.08 31.08 0 0 0-4.1-4v8M5.7 11a22.29 22.29 0 0 0-4.1 4 31.08 31.08 0 0 0 4.1 4v-8m13.4 3.9a4.4 4.4 0 0 0-8.8 0 4.44 4.44 0 0 0 4.4 4.4 4.25 4.25 0 0 0 4.4-4.4" fill="#444"/>
+                </svg>
+                <span>Controls</span>
+            </button>
+            <button type="button" class="report" tooltip="Report a bug" onclick="ShowPopup();">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" shape-rendering="crispEdges">
+                <path d="M14.4 6L14 4H5v17h2v-7h5.6l.4 2h7V6z" />
+                </svg>
+            </button>
+            </div>
+            <div class="gamesize">
+            <button type="button" class="resizing" tooltip="Fullscreen" id="full" onClick="showFullScreen()">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 815.88 559.88" shape-rendering="crispEdges">
+                <path d="M49.98 399.92H0v159.96h179.96v-50H49.98V399.92zM0 159.96h49.98V49.98h129.98V0H0v159.96zM635.92 0v49.98H765.9v109.98h50V0H635.92zM765.9 509.9H635.92v50h179.96V399.92h-50V509.9z"/>
+            </svg>
+            </button>
+            </div>
+            <div class="gamerate">
+            <div class="gamescore">100%</div>        
             </div>
         </div>
-        
-        <div class="ads">
-            <div class="ads_300x600">
-                <div id="ads-container" class="bg-gray-400 ">
-                    <div style="min-width: 300px; min-height: 610px; height: 610px; display: block;">
-                      <!-- slope-game-300x600 -->
-                      <ins class="adsbygoogle" style="display:inline-block;width:300px;height:600px" data-ad-client="ca-pub-7889675448259925" data-ad-slot="2466720932"></ins>
-                    </div>
-                </div>
-                <span class="text-center text-sm font-sans">ADVERTISEMENT</span>
-            </div>
-            <div class="ads_728x90">
-                <div id="ads-container" style="min-width: 728px; min-height: 90px; height: 90px;" class="bg-gray-400">
-                    <div style="min-width: 728px; min-height: 90px; height: 90px; display: block;">
-                      <!-- slope-game-728x90 -->
-                      <ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-7889675448259925" data-ad-slot="3779802604"></ins>
-                    </div>
-                </div>
-                <span class="text-center text-sm font-sans rotate-90 absolute">ADVERTISEMENT</span>
-            </div>
         </div>
-        <div class="description">
-            <div class="welcome-cta">
-              <div class="welcome-cta__heading">
-                <h1 class="welcome-cta__title">Play Elasticman Game Unblocked</h1>
+        <div class="control border" style="display: none;">
                 
-              </div>
-            </div>
-
         </div>
-        <div class="hot-game" id="listhot">
-            
-        </div>
-      </section>
-      
-    </div>
-
-  <script src="/js/custom.js?v=22823_1"></script><style>.ads-bottom{display: block; width: 100% !important; height: 98px !important; bottom: -90px; clear: none !important; float: none !important; left: 0px; margin: 0px !important; max-height: none !important; max-width: none !important; opacity: 1; overflow: visible !important; padding: 0px !important; position: fixed; right: auto !important; top: auto !important; vertical-align: baseline !important; visibility: visible !important; z-index: 2147483647; background: rgb(250, 250, 250) !important;}</style>
-  <div class="ads-bottom">
-    <div class="grippy-host">
-      <ins class="ee" style="inset: auto !important; clear: none !important; display: block !important; float: none !important; height: 5px !important; margin: 0px !important; max-height: none !important; max-width: none !important; opacity: 1 !important; overflow: visible !important; padding: 0px !important; position: relative !important; vertical-align: baseline !important; visibility: visible !important; width: auto !important; z-index: 1 !important; background-color: rgb(250, 250, 250) !important; box-shadow: rgba(0, 0, 0, 0.2) 0px -1px 5px -1px, rgba(0, 0, 0, 0.1) 0px 1px 2px -1px !important;">
-        <span style="display: block !important; width: 80px !important; height: 45px !important; bottom: 0px !important; left: 0% !important; pointer-events: none !important;">
-          <svg style="margin: 0px !important; position: absolute !important; bottom: 0px !important; left: 0% !important; display: block !important; width: 80px !important; height: 30px !important; transform: none !important; pointer-events: initial !important;" onclick="closeAds(document.querySelector('.ads-bottom'),800)">
-            <defs>
-              <filter id="dropShadowTop" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                <feComponentTransfer in="SourceAlpha" result="TransferredAlpha">
-                  <feFuncR type="discrete" tableValues="0.5"></feFuncR>
-                  <feFuncG type="discrete" tableValues="0.5"></feFuncG>
-                  <feFuncB type="discrete" tableValues="0.5"></feFuncB>
-                </feComponentTransfer>
-                <feGaussianBlur in="TransferredAlpha" stdDeviation="2"></feGaussianBlur>
-                <feOffset dx="0" dy="0" result="offsetblur"></feOffset>
-                <feMerge>
-                  <feMergeNode></feMergeNode>
-                  <feMergeNode in="SourceGraphic"></feMergeNode>
-                </feMerge>
-              </filter>
-            </defs>
-            <path d="M0,26 L0,6 A6,6 0 0,1 6,1 L50,1 A6,6 0 0,1 56,6 L56,20 A6,6 0 0,0 62,26 Z" stroke="#FAFAFA" stroke-width="1" fill="#FAFAFA" style="filter: url(&quot;#dropShadowTop&quot;);"></path>
-            <rect x="0" y="25" width="80" height="5" style="fill: rgb(250, 250, 250);"></rect>
-            <g class="down" stroke="#616161" stroke-width="2px" stroke-linecap="square">
-              <line x1="22" y1="12" x2="28" y2="18"></line>
-              <line x1="28" y1="18" x2="34" y2="12"></line>
-            </g>
-          </svg>
-        </span>
-      </ins>
-    </div>
-    <div id="aswift_9_host" tabindex="0" title="Advertisement" aria-label="Advertisement" style="border: none !important; height: 90px !important; width: 100% !important; margin: 0px !important; padding: 0px !important; position: relative !important; visibility: visible !important; background-color: transparent !important; display: inline-block !important; inset: auto !important; clear: none !important; float: none !important; max-height: none !important; max-width: none !important; opacity: 1 !important; overflow: visible !important; vertical-align: baseline !important; z-index: auto !important;text-align: center;">
-       <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7889675448259925"
-            crossorigin="anonymous"></script>
-       <!-- slope bt 720 -->
-       <ins class="adsbygoogle"
+        <div class="bandeau op">
+            <!-- slope_new_1 -->
+            <ins class="adsbygoogle"
             style="display:inline-block;width:728px;height:90px"
             data-ad-client="ca-pub-7889675448259925"
-            data-ad-slot="4694366397"></ins>
-      </div>
-</div>  
+            data-ad-slot="7838853142"></ins>
+            <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+        <div class="gameinfos border">
+            <div class="gameinfo">
+            <h1>Elasticman</h1>
+            <p id="desc" class="gamedesc"><div style="display:flex;justify-content:space-between;flex-wrap:wrap;padding-top:16px;padding-bottom:8px"><div class="gameDescription_first css-4ydurg" style="margin-block-end:1em"><p>Elastic man is a funny arcade game and virtual stress toy where you pull and stretch Morty’s face. It’s bizarrely realistic and oddly satisfying.</p></div><div class="css-4ydurg"> <h3>How to Play</h3> <p>There are no rules. Stretch, grab, and pinch every part of elastic Morty’s face. Pull faces like you’ve never pulled faced before. You can turn up the graphics quality to high for added realism.</p> <h3>Developer</h3> <p>Elastic Man is developed by David Li, who also created the popular game .</p> <h3>Platform</h3> <p>Web browser (desktop and mobile)</p></div><div class="css-4ydurg"><h3>Controls</h3> <p>Use the left mouse button to pull and stretch the face.</p></div><h2 style="margin-block-start:1em">FAQ</h2><div class="css-4ydurg" style="margin-block-end:1em"><div><h3>What is the Stretchy Morty game?</h3><div>Stretchy Morty is an alternative name for the game Elastic Man. </div></div><div><h3>Who created the Elastic Man game?</h3><div>The Elastic Man game was created by David Li, a developer who releases cool experimental games using neural networks.</div></div></div></div></p>
+                    </div>
+        </div>
+        
+        <div class="content border">
+        <div class="homecat">
+            <div class="hometitle color0"><span>New Games</span></div>
+            
+        </div>
+        <ul id="newlist" class="captions caphome" style="height: auto;">
+            
+    
+        </ul>
+    
 
-<script src="/cloak.js?v=7"></script>
-<script type="text/javascript">
-  var el = document.querySelector(".ads-bottom");
-  fadeIn(el, 1000);
- 
- (adsbygoogle = window.adsbygoogle || []).push({}); 
-</script>
-</body></html>
+        </div>
+    </div>
+    <div class="Rside">
+        <div class="square op">
+            <!-- slope_new_2 -->
+            <ins class="adsbygoogle"
+            style="display:inline-block;width:300px;height:250px"
+            data-ad-client="ca-pub-7889675448259925"
+            data-ad-slot="6334199788"></ins>
+            <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+        <div class="bestofnew op" >Best of New</div>
+        <ul id="newright">
+            
+
+        </ul>
+        <div class="square op">
+            <!-- slope_new_3 -->
+            <ins class="adsbygoogle"
+            style="display:inline-block;width:300px;height:250px"
+            data-ad-client="ca-pub-7889675448259925"
+            data-ad-slot="1081873104"></ins>
+            <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+        <div class="toptitle op"><a href="/io-games.html" class="morelink"><span class="morecat">.io Games</span><span class="icon-arrow ar1"></span><span class="icon-arrow ar2"></span></a></div>
+        <ul id="iogame">
+        
+
+        </ul>
+    </div>
+    </div>
+    <div id="popup" style="display: none;height: 620px;">
+        <div id="popup-header">Report a bug<button type="" button="" class="icon-closed" onclick="HidePopup();"></button></div>
+        <div id="popup-content" style="height: 100%;">
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdM1MD3L8n9JZN3aeskn4FTl46hO4guQ_EaWWp_hiu9mdzM3Q/viewform?embedded=true" width="640" height="510" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        </div>
+    </div>
+</main>
+  <script src="/assets/js-new.js"></script>
+  <script>
+    window.addEventListener('load', function() {
+        //loadCat(document.querySelector('#main').dataset.cat);
+        loadNew();
+        loadIo();
+    })
+  </script>
+<footer id="footer">
+  <div id="copyright">
+    All Rights Reserved © 2022-2024 slope-game.github.io  </div>
+    
+</footer>
+</body>
+
+
+</html>
