@@ -199,7 +199,7 @@ function loadIo(){
            
             var img = item.img;
         
-            if(index < 8){
+            if(index < 16 && index > 8){
                 html +=`<li class="caption">
                 <a href="/${item.slug}.html"><img src="${img}" width="190" height="190" alt="${item.title}" />
                 <div class="capinfos">
@@ -208,7 +208,7 @@ function loadIo(){
                 </a>
                 
             </li>`;
-            } else if(index > 10 && index < 15) {
+            } else if(index > 18 && index < 23) {
                 htmlright+= `<li class="capsim">
                 <a href="/${item.slug}.html">
                     <img src="${img}" width="160" height="160" alt="${item.title}" />
